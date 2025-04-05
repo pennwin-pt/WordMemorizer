@@ -101,6 +101,9 @@
   <ItemGroup>
     <Compile Include="Constants.cs" />
     <Compile Include="DB\DatabaseHelper.cs" />
+    <Compile Include="DB\ReviewHistory.cs" />
+    <Compile Include="DB\WeeklyPlan.cs" />
+    <Compile Include="DB\WeeklyPlanWord.cs" />
     <Compile Include="DB\Word.cs" />
     <Compile Include="DB\WordImporter.cs" />
     <Compile Include="DB\WordRepository.cs" />
