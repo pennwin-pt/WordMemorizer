@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WordMemorizer.Core.DB
+namespace WordMemorizer.Core.DB.Models
 {
     public class WeeklyPlan
     {

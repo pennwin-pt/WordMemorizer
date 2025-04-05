@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
+using WordMemorizer.Core.DB.Models;
+using WordMemorizer.Core.DB.Repositories;
 
 namespace WordMemorizer.Core.DB
 {
@@ -16,55 +18,15 @@ namespace WordMemorizer.Core.DB
             _weeklyPlanRepo = weeklyPlanRepo;
         }
 
-        public (int ImportedWordCount, int AddedToPlanCount) ImportToCurrentWeekPlan(string text)
+        public (int ImportedWordCount, int AddedToPlanCount) AppendToCurrentWeekPlan(string text)
         {
-            // 1. 检查当前周计划是否存在
-            if (_weeklyPlanRepo.CurrentWeekPlanExists())
-            {
-                throw new InvalidOperationException("本周学习计划已存在，请勿重复创建！");
-            }
-
-            // 2. 解析文本
             var words = ParseTextToWords(text);
-            int importedWordCount = 0;
-            int addedToPlanCount = 0;
-
-            // 3. 创建本周计划（不使用事务）
-            int planId = _weeklyPlanRepo.CreateCurrentWeekPlan();
-
-            // 4. 导入单词并添加到计划
-            foreach (var word in words)
+            if (!_weeklyPlanRepo.CurrentWeekPlanExists())
             {
-                try
-                {
-                    // 检查单词是否已存在（允许冗余则不需要检查）
-                    // 直接插入单词（即使重复）
-                    int wordId = _wordRepo.AddWord(word);
-                    importedWordCount++;
-
-                    // 添加到周计划
-                    _weeklyPlanRepo.AddWordToWeeklyPlan(planId, wordId);
-                    addedToPlanCount++;
-                }
-                catch (Exception ex)
-                {
-                    // 记录错误但继续导入其他单词
-                    Debug.WriteLine($"导入单词失败: {word.Text}, 错误: {ex.Message}");
-                }
+                 _weeklyPlanRepo.CreateCurrentWeekPlan();
             }
+            int planId = _weeklyPlanRepo.GetCurrentWeekPlanId();
 
-            return (importedWordCount, addedToPlanCount);
-        }
-
-        public (int ImportedWordCount, int AddedToPlanCount) SafeImportToCurrentWeekPlan(string text)
-        {
-            if (_weeklyPlanRepo.CurrentWeekPlanExists())
-            {
-                throw new InvalidOperationException("本周学习计划已存在！");
-            }
-
-            var words = ParseTextToWords(text);
-            int planId = _weeklyPlanRepo.CreateCurrentWeekPlan();
             int successCount = 0;
 
             foreach (var word in words)
@@ -80,7 +42,7 @@ namespace WordMemorizer.Core.DB
                 }
                 catch (Exception ex)
                 {
-                    Debug.WriteLine($"导入失败: {word.Text}, 错误: {ex.Message}");
+                    LogHelper.WriteError("导入失败", $"{word.Text}, 错误: {ex.Message}");
                     // 继续处理下一个单词
                 }
             }

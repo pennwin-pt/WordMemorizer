@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Dapper;
 
-namespace WordMemorizer.Core.DB
+namespace WordMemorizer.Core.DB.Models
 {
     public class Word
     {
@@ -19,9 +19,5 @@ namespace WordMemorizer.Core.DB
         public bool IsMastered { get; set; }
         public int ReviewCount { get; set; }
         public DateTime? LastReviewTime { get; set; }
-
-        // 导航属性
-        public List<WeeklyPlan> WeeklyPlans { get; set; } = new List<WeeklyPlan>();
-        public List<ReviewHistory> ReviewHistories { get; set; } = new List<ReviewHistory>();
     }
 }

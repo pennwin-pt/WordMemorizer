@@ -10,7 +10,7 @@ namespace WordMemorizer.Core.DB
     {
         private static string _connectionString;
 
-        public static string DatabasePath { get; } = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "WordMemorizer.db");
+        public static string DatabasePath { get; } = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, Constants.DB_FILE_NAME);
 
         static DatabaseHelper()
         {
