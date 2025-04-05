@@ -17,7 +17,7 @@ namespace WordMemorizer.Core
 {
     public partial class FormMain : Form
     {
-        private readonly SpeechSynthesizer _speaker;
+        private readonly PortugueseTTS _speaker;
         private readonly WeeklyPlanRepository _weeklyPlanRepository;
         private List<Word> _weekWordList;
         private List<Word> _todayWordList = new List<Word>();
@@ -36,9 +36,8 @@ namespace WordMemorizer.Core
             skin.Active = true;
             StartPosition = FormStartPosition.CenterScreen;
 
-            _speaker = new SpeechSynthesizer();
-            _speaker.SelectVoiceByHints(VoiceGender.Female, VoiceAge.Adult, 0, new CultureInfo("pt-PT"));
-            _speaker.Rate = -3; // 设置语速
+            // 初始化语音合成器
+            _speaker = new PortugueseTTS();
 
             _weeklyPlanRepository = new WeeklyPlanRepository();
         }
@@ -117,13 +116,13 @@ namespace WordMemorizer.Core
             }
         }
 
-        private void BtnReadWordText_Click(object sender, EventArgs e)
+        private async void BtnReadWordText_Click(object sender, EventArgs e)
         {
             if (_currentWordIndex >= _todayWordList.Count)
             {
                 return;
             }
-            _speaker.Speak(_todayWordList[_currentWordIndex].Text);
+            await _speaker.Speak(_todayWordList[_currentWordIndex].Text);
         }
 
         private void BtnSetWeek_Click(object sender, EventArgs e)
@@ -175,13 +174,13 @@ namespace WordMemorizer.Core
             DisplayWord(CBHideText.Checked, CBHideChinese.Checked);
         }
 
-        private void BtnReadSentence_Click(object sender, EventArgs e)
+        private async void BtnReadSentence_Click(object sender, EventArgs e)
         {
             if (_currentWordIndex >= _todayWordList.Count)
             {
                 return;
             }
-            _speaker.Speak(_todayWordList[_currentWordIndex].ExampleSentence);
+            await _speaker.Speak(_todayWordList[_currentWordIndex].ExampleSentence, false);
         }
 
         private void BtnReload_Click(object sender, EventArgs e)

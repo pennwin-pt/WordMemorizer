@@ -13,5 +13,7 @@ namespace WordMemorizer.Core
         internal static readonly string DB_FILE_NAME = "WordMemorizer.db";
         internal static readonly int INVALID_DB_ID = -1;
         internal static readonly int WORDS_COUNT_PER_DAY = 6;
+        internal static readonly string AUDIO_PATH_WORDS = "words";
+        internal static readonly string AUDIO_PATH_SENTENCES = "sentences";
     }
 }
