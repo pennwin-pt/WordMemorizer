@@ -14,7 +14,7 @@ namespace WordMemorizer.Core
     public class PortugueseTTS
     {
         private readonly HttpClient _httpClient = new HttpClient();
-        private readonly string _audioFolder = "../audio"; // 音频保存目录
+        private readonly string _audioFolder = "../../audio"; // 音频保存目录
 
         public PortugueseTTS()
         {
