@@ -46,6 +46,11 @@ namespace WordMemorizer.Core
         private void FormMain_Load(object sender, EventArgs e)
         {
             InitView();
+            ReloadData();
+        }
+
+        private void ReloadData()
+        {
             int currentWeekPlanId = _weeklyPlanRepository.GetCurrentWeekPlanId();
             _weekWordList = _weeklyPlanRepository.GetWordsInWeeklyPlan(currentWeekPlanId).ToList();
             LoadTodayWords();
@@ -53,7 +58,6 @@ namespace WordMemorizer.Core
             LblDay.Text = Tools.GetCurrentDayOfWeekChinese();
             LblDate.Text = DateTime.Now.ToString("yyyy-MM-dd");
             DisplayWord(CBHideText.Checked, CBHideChinese.Checked);
-
         }
 
         private void InitView()
@@ -178,6 +182,11 @@ namespace WordMemorizer.Core
                 return;
             }
             _speaker.Speak(_todayWordList[_currentWordIndex].ExampleSentence);
+        }
+
+        private void BtnReload_Click(object sender, EventArgs e)
+        {
+            ReloadData();
         }
     }
 }

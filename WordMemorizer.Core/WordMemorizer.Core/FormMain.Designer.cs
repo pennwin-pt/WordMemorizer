@@ -44,6 +44,7 @@
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.LblDay = new System.Windows.Forms.ToolStripStatusLabel();
             this.LblDate = new System.Windows.Forms.ToolStripStatusLabel();
+            this.BtnReload = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -201,11 +202,22 @@
             this.LblDate.Size = new System.Drawing.Size(195, 24);
             this.LblDate.Text = "toolStripStatusLabel2";
             // 
+            // BtnReload
+            // 
+            this.BtnReload.Location = new System.Drawing.Point(1089, 569);
+            this.BtnReload.Name = "BtnReload";
+            this.BtnReload.Size = new System.Drawing.Size(114, 56);
+            this.BtnReload.TabIndex = 14;
+            this.BtnReload.Text = "重新加载";
+            this.BtnReload.UseVisualStyleBackColor = true;
+            this.BtnReload.Click += new System.EventHandler(this.BtnReload_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1361, 668);
+            this.Controls.Add(this.BtnReload);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.LblIndex);
             this.Controls.Add(this.CBHideChinese);
@@ -250,6 +262,7 @@
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel LblDay;
         private System.Windows.Forms.ToolStripStatusLabel LblDate;
+        private System.Windows.Forms.Button BtnReload;
     }
 }
 
