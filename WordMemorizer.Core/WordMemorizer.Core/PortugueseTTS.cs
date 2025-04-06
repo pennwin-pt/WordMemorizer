@@ -14,10 +14,11 @@ namespace WordMemorizer.Core
     public class PortugueseTTS
     {
         private readonly HttpClient _httpClient = new HttpClient();
-        private readonly string _audioFolder = "../../audio"; // 音频保存目录
+        private readonly string _audioFolder;
 
-        public PortugueseTTS()
+        public PortugueseTTS(string audioFolder)
         {
+            _audioFolder = audioFolder;
             // 确保 audio 文件夹存在
             Directory.CreateDirectory(_audioFolder);
         }

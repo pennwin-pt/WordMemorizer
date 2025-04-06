@@ -160,6 +160,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConfigIniHelper.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="DB\DatabaseHelper.cs" />
     <Compile Include="DB\Models\ReviewHistory.cs" />

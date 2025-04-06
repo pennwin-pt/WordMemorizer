@@ -1,0 +1,149 @@
+azul  
+蓝色  
+Ex: O céu está azul hoje.  
+今天天空是蓝色的。  
+
+amarelo  
+黄色  
+Ex: O sol é amarelo.  
+太阳是黄色的。  
+
+verde  
+绿色  
+Ex: As folhas das árvores são verdes.  
+树叶是绿色的。  
+
+roxo  
+紫色  
+Ex: Minha mochila é roxa.  
+我的书包是紫色的。  
+
+laranja  
+橙色  
+Ex: Eu gosto da cor laranja.  
+我喜欢橙色。  
+
+branco  
+白色  
+Ex: O papel é branco.  
+纸是白色的。  
+
+preto  
+黑色  
+Ex: Meu lápis é preto.  
+我的铅笔是黑色的。  
+
+cinza  
+灰色  
+Ex: O céu está cinza hoje.  
+今天天空是灰色的。  
+
+rosa  
+粉色  
+Ex: Eu adoro rosa!  
+我喜欢粉色！
+
+chegar  
+到达  
+Ex: Eu chego na escola às sete da manhã.  
+我早上七点到学校。  
+
+entrar  
+进入  
+Ex: Precisamos entrar na sala de aula.  
+我们需要进入教室。  
+
+sair  
+离开  
+Ex: A escola fecha quando todos saem.  
+所有人离开后学校就关门了。  
+
+assistir aula  
+上课  
+Ex: Hoje vamos assistir aula de ciências.  
+今天我们上科学课。  
+
+prestar atenção  
+注意  
+Ex: É importante prestar atenção no professor.  
+认真听老师讲课很重要。  
+
+levantar-se  
+站起来  
+Ex: Por favor, levantem-se para cantar o hino.  
+请站起来唱国歌。  
+
+sentar-se  
+坐下  
+Ex: Depois da chamada, sentem-se.  
+点名后请坐下。  
+
+esperar  
+等待  
+Ex: Espere sua vez para falar.  
+请等轮到你再说话。  
+
+almoçar  
+吃午饭  
+Ex: Eu almocei no refeitório com meus amigos.  
+我和朋友在食堂吃午饭。  
+
+voltar para casa  
+回家  
+Ex: Depois da aula, eu volto para casa com minha mãe.  
+放学后，我和妈妈一起回家。
+
+silêncio  
+安静  
+Ex: Mantenham o silêncio na biblioteca.  
+在图书馆保持安静。  
+
+respeitar  
+尊重  
+Ex: Devemos respeitar os professores e colegas.  
+我们应该尊重老师和同学。  
+
+levantar a mão  
+举手  
+Ex: Para falar, levante a mão primeiro.  
+要发言，请先举手。  
+
+fazer a lição de casa  
+做作业  
+Ex: É importante fazer a lição de casa todos os dias.  
+每天做作业很重要。  
+
+guardar os materiais  
+收拾东西  
+Ex: Guardem os materiais depois da aula.  
+下课后请收拾好物品。  
+
+não brigar  
+不打架  
+Ex: Não devemos brigar com os colegas.  
+我们不应该和同学打架。  
+
+compartilhar  
+分享  
+Ex: Vamos compartilhar os brinquedos com os amigos.  
+我们要和朋友分享玩具。  
+
+ser pontual  
+准时  
+Ex: Sempre chegue na escola pontualmente.  
+上学一定要准时。  
+
+pedir permissão  
+请求许可  
+Ex: Peça permissão antes de sair da sala.  
+出教室前请先请求许可。  
+
+ajudar os colegas  
+帮助同学  
+Ex: É bom ajudar os colegas quando precisam.  
+当同学需要时，帮助他们是件好事。
+
+Escola  
+学校  
+Ex: Minha escola é muito grande.  
+我的学校很大。  

@@ -1,0 +1,249 @@
+livro
+书
+Ex: Vamos ler este livro.
+我们来读这本书吧。
+
+caderno
+练习本
+Ex: Escreva os exercícios no caderno.
+把练习写在练习本上。
+
+lápis
+铅笔
+Ex: Pegue um lápis para escrever.
+拿一支铅笔来写。
+
+borracha
+橡皮擦
+Ex: Use a borracha para limpar os erros.
+用橡皮擦把错误擦掉。
+
+caneta
+圆珠笔
+Ex: Assine o documento com a caneta.
+用圆珠笔签署文件。
+
+régua
+尺子
+Ex: Meça a altura da mesa com a régua.
+用尺子量一下桌子的高度。
+
+apontador
+削笔刀
+Ex: Afie o lápis com o apontador.
+用削笔刀削铅笔。
+
+tesoura
+剪刀
+Ex: Corte o tecido com a tesoura.
+用剪刀剪布料。
+
+mochila
+书包
+Ex: Coloque os livros na mochila.
+把书放在书包里。
+
+estojo
+笔袋
+Ex: Guarde as canetas no estojo.
+把圆珠笔放在笔袋里。
+
+matemática
+数学
+Ex: Resolva os problemas de matemática.
+解决数学问题。
+
+português
+葡萄牙语
+Ex: Pratique a leitura em português.
+练习葡萄牙语阅读。
+
+ciências
+科学
+Ex: Faça uma experiência de ciências.
+做一个科学实验。
+
+história
+历史
+Ex: Estude a história da China.
+学习中国历史。
+
+geografia
+地理
+Ex: Saiba mais sobre a geografia da América do Sul.
+多了解一些南美洲地理。
+
+inglês
+英语
+Ex: Escreva uma carta em inglês para o seu amigo.
+用英语给你的朋友写一封信。
+
+espanhol
+西班牙语
+Ex: Cante uma canção em espanhol.
+唱一首西班牙语歌曲。
+
+artes
+艺术
+Ex: Desenhe um quadro nas artes.
+在艺术课上画一幅画。
+
+educação física
+体育
+Ex: Pratique natação na educação física.
+在体育课上练习游泳。
+
+música
+音乐
+Ex: Tocue um instrumento musical na aula de música.
+在音乐课上演奏一种乐器。
+
+aluno/aluna
+学生
+Ex: O aluno está estudando muito.
+这个学生学习很努力。
+
+professor/professora
+老师
+Ex: A professora está ensinando a matemática.
+这位老师在教数学。
+
+diretor/diretora
+校长
+Ex: O diretor fez uma visita à classe.
+校长视察了班级。
+
+coordenador/coordenadora
+教务主任
+Ex: A coordenadora está organizando os eventos da escola.
+教务主任正在组织学校的活动。
+
+inspetor/inspetora
+监督员（巡查纪律）
+Ex: O inspetor está fiscalizando a disciplina na sala de aula.
+监督员正在教室里监督纪律。
+
+secretário/secretária
+秘书
+Ex: A secretária está escrevendo uma carta.
+秘书正在写一封信。
+
+bibliotecário/bibliotecária
+图书管理员
+Ex: O bibliotecário está ajudando os alunos a encontrar livros.
+图书管理员正在帮助学生找书。
+
+zelador/zeladora
+清洁工/管理员
+Ex: O zelador está limpando o jardim.
+清洁工正在打扫花园。
+
+monitor/monitora
+班长/助教
+Ex: A monitora está ajudando a professora a organizar os livros.
+班长正在帮助老师整理书籍。
+
+psicólogo/psicóloga
+心理咨询师
+Ex: O psicólogo está conversando com o aluno.
+心理咨询师正在和学生交谈。
+
+estudar
+学习
+Ex: Estude para o teste de amanhã.
+为明天的考试学习。
+
+escrever
+写
+Ex: Escreva um texto sobre a sua família.
+写一篇关于你家庭的文章。
+
+ler
+读
+Ex: Leia o livro até o final.
+把这本书读完。
+
+contar
+数数
+Ex: Conta as moedas na minha mão.
+数一下我手里的硬币。
+
+desenhar
+画画
+Ex: Desenhe um animal fictício.
+画一个虚构的动物。
+
+pintar
+涂色
+Ex: Pinte a casa com cores alegres.
+用鲜艳的颜色给房子涂色。
+
+responder
+回答
+Ex: Responde à pergunta do professor com cuidado.
+仔细回答老师的问题。
+
+perguntar
+提问
+Ex: Pergunte ao professor se você não entender.
+如果你不理解就问老师。
+
+brincar
+玩耍
+Ex: Brinca com os bonecos no quarto.
+在房间里和玩偶玩耍。
+
+correr
+跑步
+Ex: Corra no parque para se exercitar.
+在公园跑步锻炼身体。
+
+manhã
+早上
+Ex: Levante-se cedo pela manhã para estudar.
+早上早点起床学习。
+
+tarde
+下午
+Ex: Vamos ao cinema à tarde.
+我们下午去看电影。
+
+noite
+晚上
+Ex: Estude à noite para melhorar suas notas.
+晚上学习以提高成绩。
+
+horário
+时间表
+Ex: Siga o horário das aulas para não se atrasar.
+按照课程表上课以免迟到。
+
+intervalo
+课间休息
+Ex: Descanse no intervalo das aulas para se refrescar.
+课间休息一下以恢复精力。
+
+recreio
+课间活动
+Ex: Participe dos jogos no recreio para se divertir.
+参加课间活动游戏以娱乐。
+
+começo
+开始
+Ex: O começo do filme foi muito emocionante.
+电影的开始很激动人心。
+
+fim
+结束
+Ex: O fim do filme foi muito triste.
+电影的结尾很悲伤。
+
+segunda-feira
+星期一
+Ex: Vamos à escola na segunda-feira para começar uma nova semana.
+我们星期一去学校开始新的一周。
+
+sexta-feira
+星期五
+Ex: A escola termina na sexta-feira para o fim de semana.
+学校星期五放学迎接周末。

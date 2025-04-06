@@ -22,6 +22,7 @@ namespace WordMemorizer.Core
         private List<Word> _weekWordList;
         private List<Word> _todayWordList = new List<Word>();
         private int _currentWordIndex = 0;
+        private readonly ConfigIniHelper _configIniHelper = new ConfigIniHelper();
 
 
         public FormMain()
@@ -36,8 +37,9 @@ namespace WordMemorizer.Core
             skin.Active = true;
             StartPosition = FormStartPosition.CenterScreen;
 
+            string audioFolder = _configIniHelper.GetValue("AudioFolder", "../../audio");
             // 初始化语音合成器
-            _speaker = new PortugueseTTS();
+            _speaker = new PortugueseTTS(audioFolder);
 
             _weeklyPlanRepository = new WeeklyPlanRepository();
         }
