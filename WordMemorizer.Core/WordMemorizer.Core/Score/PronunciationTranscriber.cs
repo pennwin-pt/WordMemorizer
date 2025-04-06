@@ -17,7 +17,8 @@ namespace WordMemorizer.Core.Score
     public class PronunciationTranscriber
     {
         private readonly HttpClient httpClient;
-        private readonly string flaskServiceUrl = "http://172.16.0.207:5000/transcribe";
+        private readonly string ptTranscribeServiceUrl = "http://172.16.0.207:5000/transcribe_pt";
+        private readonly string zhTranscribeServiceUrl = "http://172.16.0.207:5000/transcribe_zh";
 
 
         public PronunciationTranscriber()
@@ -25,16 +26,25 @@ namespace WordMemorizer.Core.Score
             this.httpClient = new HttpClient();
         }
 
-        public async Task<TranscriptionResponse> TranscribePronunciation(string wavFilePath)
+        public async Task<TranscriptionResponse> TranscribePronunciationPt(string wavFilePath)
+        {
+            return await TranscribePrononciation(wavFilePath, ptTranscribeServiceUrl);
+        }
+
+        public async Task<TranscriptionResponse> TranscribePronunciationZh(string wavFilePath)
+        {
+            return await TranscribePrononciation(wavFilePath, zhTranscribeServiceUrl);
+        }
+
+        private async Task<TranscriptionResponse> TranscribePrononciation(string wavFilePath, string serviceUrl)
         {
             try
             {
-                // 发送文件（略，同之前代码）
                 var formData = new MultipartFormDataContent();
                 var fileStream = File.OpenRead(wavFilePath);
                 formData.Add(new StreamContent(fileStream), "audio_file", "audio.wav");
 
-                var response = await httpClient.PostAsync(flaskServiceUrl, formData);
+                var response = await httpClient.PostAsync(serviceUrl, formData);
                 var jsonResponse = await response.Content.ReadAsStringAsync();
 
                 // 解析 JSON

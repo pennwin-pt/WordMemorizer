@@ -45,12 +45,15 @@
             this.LblDay = new System.Windows.Forms.ToolStripStatusLabel();
             this.LblDate = new System.Windows.Forms.ToolStripStatusLabel();
             this.BtnReload = new System.Windows.Forms.Button();
-            this.BtnExam = new System.Windows.Forms.Button();
+            this.BtnExamPortuguese = new System.Windows.Forms.Button();
+            this.BtnPronounciation = new System.Windows.Forms.Button();
+            this.BtnExamChineseMeaning = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // BtnRead
             // 
+            this.BtnRead.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRead.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.BtnRead.Location = new System.Drawing.Point(907, 97);
             this.BtnRead.Name = "BtnRead";
@@ -82,6 +85,7 @@
             // 
             // BtnSetWeek
             // 
+            this.BtnSetWeek.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnSetWeek.Location = new System.Drawing.Point(1220, 569);
             this.BtnSetWeek.Name = "BtnSetWeek";
             this.BtnSetWeek.Size = new System.Drawing.Size(114, 56);
@@ -112,6 +116,7 @@
             // 
             // BtnReadSentence
             // 
+            this.BtnReadSentence.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnReadSentence.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.BtnReadSentence.Location = new System.Drawing.Point(907, 249);
             this.BtnReadSentence.Name = "BtnReadSentence";
@@ -123,6 +128,7 @@
             // 
             // BtnPrev
             // 
+            this.BtnPrev.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPrev.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.BtnPrev.Location = new System.Drawing.Point(206, 426);
             this.BtnPrev.Name = "BtnPrev";
@@ -134,6 +140,7 @@
             // 
             // BtnNext
             // 
+            this.BtnNext.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnNext.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.BtnNext.Location = new System.Drawing.Point(483, 426);
             this.BtnNext.Name = "BtnNext";
@@ -205,6 +212,7 @@
             // 
             // BtnReload
             // 
+            this.BtnReload.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnReload.Location = new System.Drawing.Point(1089, 569);
             this.BtnReload.Name = "BtnReload";
             this.BtnReload.Size = new System.Drawing.Size(114, 56);
@@ -213,22 +221,47 @@
             this.BtnReload.UseVisualStyleBackColor = true;
             this.BtnReload.Click += new System.EventHandler(this.BtnReload_Click);
             // 
-            // BtnExam
+            // BtnExamPortuguese
             // 
-            this.BtnExam.Location = new System.Drawing.Point(956, 569);
-            this.BtnExam.Name = "BtnExam";
-            this.BtnExam.Size = new System.Drawing.Size(114, 56);
-            this.BtnExam.TabIndex = 15;
-            this.BtnExam.Text = "测验";
-            this.BtnExam.UseVisualStyleBackColor = true;
-            this.BtnExam.Click += new System.EventHandler(this.BtnExam_Click);
+            this.BtnExamPortuguese.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnExamPortuguese.Location = new System.Drawing.Point(1220, 507);
+            this.BtnExamPortuguese.Name = "BtnExamPortuguese";
+            this.BtnExamPortuguese.Size = new System.Drawing.Size(114, 56);
+            this.BtnExamPortuguese.TabIndex = 15;
+            this.BtnExamPortuguese.Text = "测验葡语";
+            this.BtnExamPortuguese.UseVisualStyleBackColor = true;
+            this.BtnExamPortuguese.Click += new System.EventHandler(this.BtnExam_Click);
+            // 
+            // BtnPronounciation
+            // 
+            this.BtnPronounciation.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnPronounciation.Location = new System.Drawing.Point(1089, 507);
+            this.BtnPronounciation.Name = "BtnPronounciation";
+            this.BtnPronounciation.Size = new System.Drawing.Size(114, 56);
+            this.BtnPronounciation.TabIndex = 16;
+            this.BtnPronounciation.Text = "发音练习";
+            this.BtnPronounciation.UseVisualStyleBackColor = true;
+            this.BtnPronounciation.Click += new System.EventHandler(this.BtnPronounciation_Click);
+            // 
+            // BtnExamChineseMeaning
+            // 
+            this.BtnExamChineseMeaning.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnExamChineseMeaning.Location = new System.Drawing.Point(1220, 445);
+            this.BtnExamChineseMeaning.Name = "BtnExamChineseMeaning";
+            this.BtnExamChineseMeaning.Size = new System.Drawing.Size(114, 56);
+            this.BtnExamChineseMeaning.TabIndex = 17;
+            this.BtnExamChineseMeaning.Text = "测验含义";
+            this.BtnExamChineseMeaning.UseVisualStyleBackColor = true;
+            this.BtnExamChineseMeaning.Click += new System.EventHandler(this.BtnExamChineseMeaning_Click);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1361, 668);
-            this.Controls.Add(this.BtnExam);
+            this.Controls.Add(this.BtnExamChineseMeaning);
+            this.Controls.Add(this.BtnPronounciation);
+            this.Controls.Add(this.BtnExamPortuguese);
             this.Controls.Add(this.BtnReload);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.LblIndex);
@@ -275,7 +308,9 @@
         private System.Windows.Forms.ToolStripStatusLabel LblDay;
         private System.Windows.Forms.ToolStripStatusLabel LblDate;
         private System.Windows.Forms.Button BtnReload;
-        private System.Windows.Forms.Button BtnExam;
+        private System.Windows.Forms.Button BtnExamPortuguese;
+        private System.Windows.Forms.Button BtnPronounciation;
+        private System.Windows.Forms.Button BtnExamChineseMeaning;
     }
 }
 

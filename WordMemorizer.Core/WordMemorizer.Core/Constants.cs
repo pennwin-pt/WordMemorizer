@@ -23,6 +23,8 @@ namespace WordMemorizer.Core
         internal static readonly string CORRECT_IMAGE_PATH = "./Images/correct.gif";
         internal static readonly string PROCESSING_IMAGE_PATH = "./Images/processing.gif";
         internal static readonly string LISTENING_IMAGE_PATH = "./Images/listening.gif";
-        internal static readonly double WORDS_SIMILARITY_THRESHOLD = 0.6;
+        internal static readonly double WORDS_SIMILARITY_THRESHOLD_PT = 0.6;
+        internal static readonly double WORDS_SIMILARITY_THRESHOLD_ZH = 0.3;
+        internal static readonly int SCORES_PER_WORD = 5;
     }
 }

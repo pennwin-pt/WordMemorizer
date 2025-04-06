@@ -43,7 +43,7 @@ namespace WordMemorizer.Core.DB
                             ChineseMeaning TEXT NOT NULL,
                             ExampleSentence TEXT,
                             ExampleChinese TEXT,  -- 新增字段：例句中文含义
-                            DifficultyLevel INTEGER DEFAULT 3,
+                            LatestScore INTEGER DEFAULT 0,
                             CreatedTime DATETIME DEFAULT CURRENT_TIMESTAMP,
                             IsMastered INTEGER DEFAULT 0,
                             ReviewCount INTEGER DEFAULT 0,

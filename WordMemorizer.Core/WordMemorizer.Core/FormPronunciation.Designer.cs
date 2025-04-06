@@ -52,11 +52,13 @@ namespace WordMemorizer.Core
             this.TbText.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.TbText.Location = new System.Drawing.Point(188, 77);
             this.TbText.Name = "TbText";
+            this.TbText.ReadOnly = true;
             this.TbText.Size = new System.Drawing.Size(403, 42);
             this.TbText.TabIndex = 1;
             // 
             // btnStartRecording
             // 
+            this.btnStartRecording.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnStartRecording.Location = new System.Drawing.Point(807, 428);
             this.btnStartRecording.Name = "btnStartRecording";
             this.btnStartRecording.Size = new System.Drawing.Size(115, 50);
@@ -67,6 +69,7 @@ namespace WordMemorizer.Core
             // 
             // btnStopRecording
             // 
+            this.btnStopRecording.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnStopRecording.Location = new System.Drawing.Point(1013, 428);
             this.btnStopRecording.Name = "btnStopRecording";
             this.btnStopRecording.Size = new System.Drawing.Size(115, 50);
@@ -86,6 +89,7 @@ namespace WordMemorizer.Core
             // 
             // BtnRead
             // 
+            this.BtnRead.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnRead.Location = new System.Drawing.Point(597, 77);
             this.BtnRead.Name = "BtnRead";
             this.BtnRead.Size = new System.Drawing.Size(111, 42);
@@ -99,11 +103,13 @@ namespace WordMemorizer.Core
             this.TbChinese.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.TbChinese.Location = new System.Drawing.Point(188, 160);
             this.TbChinese.Name = "TbChinese";
+            this.TbChinese.ReadOnly = true;
             this.TbChinese.Size = new System.Drawing.Size(406, 42);
             this.TbChinese.TabIndex = 6;
             // 
             // BtnPrev
             // 
+            this.BtnPrev.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnPrev.Location = new System.Drawing.Point(195, 299);
             this.BtnPrev.Name = "BtnPrev";
             this.BtnPrev.Size = new System.Drawing.Size(154, 56);
@@ -114,6 +120,7 @@ namespace WordMemorizer.Core
             // 
             // BtnNext
             // 
+            this.BtnNext.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnNext.Location = new System.Drawing.Point(440, 299);
             this.BtnNext.Name = "BtnNext";
             this.BtnNext.Size = new System.Drawing.Size(154, 56);
@@ -157,8 +164,10 @@ namespace WordMemorizer.Core
             this.Controls.Add(this.btnStopRecording);
             this.Controls.Add(this.btnStartRecording);
             this.Controls.Add(this.TbText);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "FormPronunciation";
-            this.Text = "发音测评";
+            this.Text = "发音练习";
             this.Load += new System.EventHandler(this.FormPronunciation_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbWaveform)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PbResult)).EndInit();

@@ -20,7 +20,6 @@ namespace WordMemorizer.Core
     {
         private readonly Recorder _recorder;
         private readonly PronunciationTranscriber _transcriber;
-        private readonly PointsSystem _pointsSystem;
         private readonly List<Word> _wordList = new List<Word>();
         private Word _currentWord;
         private readonly PortugueseTTS _speaker;
@@ -36,7 +35,6 @@ namespace WordMemorizer.Core
             _speaker = new PortugueseTTS(audioFolder);
             _recorder = new Recorder(pbWaveform);
             _transcriber = new PronunciationTranscriber();
-            _pointsSystem = new PointsSystem();
             SetupEventHandlers();
             _wordList.AddRange(todayWordList);
         }
@@ -53,8 +51,8 @@ namespace WordMemorizer.Core
             };
 
             _recorder._recordingSaved += async filePath => {
-                var result = await _transcriber.TranscribePronunciation(filePath);
-                if (Tools.AreSimilarWords(result.Text , _currentWord.Text))
+                var result = await _transcriber.TranscribePronunciationPt(filePath);
+                if (Tools.AreSimilarWords(result.Text , _currentWord.Text, true))
                 {
                     // LblResult.Text = "Correct!";
                     PbResult.Load(Constants.CORRECT_IMAGE_PATH);
@@ -79,7 +77,6 @@ namespace WordMemorizer.Core
 
         private void BtnStartRecording_Click(object sender, EventArgs e)
         {
-
             string outputFolder = Path.Combine(Application.StartupPath, Constants.RECORDING_PATH);
             PbResult.Load(Constants.LISTENING_IMAGE_PATH);
 

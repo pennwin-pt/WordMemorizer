@@ -33,7 +33,7 @@ namespace WordMemorizer.Core
             // "Warm.ssk";//"MacOS.ssk";//"XPSilver.ssk";// "EmeraldColor1.ssk";//"MidsummerColor3.ssk";
             // Emerald /DiamondBlue/ Page
             // Calmness  /  SteelBlack
-            string skinName = "SteelBlack";
+            string skinName = "Warm";
             skin.SkinFile = System.Environment.CurrentDirectory + "\\skins\\" + skinName + ".ssk";
             skin.Active = true;
             StartPosition = FormStartPosition.CenterScreen;
@@ -193,11 +193,20 @@ namespace WordMemorizer.Core
 
         private void BtnExam_Click(object sender, EventArgs e)
         {
-            //FormExam formExam = new FormExam();
-            //formExam.ShowDialog();
+            FormExam formExam = new FormExam(_todayWordList, true);
+            formExam.ShowDialog();
+        }
 
+        private void BtnPronounciation_Click(object sender, EventArgs e)
+        {
             FormPronunciation formPronunciation = new FormPronunciation(_todayWordList);
             formPronunciation.ShowDialog();
+        }
+
+        private void BtnExamChineseMeaning_Click(object sender, EventArgs e)
+        {
+            FormExam formExam = new FormExam(_todayWordList, false);
+            formExam.ShowDialog();
         }
     }
 }

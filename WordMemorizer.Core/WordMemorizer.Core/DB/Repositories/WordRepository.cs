@@ -16,9 +16,9 @@ namespace WordMemorizer.Core.DB.Repositories
                 conn.Open();
                 return conn.ExecuteScalar<int>(@"
             INSERT INTO Words 
-            (Text, Language, Phonetic, ChineseMeaning, ExampleSentence, ExampleChinese, DifficultyLevel)
+            (Text, Language, Phonetic, ChineseMeaning, ExampleSentence, ExampleChinese, LatestScore)
             VALUES 
-            (@Text, @Language, @Phonetic, @ChineseMeaning, @ExampleSentence, @ExampleChinese, @DifficultyLevel);
+            (@Text, @Language, @Phonetic, @ChineseMeaning, @ExampleSentence, @ExampleChinese, @LatestScore);
             SELECT last_insert_rowid()", word);
             }
         }
@@ -56,7 +56,7 @@ namespace WordMemorizer.Core.DB.Repositories
                 ChineseMeaning = @ChineseMeaning,
                 ExampleSentence = @ExampleSentence,
                 ExampleChinese = @ExampleChinese,
-                DifficultyLevel = @DifficultyLevel,
+                LatestScore = @LatestScore,
                 IsMastered = @IsMastered,
                 ReviewCount = @ReviewCount,
                 LastReviewTime = @LastReviewTime

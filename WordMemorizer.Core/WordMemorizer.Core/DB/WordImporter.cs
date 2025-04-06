@@ -94,7 +94,7 @@ namespace WordMemorizer.Core.DB
                     ChineseMeaning = chineseMeaning,
                     ExampleSentence = exampleSentence,
                     ExampleChinese = exampleChinese,
-                    DifficultyLevel = 3
+                    LatestScore = 0
                 });
             }
 

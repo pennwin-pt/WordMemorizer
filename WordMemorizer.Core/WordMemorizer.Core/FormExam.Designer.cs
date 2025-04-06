@@ -29,86 +29,165 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormExam));
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.tabControl1.SuspendLayout();
+            this.TbChinese = new System.Windows.Forms.TextBox();
+            this.TbText = new System.Windows.Forms.TextBox();
+            this.PbResult = new System.Windows.Forms.PictureBox();
+            this.pbWaveform = new System.Windows.Forms.PictureBox();
+            this.btnStopRecording = new System.Windows.Forms.Button();
+            this.btnStartRecording = new System.Windows.Forms.Button();
+            this.LblIndex = new System.Windows.Forms.Label();
+            this.LblTotalScores = new System.Windows.Forms.Label();
+            this.BtnNext = new System.Windows.Forms.Button();
+            this.BtnRead = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.PbResult)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWaveform)).BeginInit();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // TbChinese
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabControl1.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.tabControl1.Location = new System.Drawing.Point(0, 0);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1174, 667);
-            this.tabControl1.TabIndex = 0;
+            this.TbChinese.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.TbChinese.Location = new System.Drawing.Point(97, 375);
+            this.TbChinese.Name = "TbChinese";
+            this.TbChinese.ReadOnly = true;
+            this.TbChinese.Size = new System.Drawing.Size(406, 42);
+            this.TbChinese.TabIndex = 8;
             // 
-            // tabPage1
+            // TbText
             // 
-            this.tabPage1.Location = new System.Drawing.Point(4, 38);
-            this.tabPage1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage1.Size = new System.Drawing.Size(1038, 467);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "看中文说葡语";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            this.TbText.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.TbText.Location = new System.Drawing.Point(97, 292);
+            this.TbText.Name = "TbText";
+            this.TbText.ReadOnly = true;
+            this.TbText.Size = new System.Drawing.Size(403, 42);
+            this.TbText.TabIndex = 7;
             // 
-            // tabPage2
+            // PbResult
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 38);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.tabPage2.Size = new System.Drawing.Size(1038, 467);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "看葡语说中文";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            this.PbResult.Image = ((System.Drawing.Image)(resources.GetObject("PbResult.Image")));
+            this.PbResult.Location = new System.Drawing.Point(756, 118);
+            this.PbResult.Name = "PbResult";
+            this.PbResult.Size = new System.Drawing.Size(321, 259);
+            this.PbResult.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PbResult.TabIndex = 14;
+            this.PbResult.TabStop = false;
             // 
-            // tabPage3
+            // pbWaveform
             // 
-            this.tabPage3.Location = new System.Drawing.Point(4, 38);
-            this.tabPage3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.tabPage3.Size = new System.Drawing.Size(1166, 625);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "葡语听力";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.pbWaveform.BackColor = System.Drawing.Color.Black;
+            this.pbWaveform.Location = new System.Drawing.Point(756, 413);
+            this.pbWaveform.Name = "pbWaveform";
+            this.pbWaveform.Size = new System.Drawing.Size(321, 50);
+            this.pbWaveform.TabIndex = 13;
+            this.pbWaveform.TabStop = false;
+            // 
+            // btnStopRecording
+            // 
+            this.btnStopRecording.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStopRecording.Location = new System.Drawing.Point(962, 469);
+            this.btnStopRecording.Name = "btnStopRecording";
+            this.btnStopRecording.Size = new System.Drawing.Size(115, 50);
+            this.btnStopRecording.TabIndex = 12;
+            this.btnStopRecording.Text = "结束";
+            this.btnStopRecording.UseVisualStyleBackColor = true;
+            this.btnStopRecording.Click += new System.EventHandler(this.btnStopRecording_Click);
+            // 
+            // btnStartRecording
+            // 
+            this.btnStartRecording.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnStartRecording.Location = new System.Drawing.Point(756, 469);
+            this.btnStartRecording.Name = "btnStartRecording";
+            this.btnStartRecording.Size = new System.Drawing.Size(115, 50);
+            this.btnStartRecording.TabIndex = 11;
+            this.btnStartRecording.Text = "开始";
+            this.btnStartRecording.UseVisualStyleBackColor = true;
+            this.btnStartRecording.Click += new System.EventHandler(this.btnStartRecording_Click);
+            // 
+            // LblIndex
+            // 
+            this.LblIndex.AutoSize = true;
+            this.LblIndex.Location = new System.Drawing.Point(281, 484);
+            this.LblIndex.Name = "LblIndex";
+            this.LblIndex.Size = new System.Drawing.Size(43, 21);
+            this.LblIndex.TabIndex = 17;
+            this.LblIndex.Text = "0/0";
+            this.LblIndex.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // LblTotalScores
+            // 
+            this.LblTotalScores.AutoSize = true;
+            this.LblTotalScores.Font = new System.Drawing.Font("宋体", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.LblTotalScores.Location = new System.Drawing.Point(94, 118);
+            this.LblTotalScores.Name = "LblTotalScores";
+            this.LblTotalScores.Size = new System.Drawing.Size(432, 72);
+            this.LblTotalScores.TabIndex = 18;
+            this.LblTotalScores.Text = "累计得分：0";
+            // 
+            // BtnNext
+            // 
+            this.BtnNext.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnNext.Location = new System.Drawing.Point(346, 463);
+            this.BtnNext.Name = "BtnNext";
+            this.BtnNext.Size = new System.Drawing.Size(154, 56);
+            this.BtnNext.TabIndex = 19;
+            this.BtnNext.Text = "继续";
+            this.BtnNext.UseVisualStyleBackColor = true;
+            this.BtnNext.Click += new System.EventHandler(this.BtnNext_Click);
+            // 
+            // BtnRead
+            // 
+            this.BtnRead.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnRead.Location = new System.Drawing.Point(506, 292);
+            this.BtnRead.Name = "BtnRead";
+            this.BtnRead.Size = new System.Drawing.Size(111, 42);
+            this.BtnRead.TabIndex = 20;
+            this.BtnRead.Text = "教我读";
+            this.BtnRead.UseVisualStyleBackColor = true;
+            this.BtnRead.Visible = false;
+            this.BtnRead.Click += new System.EventHandler(this.BtnRead_Click);
             // 
             // FormExam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1174, 667);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.BtnRead);
+            this.Controls.Add(this.BtnNext);
+            this.Controls.Add(this.LblTotalScores);
+            this.Controls.Add(this.LblIndex);
+            this.Controls.Add(this.PbResult);
+            this.Controls.Add(this.pbWaveform);
+            this.Controls.Add(this.btnStopRecording);
+            this.Controls.Add(this.btnStartRecording);
+            this.Controls.Add(this.TbChinese);
+            this.Controls.Add(this.TbText);
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "FormExam";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "测验";
             this.Load += new System.EventHandler(this.FormExam_Load);
-            this.tabControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PbResult)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbWaveform)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TextBox TbChinese;
+        private System.Windows.Forms.TextBox TbText;
+        private System.Windows.Forms.PictureBox PbResult;
+        private System.Windows.Forms.PictureBox pbWaveform;
+        private System.Windows.Forms.Button btnStopRecording;
+        private System.Windows.Forms.Button btnStartRecording;
+        private System.Windows.Forms.Label LblIndex;
+        private System.Windows.Forms.Label LblTotalScores;
+        private System.Windows.Forms.Button BtnNext;
+        private System.Windows.Forms.Button BtnRead;
     }
 }

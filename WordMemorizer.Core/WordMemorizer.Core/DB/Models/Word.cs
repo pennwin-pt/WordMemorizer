@@ -14,7 +14,7 @@ namespace WordMemorizer.Core.DB.Models
         public string ExampleSentence { get; set; }
         public string ExampleChinese { get; set; } // 新增属性
 
-        public int DifficultyLevel { get; set; } = 3;
+        public int LatestScore { get; set; } = 0;
         public DateTime CreatedTime { get; set; } = DateTime.Now;
         public bool IsMastered { get; set; }
         public int ReviewCount { get; set; }

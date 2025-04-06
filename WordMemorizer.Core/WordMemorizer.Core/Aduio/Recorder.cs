@@ -22,9 +22,9 @@ namespace WordMemorizer.Core.Aduio
             _pbWaveform = pbWaveform;
         }
 
-        public void StartRecording(string word, string outputFolder)
+        public void StartRecording(string checkingContent, string outputFolder)
         {
-            _recordFilePrefix = word;
+            _recordFilePrefix = checkingContent;
             _audioBuffer.Clear();
 
             _waveIn = new WaveInEvent

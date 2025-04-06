@@ -49,7 +49,7 @@ namespace WordMemorizer.Core
             return chineseDays[index];
         }
 
-        public static bool AreSimilarWords(string word1, string word2)
+        public static bool AreSimilarWords(string word1, string word2, bool isPortuguese)
         {
             if (string.IsNullOrEmpty(word1) || string.IsNullOrEmpty(word2))
                 return false;
@@ -64,8 +64,8 @@ namespace WordMemorizer.Core
             // 判断是否超过50%
             double threshold1 = (double)commonChars / distinctChars1.Count;
             double threshold2 = (double)commonChars / distinctChars2.Count;
-
-            return threshold1 > Constants.WORDS_SIMILARITY_THRESHOLD || threshold2 > Constants.WORDS_SIMILARITY_THRESHOLD;
+            double similarityThreshold = isPortuguese ? Constants.WORDS_SIMILARITY_THRESHOLD_PT : Constants.WORDS_SIMILARITY_THRESHOLD_ZH;
+            return threshold1 >  similarityThreshold || threshold2 > similarityThreshold;
         }
     }
 }

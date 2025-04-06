@@ -1,20 +1,20 @@
 Ouvir  
-听  
+听到
 Ex: É importante ouvir o professor.  
 听老师讲课很重要。  
 
 Falar  
-说  
+说话
 Ex: Quem quer falar primeiro?  
 谁想先发言？  
 
 Ler  
-读  
+阅读
 Ex: Vamos ler um livro juntos.  
 我们一起读一本书吧。  
 
 Escrever  
-写  
+写作
 Ex: Agora escrevam a resposta no caderno.  
 现在把答案写在练习本上。  
 
@@ -119,7 +119,7 @@ Ex: Não grite na sala de aula!
 不要在教室里大声喊！  
 
 Empurrar  
-推  
+推动
 Ex: Não empurre seus colegas!  
 不要推你的同学！  
 
@@ -144,6 +144,6 @@ Ex: Sempre ajude seus amigos.
 一定要帮助你的朋友。  
 
 Cedo  
-早  
+早期的
 Ex: Eu chego cedo na escola.  
 我很早到学校。  
