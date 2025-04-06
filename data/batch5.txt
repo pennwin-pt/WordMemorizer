@@ -1,0 +1,149 @@
+cabeça  
+头  
+Ex: Minha cabeça dói um pouco hoje.  
+我今天头有点疼。  
+
+rosto  
+脸  
+Ex: Ela tem um rosto bonito.  
+她有一张漂亮的脸。  
+
+olhos  
+眼睛  
+Ex: Meus olhos são castanhos.  
+我的眼睛是棕色的。  
+
+boca  
+嘴  
+Ex: Eu como com a boca.  
+我用嘴巴吃东西。  
+
+nariz  
+鼻子  
+Ex: Meu nariz está gelado por causa do frio.  
+因为天气冷，我的鼻子冰凉。  
+
+orelhas  
+耳朵  
+Ex: Você tem que ouvir com as orelhas.  
+你要用耳朵听。  
+
+cabelo  
+头发  
+Ex: Meu cabelo é longo e liso.  
+我的头发又长又直。  
+
+mãos  
+手  
+Ex: Lave as mãos antes de comer.  
+吃饭前要洗手。  
+
+braços  
+手臂  
+Ex: Meus braços estão fortes.  
+我的手臂很强壮。  
+
+pernas  
+腿  
+Ex: Eu corro rápido com minhas pernas.  
+我用我的腿跑得很快。  
+
+camiseta  
+T恤  
+Ex: Hoje estou usando uma camiseta azul.  
+今天我穿了一件蓝色T恤。  
+
+calça  
+裤子  
+Ex: Minha calça favorita é preta.  
+我最喜欢的裤子是黑色的。  
+
+vestido  
+连衣裙  
+Ex: Ela comprou um vestido vermelho lindo.  
+她买了一条漂亮的红色连衣裙。  
+
+sapatos  
+鞋子  
+Ex: Meus sapatos novos são confortáveis.  
+我的新鞋子很舒服。  
+
+meias  
+袜子  
+Ex: No inverno, eu uso meias grossas.  
+冬天我穿厚袜子。  
+
+casaco  
+外套  
+Ex: Está frio, coloque um casaco.  
+天气冷，穿上外套。  
+
+chapéu  
+帽子  
+Ex: No verão, eu uso chapéu para proteger do sol.  
+夏天我戴帽子防晒。  
+
+luvas  
+手套  
+Ex: No inverno, minhas mãos ficam quentes com luvas.  
+冬天戴手套让我手暖和。  
+
+saia  
+裙子  
+Ex: Minha irmã adora usar saia.  
+我妹妹喜欢穿裙子。  
+
+mochila  
+背包  
+Ex: Minha mochila está cheia de livros.  
+我的背包里装满了书。  
+
+sol  
+太阳  
+Ex: Hoje o sol está brilhando forte.  
+今天太阳很晒。  
+
+chuva  
+雨  
+Ex: Leve um guarda-chuva, vai chover.  
+带把伞吧，会下雨。  
+
+nublado  
+阴天  
+Ex: O céu está nublado hoje.  
+今天天空阴沉沉的。  
+
+vento  
+风  
+Ex: Está ventando muito lá fora.  
+外面风很大。  
+
+neve  
+雪  
+Ex: No inverno, a neve cobre tudo.  
+冬天下雪覆盖一切。  
+
+calor  
+热  
+Ex: No verão, faz muito calor.  
+夏天非常热。  
+
+frio  
+冷  
+Ex: No inverno, faz muito frio aqui.  
+冬天这里很冷。  
+
+tempestade  
+暴风雨  
+Ex: Uma tempestade está chegando!  
+暴风雨要来了！  
+
+arco-íris  
+彩虹  
+Ex: Depois da chuva, apareceu um arco-íris.  
+雨后出现了一道彩虹。  
+
+céu  
+天空  
+Ex: O céu está azul e limpo hoje.  
+今天天空蓝蓝的，很晴朗。  

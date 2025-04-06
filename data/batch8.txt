@@ -1,0 +1,149 @@
+escova de dentes  
+牙刷  
+Ex: Escove os dentes depois das refeições.  
+饭后刷牙。  
+
+sabonete  
+肥皂  
+Ex: Eu lavo as mãos com sabonete.  
+我用肥皂洗手。  
+
+toalha  
+毛巾  
+Ex: Minha toalha é azul e macia.  
+我的毛巾是蓝色的，很柔软。  
+
+cama  
+床  
+Ex: Minha cama é muito confortável.  
+我的床很舒服。  
+
+espelho  
+镜子  
+Ex: Eu me olho no espelho todas as manhãs.  
+我每天早上照镜子。  
+
+relógio  
+时钟  
+Ex: Que horas são no seu relógio?  
+你的时钟现在几点了？  
+
+computador  
+电脑  
+Ex: Uso o computador para estudar.  
+我用电脑学习。  
+
+celular  
+手机  
+Ex: Meu celular está sem bateria.  
+我的手机没电了。  
+
+chave  
+钥匙  
+Ex: Onde está minha chave?  
+我的钥匙在哪里？  
+
+bolsa  
+包  
+Ex: Minha mãe tem uma bolsa vermelha.  
+我妈妈有一个红色的包。
+
+mesa  
+桌子  
+Ex: O jantar está servido na mesa.  
+晚餐已经摆在桌子上了。  
+
+cadeira  
+椅子  
+Ex: Sente-se na cadeira, por favor.  
+请坐在椅子上。  
+
+sofá  
+沙发  
+Ex: O sofá da sala é muito confortável.  
+客厅的沙发很舒服。  
+
+cama  
+床  
+Ex: Minha cama tem lençóis azuis.  
+我的床铺有蓝色的床单。  
+
+armário  
+橱柜  
+Ex: Guarde as roupas no armário.  
+把衣服放进衣柜里。  
+
+geladeira  
+冰箱  
+Ex: O leite está na geladeira.  
+牛奶在冰箱里。  
+
+fogão  
+炉灶  
+Ex: Minha mãe cozinha no fogão todos os dias.  
+我妈妈每天在炉子上做饭。  
+
+micro-ondas  
+微波炉  
+Ex: Esquente a comida no micro-ondas.  
+用微波炉加热食物。  
+
+televisão  
+电视  
+Ex: Eu gosto de assistir televisão à noite.  
+我喜欢晚上看电视。  
+
+ventilador  
+风扇  
+Ex: O ventilador está ligado porque está calor.  
+风扇开着，因为很热。  
+
+carro  
+汽车  
+Ex: Meu pai tem um carro vermelho.  
+我爸爸有一辆红色的汽车。  
+
+ônibus  
+公共汽车  
+Ex: Eu vou para a escola de ônibus.  
+我坐公交车去学校。  
+
+trem  
+火车  
+Ex: O trem chegou na estação.  
+火车到站了。  
+
+avião  
+飞机  
+Ex: Vamos viajar de avião para o Brasil.  
+我们要坐飞机去巴西旅行。  
+
+bicicleta  
+自行车  
+Ex: Eu gosto de andar de bicicleta no parque.  
+我喜欢在公园骑自行车。  
+
+moto  
+摩托车  
+Ex: Ele tem uma moto muito rápida.  
+他有一辆非常快的摩托车。  
+
+barco  
+船  
+Ex: O barco está navegando no rio.  
+船正在河里航行。  
+
+navio  
+轮船  
+Ex: O navio de cruzeiro é enorme!  
+游轮非常大！  
+
+táxi  
+出租车  
+Ex: Peguei um táxi para ir ao trabalho.  
+我打车去上班。  
+
+caminhão  
+卡车  
+Ex: O caminhão transporta mercadorias.  
+卡车运输货物。  

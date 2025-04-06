@@ -1,0 +1,149 @@
+vermelho  
+红色  
+Ex: Meu carro é vermelho.  
+我的车是红色的。  
+
+azul  
+蓝色  
+Ex: O céu está azul hoje.  
+今天的天空是蓝色的。  
+
+verde  
+绿色  
+Ex: Eu gosto de maçãs verdes.  
+我喜欢绿色的苹果。  
+
+amarelo  
+黄色  
+Ex: O sol é amarelo.  
+太阳是黄色的。  
+
+branco  
+白色  
+Ex: A neve é branca.  
+雪是白色的。  
+
+preto  
+黑色  
+Ex: Minha mochila é preta.  
+我的书包是黑色的。  
+
+roxo  
+紫色  
+Ex: Minha blusa favorita é roxa.  
+我最喜欢的上衣是紫色的。  
+
+laranja  
+橙色  
+Ex: O suco de laranja é delicioso.  
+橙汁很好喝。  
+
+rosa  
+粉色  
+Ex: Minha boneca tem um vestido rosa.  
+我的洋娃娃穿着粉色的裙子。  
+
+cinza  
+灰色  
+Ex: O gato dele é cinza.  
+他的猫是灰色的。  
+
+feliz  
+高兴  
+Ex: Estou muito feliz hoje!  
+我今天很开心！  
+
+triste  
+伤心  
+Ex: Ele ficou triste porque perdeu o jogo.  
+他因为输了比赛而伤心。  
+
+bravo  
+生气  
+Ex: Minha mãe ficou brava comigo.  
+我妈妈对我生气了。  
+
+assustado  
+害怕  
+Ex: O gato ficou assustado com o barulho.  
+猫被噪音吓到了。  
+
+cansado  
+疲倦  
+Ex: Estou cansado depois da escola.  
+上学后我很累。  
+
+animado  
+兴奋  
+Ex: Estou animado para as férias!  
+我对假期感到兴奋！  
+
+envergonhado  
+害羞  
+Ex: Ela ficou envergonhada na apresentação.  
+她在演讲时害羞了。  
+
+confuso  
+困惑  
+Ex: Estou confuso com essa pergunta.  
+这个问题让我很困惑。  
+
+entediado  
+无聊  
+Ex: Estou entediado, não há nada para fazer.  
+我很无聊，没有事情可以做。  
+
+surpreso  
+惊讶  
+Ex: Fiquei surpreso com a notícia!  
+这个消息让我惊讶！  
+
+arroz  
+米饭  
+Ex: Eu como arroz todos os dias.  
+我每天都吃米饭。  
+
+feijão  
+豆子  
+Ex: O feijão é muito nutritivo.  
+豆类非常有营养。  
+
+carne  
+肉  
+Ex: Eu gosto de carne grelhada.  
+我喜欢烤肉。  
+
+frango  
+鸡肉  
+Ex: O frango assado está delicioso.  
+烤鸡很好吃。  
+
+peixe  
+鱼  
+Ex: Minha avó cozinha um peixe delicioso.  
+我奶奶做的鱼很好吃。  
+
+pão  
+面包  
+Ex: No café da manhã, como pão com manteiga.  
+早餐我吃黄油面包。  
+
+leite  
+牛奶  
+Ex: Bebo leite todas as manhãs.  
+我每天早上喝牛奶。  
+
+queijo  
+奶酪  
+Ex: Gosto de queijo no sanduíche.  
+我喜欢在三明治里放奶酪。  
+
+fruta  
+水果  
+Ex: A banana é minha fruta favorita.  
+香蕉是我最喜欢的水果。  
+
+bolo  
+蛋糕  
+Ex: Fiz um bolo de chocolate para o aniversário.  
+我做了一个巧克力蛋糕庆祝生日。

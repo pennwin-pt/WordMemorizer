@@ -1,44 +1,44 @@
-Tarde  
-晚  
+tarde
+下午  
 Ex: Não chegue tarde para a aula!  
 不要上课迟到！  
 
-Agora  
+agora  
 现在  
 Ex: Agora é hora da lição de casa.  
 现在是做作业的时间。  
 
-Depois  
+depois  
 之后  
 Ex: Depois da aula, vamos ao parquinho.  
 下课后，我们去游乐场。  
 
-Sempre  
+sempre  
 总是  
 Ex: Eu sempre estudo à noite.  
 我总是在晚上学习。  
 
-Nunca  
+nunca  
 从不  
 Ex: Eu nunca esqueço meu caderno.  
 我从不忘带练习本。  
 
-Todo dia  
+todo dia  
 每天  
 Ex: Eu venho para a escola todo dia.  
 我每天都来学校。  
 
-Semana  
+semana  
 星期  
 Ex: A semana tem sete dias.  
 一周有七天。  
 
-Aula  
+aula  
 课程  
 Ex: Hoje temos aula de matemática.  
 今天我们有数学课。  
 
-Prova  
+prova  
 考试  
 Ex: Amanhã teremos uma prova de português.  
 明天我们有一场葡萄牙语考试。
@@ -54,7 +54,7 @@ Ex: Ele ficou triste porque perdeu o jogo.
 他因为输了比赛而感到伤心。  
 
 cansado/cansada  
-累  
+疲劳的
 Ex: Estou cansado depois da aula de educação física.  
 体育课后我很累。  
 
@@ -78,13 +78,13 @@ surpreso/surpresa
 Ex: Fiquei surpreso com a nota da prova.  
 我对考试成绩感到惊讶。  
 
-com sono  
+com sono
 困  
 Ex: Estou com sono porque dormi tarde ontem.  
 我很困，因为昨晚睡得很晚。  
 
 com fome  
-饿  
+饥饿的
 Ex: Estou com fome, quero um lanche.  
 我饿了，想吃点心。  
 

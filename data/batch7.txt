@@ -1,0 +1,149 @@
+lápis  
+铅笔  
+Ex: Eu escrevo com um lápis amarelo.  
+我用一支黄色铅笔写字。  
+
+caneta  
+钢笔 / 圆珠笔  
+Ex: Esta caneta azul é minha favorita.  
+这支蓝色的笔是我最喜欢的。  
+
+borracha  
+橡皮擦  
+Ex: Use a borracha para apagar o erro.  
+用橡皮擦掉错误。  
+
+caderno  
+练习本  
+Ex: Meu caderno tem capa vermelha.  
+我的练习本是红色封皮的。  
+
+livro  
+书  
+Ex: Eu gosto de ler livros na biblioteca.  
+我喜欢在图书馆读书。  
+
+régua  
+尺子  
+Ex: Use a régua para medir o papel.  
+用尺子测量纸张。  
+
+tesoura  
+剪刀  
+Ex: Pegue a tesoura para cortar o papel.  
+拿剪刀剪纸。  
+
+cola  
+胶水  
+Ex: Precisamos de cola para o trabalho manual.  
+我们需要胶水做手工。  
+
+mochila  
+书包  
+Ex: Minha mochila está pesada hoje.  
+我的书包今天很重。  
+
+estojo  
+文具盒  
+Ex: Meu estojo tem lápis e borracha.  
+我的文具盒里有铅笔和橡皮擦。  
+
+posso ir ao banheiro?  
+我可以去洗手间吗？  
+Ex: Professora, posso ir ao banheiro?  
+老师，我可以去洗手间吗？  
+
+como se escreve?  
+这个怎么拼写？  
+Ex: Como se escreve esta palavra?  
+这个单词怎么拼写？  
+
+o que significa?  
+这是什么意思？  
+Ex: O que significa essa palavra em português?  
+这个葡萄牙语单词是什么意思？  
+
+pode repetir, por favor?  
+你可以再说一遍吗？  
+Ex: Pode repetir, por favor? Não entendi.  
+你可以再说一遍吗？我没听懂。  
+
+terminei!  
+我完成了！  
+Ex: Professora, terminei minha lição!  
+老师，我完成作业了！  
+
+prestem atenção!  
+注意听！  
+Ex: Crianças, prestem atenção na explicação.  
+孩子们，注意听讲解。  
+
+leiam em voz alta.  
+大声朗读。  
+Ex: Agora, leiam o texto em voz alta.  
+现在，请大声朗读这篇课文。  
+
+copiem do quadro.  
+抄黑板上的内容。  
+Ex: Copiem os exercícios do quadro para o caderno.  
+把黑板上的练习抄到本子上。  
+
+façam silêncio!  
+保持安静！  
+Ex: Crianças, façam silêncio na sala de aula!  
+孩子们，在教室里保持安静！  
+
+guarde seu material.  
+收拾你的东西。  
+Ex: Agora guardem seus materiais e organizem as mesas.  
+现在收拾好东西，把桌子整理干净。  
+
+correr  
+跑步  
+Ex: Nós corremos na aula de educação física.  
+我们在体育课上跑步。  
+
+pular  
+跳跃  
+Ex: O menino pulou de alegria.  
+那个男孩高兴地跳了起来。  
+
+sentar  
+坐下  
+Ex: Sentem-se, a aula vai começar.  
+坐下，上课要开始了。  
+
+levantar  
+站起来  
+Ex: Por favor, levantem-se para cantar o hino.  
+请站起来唱国歌。  
+
+escrever  
+写  
+Ex: Escreva seu nome no caderno.  
+在本子上写你的名字。  
+
+ler  
+读  
+Ex: Eu gosto de ler livros antes de dormir.  
+我喜欢睡前读书。  
+
+falar  
+说  
+Ex: Eu posso falar com você um minuto?  
+我可以和你聊一分钟吗？  
+
+brincar  
+玩耍  
+Ex: As crianças brincam no parquinho.  
+孩子们在游乐场玩耍。  
+
+dormir  
+睡觉  
+Ex: Eu gosto de dormir cedo.  
+我喜欢早睡。  
+
+ouvir  
+听  
+Ex: Ouça a música, é muito bonita.  
+听这首歌，很好听。  

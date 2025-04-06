@@ -1,0 +1,149 @@
+pai  
+爸爸  
+Ex: Meu pai trabalha muito.  
+我的爸爸工作很努力。  
+
+mãe  
+妈妈  
+Ex: Minha mãe cozinha muito bem.  
+我的妈妈厨艺很好。  
+
+irmão  
+兄弟  
+Ex: Meu irmão mais novo gosta de brincar comigo.  
+我弟弟喜欢和我玩。  
+
+irmã  
+姐妹  
+Ex: Minha irmã é muito gentil.  
+我的姐姐/妹妹很温柔。  
+
+avô  
+爷爷/外公  
+Ex: Meu avô conta histórias incríveis.  
+我的爷爷讲很棒的故事。  
+
+avó  
+奶奶/外婆  
+Ex: Minha avó faz bolos deliciosos.  
+我的奶奶做的蛋糕很好吃。  
+
+tio  
+叔叔/舅舅  
+Ex: Meu tio mora em outra cidade.  
+我的叔叔住在另一个城市。  
+
+tia  
+阿姨  
+Ex: Minha tia me deu um presente.  
+我的阿姨送给我一份礼物。  
+
+primo/prima  
+堂兄弟姐妹/表兄弟姐妹  
+Ex: Meu primo é muito engraçado.  
+我的表弟很幽默。  
+
+família  
+家庭  
+Ex: Minha família é muito unida.  
+我的家庭很和睦。  
+
+natal  
+圣诞节  
+Ex: No Natal, trocamos presentes.  
+在圣诞节，我们互相交换礼物。  
+
+ano novo  
+新年  
+Ex: No Ano Novo, soltamos fogos de artifício.  
+在新年，我们放烟花。  
+
+páscoa  
+复活节  
+Ex: Na Páscoa, comemos ovos de chocolate.  
+复活节时，我们吃巧克力蛋。  
+
+aniversário  
+生日  
+Ex: Hoje é meu aniversário!  
+今天是我的生日！  
+
+festa  
+派对  
+Ex: Vamos a uma festa amanhã.  
+我们明天去参加一个派对。  
+
+carnaval  
+嘉年华  
+Ex: O Carnaval do Brasil é famoso no mundo todo.  
+巴西的嘉年华举世闻名。  
+
+casamento  
+婚礼  
+Ex: Meu tio vai se casar em junho.  
+我叔叔六月结婚。  
+
+feriado  
+假日  
+Ex: Amanhã é feriado, não tem aula!  
+明天是节假日，没有课！  
+
+fogos de artifício  
+烟花  
+Ex: Os fogos de artifício são lindos!  
+烟花好漂亮！  
+
+presente  
+礼物  
+Ex: Ganhei um presente especial!  
+我收到了一份特别的礼物！
+
+cachorro  
+狗  
+Ex: Meu cachorro gosta de brincar no parque.  
+我的狗喜欢在公园玩。  
+
+gato  
+猫  
+Ex: O gato dela é muito fofo.  
+她的猫很可爱。  
+
+pássaro  
+鸟  
+Ex: O pássaro canta toda manhã.  
+鸟儿每天早上都会唱歌。  
+
+peixe  
+鱼  
+Ex: Tenho um peixe dourado no aquário.  
+我鱼缸里有一条金鱼。  
+
+coelho  
+兔子  
+Ex: O coelho tem orelhas grandes.  
+兔子的耳朵很大。  
+
+leão  
+狮子  
+Ex: O leão é o rei da selva.  
+狮子是丛林之王。  
+
+tigre  
+老虎  
+Ex: O tigre corre muito rápido.  
+老虎跑得很快。  
+
+elefante  
+大象  
+Ex: O elefante tem uma tromba longa.  
+大象有一条长长的鼻子。  
+
+macaco  
+猴子  
+Ex: O macaco pula de árvore em árvore.  
+猴子在树上跳来跳去。  
+
+vaca  
+牛  
+Ex: A vaca nos dá leite.  
+牛给我们提供牛奶。  
