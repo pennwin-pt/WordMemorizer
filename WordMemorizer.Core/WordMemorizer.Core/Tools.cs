@@ -48,5 +48,24 @@ namespace WordMemorizer.Core
             int index = ((int)DateTime.Now.DayOfWeek - 1 + 7) % 7;
             return chineseDays[index];
         }
+
+        public static bool AreSimilarWords(string word1, string word2)
+        {
+            if (string.IsNullOrEmpty(word1) || string.IsNullOrEmpty(word2))
+                return false;
+
+            // 去重并转换为小写（可选：是否区分大小写）
+            var distinctChars1 = word1.ToLower().Distinct().ToList();
+            var distinctChars2 = word2.ToLower().Distinct().ToList();
+
+            // 计算共同字符数
+            int commonChars = distinctChars1.Count(c => distinctChars2.Contains(c));
+
+            // 判断是否超过50%
+            double threshold1 = (double)commonChars / distinctChars1.Count;
+            double threshold2 = (double)commonChars / distinctChars2.Count;
+
+            return threshold1 > Constants.WORDS_SIMILARITY_THRESHOLD || threshold2 > Constants.WORDS_SIMILARITY_THRESHOLD;
+        }
     }
 }

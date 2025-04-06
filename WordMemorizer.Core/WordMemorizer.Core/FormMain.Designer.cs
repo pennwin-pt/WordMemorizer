@@ -45,6 +45,7 @@
             this.LblDay = new System.Windows.Forms.ToolStripStatusLabel();
             this.LblDate = new System.Windows.Forms.ToolStripStatusLabel();
             this.BtnReload = new System.Windows.Forms.Button();
+            this.BtnExam = new System.Windows.Forms.Button();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -212,11 +213,22 @@
             this.BtnReload.UseVisualStyleBackColor = true;
             this.BtnReload.Click += new System.EventHandler(this.BtnReload_Click);
             // 
+            // BtnExam
+            // 
+            this.BtnExam.Location = new System.Drawing.Point(956, 569);
+            this.BtnExam.Name = "BtnExam";
+            this.BtnExam.Size = new System.Drawing.Size(114, 56);
+            this.BtnExam.TabIndex = 15;
+            this.BtnExam.Text = "测验";
+            this.BtnExam.UseVisualStyleBackColor = true;
+            this.BtnExam.Click += new System.EventHandler(this.BtnExam_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1361, 668);
+            this.Controls.Add(this.BtnExam);
             this.Controls.Add(this.BtnReload);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.LblIndex);
@@ -263,6 +275,7 @@
         private System.Windows.Forms.ToolStripStatusLabel LblDay;
         private System.Windows.Forms.ToolStripStatusLabel LblDate;
         private System.Windows.Forms.Button BtnReload;
+        private System.Windows.Forms.Button BtnExam;
     }
 }
 

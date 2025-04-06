@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using System.Speech.Synthesis;
 using WordMemorizer.Core.DB.Repositories;
 using WordMemorizer.Core.DB.Models;
+using WordMemorizer.Core.Audio;
 
 
 namespace WordMemorizer.Core
@@ -37,7 +38,7 @@ namespace WordMemorizer.Core
             skin.Active = true;
             StartPosition = FormStartPosition.CenterScreen;
 
-            string audioFolder = _configIniHelper.GetValue("AudioFolder", "../../audio");
+            string audioFolder = _configIniHelper.GetValue("AudioFolder", Constants.DEFAULT_AUDIO_PATH);
             // 初始化语音合成器
             _speaker = new PortugueseTTS(audioFolder);
 
@@ -188,6 +189,15 @@ namespace WordMemorizer.Core
         private void BtnReload_Click(object sender, EventArgs e)
         {
             ReloadData();
+        }
+
+        private void BtnExam_Click(object sender, EventArgs e)
+        {
+            //FormExam formExam = new FormExam();
+            //formExam.ShowDialog();
+
+            FormPronunciation formPronunciation = new FormPronunciation(_todayWordList);
+            formPronunciation.ShowDialog();
         }
     }
 }
