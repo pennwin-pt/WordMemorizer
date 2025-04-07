@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace WordMemorizer.Core.DB.Models
 {
-
-    public class ReviewHistory
+    public class ScoreRecord
     {
         public int Id { get; set; }
         public int WordId { get; set; }
         public DateTime ReviewTime { get; set; } = DateTime.Now;
         public bool IsCorrect { get; set; }
+
+        public string AudioPath { get; set; }
         public string Notes { get; set; }
 
         // 导航属性

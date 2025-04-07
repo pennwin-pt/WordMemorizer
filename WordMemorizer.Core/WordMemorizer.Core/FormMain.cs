@@ -21,7 +21,8 @@ namespace WordMemorizer.Core
         private readonly PortugueseTTS _speaker;
         private readonly WeeklyPlanRepository _weeklyPlanRepository;
         private List<Word> _weekWordList;
-        private List<Word> _todayWordList = new List<Word>();
+        private List<Word> _todayWords = new List<Word>();
+        private List<Word> _allDueWords = new List<Word>();
         private int _currentWordIndex = 0;
         private readonly ConfigIniHelper _configIniHelper = new ConfigIniHelper();
 
@@ -33,7 +34,8 @@ namespace WordMemorizer.Core
             // "Warm.ssk";//"MacOS.ssk";//"XPSilver.ssk";// "EmeraldColor1.ssk";//"MidsummerColor3.ssk";
             // Emerald /DiamondBlue/ Page
             // Calmness  /  SteelBlack
-            string skinName = "Warm";
+            // mp10pink
+            string skinName = "mp10pink";
             skin.SkinFile = System.Environment.CurrentDirectory + "\\skins\\" + skinName + ".ssk";
             skin.Active = true;
             StartPosition = FormStartPosition.CenterScreen;
@@ -52,14 +54,20 @@ namespace WordMemorizer.Core
         }
 
         private void ReloadData()
-        {
-            int currentWeekPlanId = _weeklyPlanRepository.GetCurrentWeekPlanId();
-            _weekWordList = _weeklyPlanRepository.GetWordsInWeeklyPlan(currentWeekPlanId).ToList();
-            LoadTodayWords();
+        {            
+            LoadWords();
             _currentWordIndex = 0;
             LblDay.Text = Tools.GetCurrentDayOfWeekChinese();
             LblDate.Text = DateTime.Now.ToString("yyyy-MM-dd");
             DisplayWord(CBHideText.Checked, CBHideChinese.Checked);
+        }
+
+        private void LoadWords()
+        {
+            int currentWeekPlanId = _weeklyPlanRepository.GetCurrentWeekPlanId();
+            _weekWordList = _weeklyPlanRepository.GetWordsInWeeklyPlan(currentWeekPlanId).ToList();
+            LoadTodayWords();
+            LoadAllDueWordsBeforeToday();
         }
 
         private void InitView()
@@ -74,7 +82,7 @@ namespace WordMemorizer.Core
         private void LoadTodayWords()
         {
             // 清空今天的单词列表
-            _todayWordList.Clear();
+            _todayWords.Clear();
 
             // 获取当前是星期几（1=周一，7=周日）
             DayOfWeek today = DateTime.Now.DayOfWeek;
@@ -83,7 +91,7 @@ namespace WordMemorizer.Core
             // 如果是周六或周日，不处理（或可以自定义逻辑）
             if (today == DayOfWeek.Saturday || today == DayOfWeek.Sunday)
             {
-                _todayWordList.AddRange(_weekWordList);
+                _todayWords.AddRange(_weekWordList);
                 return;
             }
 
@@ -115,17 +123,39 @@ namespace WordMemorizer.Core
             // 提取今天的单词
             if (startIndex < _weekWordList.Count && count > 0)
             {
-                _todayWordList.AddRange(_weekWordList.GetRange(startIndex, count));
+                _todayWords.AddRange(_weekWordList.GetRange(startIndex, count));
             }
+        }
+
+        /// <summary>
+        /// 获取今天及之前所有应该学习的单词（包括补学未完成的单词）
+        /// </summary>
+        /// <returns>包含今天和之前未学单词的列表</returns>
+        private void LoadAllDueWordsBeforeToday()
+        {
+            _allDueWords.Clear();
+            DayOfWeek today = DateTime.Now.DayOfWeek;
+
+            // 如果是周末，返回本周所有单词（用于补学）
+            if (today == DayOfWeek.Saturday || today == DayOfWeek.Sunday || today == DayOfWeek.Friday)
+            {
+                _allDueWords.AddRange(_weekWordList);
+                return;
+            }
+
+            // 计算今天是本周第几个工作日（周一=0，周二=1，...，周四=3）
+            int currentWorkDayIndex = (int)today - 1;
+            // 获取本周所有工作日应该学习的单词
+            _allDueWords.AddRange(_weekWordList.GetRange(0, currentWorkDayIndex * Constants.WORDS_COUNT_PER_DAY));
         }
 
         private async void BtnReadWordText_Click(object sender, EventArgs e)
         {
-            if (_currentWordIndex >= _todayWordList.Count)
+            if (_currentWordIndex >= _todayWords.Count)
             {
                 return;
             }
-            await _speaker.Speak(_todayWordList[_currentWordIndex].Text);
+            await _speaker.Speak(_todayWords[_currentWordIndex].Text);
         }
 
         private void BtnSetWeek_Click(object sender, EventArgs e)
@@ -136,7 +166,7 @@ namespace WordMemorizer.Core
 
         private void BtnNext_Click(object sender, EventArgs e)
         {
-            if (_currentWordIndex < _todayWordList.Count - 1)
+            if (_currentWordIndex < _todayWords.Count - 1)
             {
                 _currentWordIndex++;
             }
@@ -145,16 +175,16 @@ namespace WordMemorizer.Core
 
         private void DisplayWord(bool IsTextHidden, bool IsChineseHidden)
         {
-            if(_currentWordIndex >= _todayWordList.Count)
+            if(_currentWordIndex >= _todayWords.Count)
             {
                 return;
             }
-            Word word = _todayWordList[_currentWordIndex];
+            Word word = _todayWords[_currentWordIndex];
             TBText.Text = IsTextHidden? "-" : word.Text;
             TBChineseMeaning.Text = IsChineseHidden?"-": word.ChineseMeaning;
             TbSentence.Text = IsTextHidden? "-":word.ExampleSentence;
             TbSentenceChinese.Text = IsChineseHidden? "-": word.ExampleChinese;
-            LblIndex.Text = $"{_currentWordIndex + 1}/{_todayWordList.Count}";
+            LblIndex.Text = $"{_currentWordIndex + 1}/{_todayWords.Count}";
         }
 
         private void BtnPrev_Click(object sender, EventArgs e)
@@ -179,11 +209,11 @@ namespace WordMemorizer.Core
 
         private async void BtnReadSentence_Click(object sender, EventArgs e)
         {
-            if (_currentWordIndex >= _todayWordList.Count)
+            if (_currentWordIndex >= _todayWords.Count)
             {
                 return;
             }
-            await _speaker.Speak(_todayWordList[_currentWordIndex].ExampleSentence, false);
+            await _speaker.Speak(_todayWords[_currentWordIndex].ExampleSentence, false);
         }
 
         private void BtnReload_Click(object sender, EventArgs e)
@@ -191,22 +221,49 @@ namespace WordMemorizer.Core
             ReloadData();
         }
 
-        private void BtnExam_Click(object sender, EventArgs e)
+        private void BtnExamPortuguese_Click(object sender, EventArgs e)
         {
-            FormExam formExam = new FormExam(_todayWordList, true);
+            List<Word> taregtWords = CalcTargetWords();
+            if (taregtWords.Count == 0)
+            {
+                MessageBox.Show("没有单词!!");
+                return;
+            }
+            FormExam formExam = new FormExam(taregtWords, true, CHKIsExam.Checked);
             formExam.ShowDialog();
         }
 
         private void BtnPronounciation_Click(object sender, EventArgs e)
         {
-            FormPronunciation formPronunciation = new FormPronunciation(_todayWordList);
+            List<Word> taregtWords = CalcTargetWords();
+            if (taregtWords.Count == 0)
+            {
+                MessageBox.Show("没有单词!!");
+                return;
+            }
+            FormPronunciation formPronunciation = new FormPronunciation(taregtWords);
             formPronunciation.ShowDialog();
         }
 
         private void BtnExamChineseMeaning_Click(object sender, EventArgs e)
         {
-            FormExam formExam = new FormExam(_todayWordList, false);
+            List<Word> taregtWords = CalcTargetWords();
+            if (taregtWords.Count == 0 )
+            {
+                MessageBox.Show("没有单词!!");
+                return ;
+            }
+            FormExam formExam = new FormExam(taregtWords, false, CHKIsExam.Checked);
             formExam.ShowDialog();
+        }
+
+        private List<Word> CalcTargetWords()
+        {
+            if (CHKIsExam.Checked)
+            {
+                return _todayWords;
+            }
+            return _allDueWords;
         }
     }
 }

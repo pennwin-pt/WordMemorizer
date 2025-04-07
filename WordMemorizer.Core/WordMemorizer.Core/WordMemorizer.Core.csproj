@@ -211,11 +211,11 @@
     <Compile Include="ConfigIniHelper.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="DB\DatabaseHelper.cs" />
-    <Compile Include="DB\Models\ReviewHistory.cs" />
+    <Compile Include="DB\Models\ScoreRecord.cs" />
     <Compile Include="DB\Models\WeeklyPlan.cs" />
     <Compile Include="DB\Models\WeeklyPlanWord.cs" />
     <Compile Include="DB\Models\Word.cs" />
-    <Compile Include="DB\Repositories\ReviewRepository.cs" />
+    <Compile Include="DB\Repositories\ScoreRecordRepository.cs" />
     <Compile Include="DB\Repositories\WeeklyPlanRepository.cs" />
     <Compile Include="DB\WordImporter.cs" />
     <Compile Include="DB\Repositories\WordRepository.cs" />
@@ -224,6 +224,12 @@
     </Compile>
     <Compile Include="FormAddWeek.Designer.cs">
       <DependentUpon>FormAddWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCorrection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCorrection.Designer.cs">
+      <DependentUpon>FormCorrection.cs</DependentUpon>
     </Compile>
     <Compile Include="FormExam.cs">
       <SubType>Form</SubType>
@@ -257,6 +263,9 @@
     <Content Include="Images\failed.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\listen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Images\listening.gif">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -271,6 +280,9 @@
     </Content>
     <EmbeddedResource Include="FormAddWeek.resx">
       <DependentUpon>FormAddWeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCorrection.resx">
+      <DependentUpon>FormCorrection.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormExam.resx">
       <DependentUpon>FormExam.cs</DependentUpon>

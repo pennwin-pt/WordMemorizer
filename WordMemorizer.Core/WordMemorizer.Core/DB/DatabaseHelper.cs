@@ -73,11 +73,12 @@ namespace WordMemorizer.Core.DB
 
                     // 创建复习历史表
                     conn.Execute(@"
-                        CREATE TABLE ReviewHistories (
+                        CREATE TABLE ScoreRecord (
                             Id INTEGER PRIMARY KEY AUTOINCREMENT,
                             WordId INTEGER NOT NULL,
                             ReviewTime DATETIME DEFAULT CURRENT_TIMESTAMP,
                             IsCorrect INTEGER DEFAULT 0,
+                            AudioPath TEXT,
                             Notes TEXT,
                             FOREIGN KEY (WordId) REFERENCES Words(Id)
                         )");
