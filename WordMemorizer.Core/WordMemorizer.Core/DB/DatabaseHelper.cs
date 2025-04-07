@@ -81,6 +81,7 @@ namespace WordMemorizer.Core.DB
                             IsCorrect INTEGER DEFAULT 0,
                             AudioPath TEXT,
                             Notes TEXT,
+                            IsPortuguese INTEGER DEFAULT 1, -- 是否是葡语
                             FOREIGN KEY (WordId) REFERENCES Words(Id)
                         )");
                 }

@@ -19,8 +19,8 @@ namespace WordMemorizer.Core.DB.Repositories
             {
                 return conn.ExecuteScalar<int>(@"
                     INSERT INTO ScoreRecord 
-                    (BatchNumber, WordId, RecordTime, IsCorrect, AudioPath, Notes)
-                    VALUES (@BatchNumber, @WordId, @RecordTime, @IsCorrect, @AudioPath, @Notes);
+                    (BatchNumber, WordId, RecordTime, IsCorrect, AudioPath, Notes, IsPortuguese)
+                    VALUES (@BatchNumber, @WordId, @RecordTime, @IsCorrect, @AudioPath, @Notes, @IsPortuguese);
                     SELECT last_insert_rowid()", record);
             }
         }
@@ -103,7 +103,7 @@ namespace WordMemorizer.Core.DB.Repositories
             catch (Exception ex)
             {
                 // 记录日志并返回-1表示错误
-                Debug.WriteLine($"获取正确记录数失败: {ex.Message}");
+                LogHelper.WriteError("数据库", $"获取正确记录数失败: {ex.Message}");
                 return -1;
             }
         }

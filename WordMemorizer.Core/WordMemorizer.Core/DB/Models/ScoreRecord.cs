@@ -16,6 +16,7 @@ namespace WordMemorizer.Core.DB.Models
 
         public string AudioPath { get; set; }
         public string Notes { get; set; }
+        public bool IsPortuguese { get; set; } = true; // 是否是葡语
 
         // 导航属性
         public Word Word { get; set; }

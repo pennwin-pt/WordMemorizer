@@ -63,27 +63,31 @@
             this.BtnPrev = new System.Windows.Forms.Button();
             this.BtnNext = new System.Windows.Forms.Button();
             this.LblIndex = new System.Windows.Forms.Label();
+            this.LblRecordInfo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // TbText1
             // 
-            this.TbText1.Location = new System.Drawing.Point(74, 111);
+            this.TbText1.Location = new System.Drawing.Point(111, 166);
+            this.TbText1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TbText1.Name = "TbText1";
-            this.TbText1.Size = new System.Drawing.Size(192, 21);
+            this.TbText1.Size = new System.Drawing.Size(286, 28);
             this.TbText1.TabIndex = 0;
             // 
             // TbChinese1
             // 
-            this.TbChinese1.Location = new System.Drawing.Point(272, 111);
+            this.TbChinese1.Location = new System.Drawing.Point(408, 166);
+            this.TbChinese1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TbChinese1.Name = "TbChinese1";
-            this.TbChinese1.Size = new System.Drawing.Size(192, 21);
+            this.TbChinese1.Size = new System.Drawing.Size(286, 28);
             this.TbChinese1.TabIndex = 1;
             // 
             // BtnAnswer1
             // 
-            this.BtnAnswer1.Location = new System.Drawing.Point(483, 110);
+            this.BtnAnswer1.Location = new System.Drawing.Point(724, 165);
+            this.BtnAnswer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnAnswer1.Name = "BtnAnswer1";
-            this.BtnAnswer1.Size = new System.Drawing.Size(60, 23);
+            this.BtnAnswer1.Size = new System.Drawing.Size(90, 34);
             this.BtnAnswer1.TabIndex = 2;
             this.BtnAnswer1.Text = "答案";
             this.BtnAnswer1.UseVisualStyleBackColor = true;
@@ -91,9 +95,10 @@
             // 
             // BtnRecording1
             // 
-            this.BtnRecording1.Location = new System.Drawing.Point(562, 110);
+            this.BtnRecording1.Location = new System.Drawing.Point(843, 165);
+            this.BtnRecording1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnRecording1.Name = "BtnRecording1";
-            this.BtnRecording1.Size = new System.Drawing.Size(60, 23);
+            this.BtnRecording1.Size = new System.Drawing.Size(90, 34);
             this.BtnRecording1.TabIndex = 3;
             this.BtnRecording1.Text = "我的";
             this.BtnRecording1.UseVisualStyleBackColor = true;
@@ -101,9 +106,10 @@
             // 
             // BtnRecording3
             // 
-            this.BtnRecording3.Location = new System.Drawing.Point(562, 196);
+            this.BtnRecording3.Location = new System.Drawing.Point(843, 294);
+            this.BtnRecording3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnRecording3.Name = "BtnRecording3";
-            this.BtnRecording3.Size = new System.Drawing.Size(60, 23);
+            this.BtnRecording3.Size = new System.Drawing.Size(90, 34);
             this.BtnRecording3.TabIndex = 7;
             this.BtnRecording3.Text = "我的";
             this.BtnRecording3.UseVisualStyleBackColor = true;
@@ -111,9 +117,10 @@
             // 
             // BtnAnswer3
             // 
-            this.BtnAnswer3.Location = new System.Drawing.Point(483, 196);
+            this.BtnAnswer3.Location = new System.Drawing.Point(724, 294);
+            this.BtnAnswer3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnAnswer3.Name = "BtnAnswer3";
-            this.BtnAnswer3.Size = new System.Drawing.Size(60, 23);
+            this.BtnAnswer3.Size = new System.Drawing.Size(90, 34);
             this.BtnAnswer3.TabIndex = 6;
             this.BtnAnswer3.Text = "答案";
             this.BtnAnswer3.UseVisualStyleBackColor = true;
@@ -121,23 +128,26 @@
             // 
             // TbChinese3
             // 
-            this.TbChinese3.Location = new System.Drawing.Point(272, 197);
+            this.TbChinese3.Location = new System.Drawing.Point(408, 296);
+            this.TbChinese3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TbChinese3.Name = "TbChinese3";
-            this.TbChinese3.Size = new System.Drawing.Size(192, 21);
+            this.TbChinese3.Size = new System.Drawing.Size(286, 28);
             this.TbChinese3.TabIndex = 5;
             // 
             // TbText3
             // 
-            this.TbText3.Location = new System.Drawing.Point(74, 197);
+            this.TbText3.Location = new System.Drawing.Point(111, 296);
+            this.TbText3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TbText3.Name = "TbText3";
-            this.TbText3.Size = new System.Drawing.Size(192, 21);
+            this.TbText3.Size = new System.Drawing.Size(286, 28);
             this.TbText3.TabIndex = 4;
             // 
             // BtnRecording2
             // 
-            this.BtnRecording2.Location = new System.Drawing.Point(562, 153);
+            this.BtnRecording2.Location = new System.Drawing.Point(843, 230);
+            this.BtnRecording2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnRecording2.Name = "BtnRecording2";
-            this.BtnRecording2.Size = new System.Drawing.Size(60, 23);
+            this.BtnRecording2.Size = new System.Drawing.Size(90, 34);
             this.BtnRecording2.TabIndex = 11;
             this.BtnRecording2.Text = "我的";
             this.BtnRecording2.UseVisualStyleBackColor = true;
@@ -145,9 +155,10 @@
             // 
             // BtnAnswer2
             // 
-            this.BtnAnswer2.Location = new System.Drawing.Point(483, 153);
+            this.BtnAnswer2.Location = new System.Drawing.Point(724, 230);
+            this.BtnAnswer2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnAnswer2.Name = "BtnAnswer2";
-            this.BtnAnswer2.Size = new System.Drawing.Size(60, 23);
+            this.BtnAnswer2.Size = new System.Drawing.Size(90, 34);
             this.BtnAnswer2.TabIndex = 10;
             this.BtnAnswer2.Text = "答案";
             this.BtnAnswer2.UseVisualStyleBackColor = true;
@@ -155,23 +166,26 @@
             // 
             // TbChinese2
             // 
-            this.TbChinese2.Location = new System.Drawing.Point(272, 154);
+            this.TbChinese2.Location = new System.Drawing.Point(408, 231);
+            this.TbChinese2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TbChinese2.Name = "TbChinese2";
-            this.TbChinese2.Size = new System.Drawing.Size(192, 21);
+            this.TbChinese2.Size = new System.Drawing.Size(286, 28);
             this.TbChinese2.TabIndex = 9;
             // 
             // TbText2
             // 
-            this.TbText2.Location = new System.Drawing.Point(74, 154);
+            this.TbText2.Location = new System.Drawing.Point(111, 231);
+            this.TbText2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TbText2.Name = "TbText2";
-            this.TbText2.Size = new System.Drawing.Size(192, 21);
+            this.TbText2.Size = new System.Drawing.Size(286, 28);
             this.TbText2.TabIndex = 8;
             // 
             // BtnRecording4
             // 
-            this.BtnRecording4.Location = new System.Drawing.Point(562, 239);
+            this.BtnRecording4.Location = new System.Drawing.Point(843, 358);
+            this.BtnRecording4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnRecording4.Name = "BtnRecording4";
-            this.BtnRecording4.Size = new System.Drawing.Size(60, 23);
+            this.BtnRecording4.Size = new System.Drawing.Size(90, 34);
             this.BtnRecording4.TabIndex = 15;
             this.BtnRecording4.Text = "我的";
             this.BtnRecording4.UseVisualStyleBackColor = true;
@@ -179,9 +193,10 @@
             // 
             // BtnAnswer4
             // 
-            this.BtnAnswer4.Location = new System.Drawing.Point(483, 239);
+            this.BtnAnswer4.Location = new System.Drawing.Point(724, 358);
+            this.BtnAnswer4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnAnswer4.Name = "BtnAnswer4";
-            this.BtnAnswer4.Size = new System.Drawing.Size(60, 23);
+            this.BtnAnswer4.Size = new System.Drawing.Size(90, 34);
             this.BtnAnswer4.TabIndex = 14;
             this.BtnAnswer4.Text = "答案";
             this.BtnAnswer4.UseVisualStyleBackColor = true;
@@ -189,23 +204,26 @@
             // 
             // TbChinese4
             // 
-            this.TbChinese4.Location = new System.Drawing.Point(272, 240);
+            this.TbChinese4.Location = new System.Drawing.Point(408, 360);
+            this.TbChinese4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TbChinese4.Name = "TbChinese4";
-            this.TbChinese4.Size = new System.Drawing.Size(192, 21);
+            this.TbChinese4.Size = new System.Drawing.Size(286, 28);
             this.TbChinese4.TabIndex = 13;
             // 
             // TbText4
             // 
-            this.TbText4.Location = new System.Drawing.Point(74, 240);
+            this.TbText4.Location = new System.Drawing.Point(111, 360);
+            this.TbText4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TbText4.Name = "TbText4";
-            this.TbText4.Size = new System.Drawing.Size(192, 21);
+            this.TbText4.Size = new System.Drawing.Size(286, 28);
             this.TbText4.TabIndex = 12;
             // 
             // BtnRecording5
             // 
-            this.BtnRecording5.Location = new System.Drawing.Point(562, 282);
+            this.BtnRecording5.Location = new System.Drawing.Point(843, 423);
+            this.BtnRecording5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnRecording5.Name = "BtnRecording5";
-            this.BtnRecording5.Size = new System.Drawing.Size(60, 23);
+            this.BtnRecording5.Size = new System.Drawing.Size(90, 34);
             this.BtnRecording5.TabIndex = 19;
             this.BtnRecording5.Text = "我的";
             this.BtnRecording5.UseVisualStyleBackColor = true;
@@ -213,9 +231,10 @@
             // 
             // BtnAnswer5
             // 
-            this.BtnAnswer5.Location = new System.Drawing.Point(483, 282);
+            this.BtnAnswer5.Location = new System.Drawing.Point(724, 423);
+            this.BtnAnswer5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnAnswer5.Name = "BtnAnswer5";
-            this.BtnAnswer5.Size = new System.Drawing.Size(60, 23);
+            this.BtnAnswer5.Size = new System.Drawing.Size(90, 34);
             this.BtnAnswer5.TabIndex = 18;
             this.BtnAnswer5.Text = "答案";
             this.BtnAnswer5.UseVisualStyleBackColor = true;
@@ -223,23 +242,26 @@
             // 
             // TbChinese5
             // 
-            this.TbChinese5.Location = new System.Drawing.Point(272, 283);
+            this.TbChinese5.Location = new System.Drawing.Point(408, 424);
+            this.TbChinese5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TbChinese5.Name = "TbChinese5";
-            this.TbChinese5.Size = new System.Drawing.Size(192, 21);
+            this.TbChinese5.Size = new System.Drawing.Size(286, 28);
             this.TbChinese5.TabIndex = 17;
             // 
             // TbText5
             // 
-            this.TbText5.Location = new System.Drawing.Point(74, 283);
+            this.TbText5.Location = new System.Drawing.Point(111, 424);
+            this.TbText5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TbText5.Name = "TbText5";
-            this.TbText5.Size = new System.Drawing.Size(192, 21);
+            this.TbText5.Size = new System.Drawing.Size(286, 28);
             this.TbText5.TabIndex = 16;
             // 
             // BtnRecording6
             // 
-            this.BtnRecording6.Location = new System.Drawing.Point(562, 325);
+            this.BtnRecording6.Location = new System.Drawing.Point(843, 488);
+            this.BtnRecording6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnRecording6.Name = "BtnRecording6";
-            this.BtnRecording6.Size = new System.Drawing.Size(60, 23);
+            this.BtnRecording6.Size = new System.Drawing.Size(90, 34);
             this.BtnRecording6.TabIndex = 23;
             this.BtnRecording6.Text = "我的";
             this.BtnRecording6.UseVisualStyleBackColor = true;
@@ -247,9 +269,10 @@
             // 
             // BtnAnswer6
             // 
-            this.BtnAnswer6.Location = new System.Drawing.Point(483, 325);
+            this.BtnAnswer6.Location = new System.Drawing.Point(724, 488);
+            this.BtnAnswer6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnAnswer6.Name = "BtnAnswer6";
-            this.BtnAnswer6.Size = new System.Drawing.Size(60, 23);
+            this.BtnAnswer6.Size = new System.Drawing.Size(90, 34);
             this.BtnAnswer6.TabIndex = 22;
             this.BtnAnswer6.Text = "答案";
             this.BtnAnswer6.UseVisualStyleBackColor = true;
@@ -257,24 +280,27 @@
             // 
             // TbChinese6
             // 
-            this.TbChinese6.Location = new System.Drawing.Point(272, 326);
+            this.TbChinese6.Location = new System.Drawing.Point(408, 489);
+            this.TbChinese6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TbChinese6.Name = "TbChinese6";
-            this.TbChinese6.Size = new System.Drawing.Size(192, 21);
+            this.TbChinese6.Size = new System.Drawing.Size(286, 28);
             this.TbChinese6.TabIndex = 21;
             // 
             // TbText6
             // 
-            this.TbText6.Location = new System.Drawing.Point(74, 326);
+            this.TbText6.Location = new System.Drawing.Point(111, 489);
+            this.TbText6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TbText6.Name = "TbText6";
-            this.TbText6.Size = new System.Drawing.Size(192, 21);
+            this.TbText6.Size = new System.Drawing.Size(286, 28);
             this.TbText6.TabIndex = 20;
             // 
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(643, 113);
+            this.checkBox1.Location = new System.Drawing.Point(964, 170);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(60, 16);
+            this.checkBox1.Size = new System.Drawing.Size(88, 22);
             this.checkBox1.TabIndex = 24;
             this.checkBox1.Text = "答对了";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -283,9 +309,10 @@
             // checkBox6
             // 
             this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(643, 328);
+            this.checkBox6.Location = new System.Drawing.Point(964, 492);
+            this.checkBox6.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(60, 16);
+            this.checkBox6.Size = new System.Drawing.Size(88, 22);
             this.checkBox6.TabIndex = 25;
             this.checkBox6.Text = "答对了";
             this.checkBox6.UseVisualStyleBackColor = true;
@@ -294,9 +321,10 @@
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(643, 285);
+            this.checkBox5.Location = new System.Drawing.Point(964, 428);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(60, 16);
+            this.checkBox5.Size = new System.Drawing.Size(88, 22);
             this.checkBox5.TabIndex = 26;
             this.checkBox5.Text = "答对了";
             this.checkBox5.UseVisualStyleBackColor = true;
@@ -305,9 +333,10 @@
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(643, 242);
+            this.checkBox4.Location = new System.Drawing.Point(964, 363);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(60, 16);
+            this.checkBox4.Size = new System.Drawing.Size(88, 22);
             this.checkBox4.TabIndex = 27;
             this.checkBox4.Text = "答对了";
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -316,9 +345,10 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(643, 199);
+            this.checkBox3.Location = new System.Drawing.Point(964, 298);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(60, 16);
+            this.checkBox3.Size = new System.Drawing.Size(88, 22);
             this.checkBox3.TabIndex = 28;
             this.checkBox3.Text = "答对了";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -327,9 +357,10 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(643, 156);
+            this.checkBox2.Location = new System.Drawing.Point(964, 234);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(60, 16);
+            this.checkBox2.Size = new System.Drawing.Size(88, 22);
             this.checkBox2.TabIndex = 29;
             this.checkBox2.Text = "答对了";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -339,17 +370,19 @@
             // 
             this.LblTotalScores.AutoSize = true;
             this.LblTotalScores.Font = new System.Drawing.Font("宋体", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.LblTotalScores.Location = new System.Drawing.Point(61, 35);
+            this.LblTotalScores.Location = new System.Drawing.Point(92, 52);
+            this.LblTotalScores.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblTotalScores.Name = "LblTotalScores";
-            this.LblTotalScores.Size = new System.Drawing.Size(290, 48);
+            this.LblTotalScores.Size = new System.Drawing.Size(432, 72);
             this.LblTotalScores.TabIndex = 30;
             this.LblTotalScores.Text = "累计得分：0";
             // 
             // BtnPrev
             // 
-            this.BtnPrev.Location = new System.Drawing.Point(432, 377);
+            this.BtnPrev.Location = new System.Drawing.Point(648, 566);
+            this.BtnPrev.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnPrev.Name = "BtnPrev";
-            this.BtnPrev.Size = new System.Drawing.Size(111, 42);
+            this.BtnPrev.Size = new System.Drawing.Size(166, 63);
             this.BtnPrev.TabIndex = 31;
             this.BtnPrev.Text = "上一组";
             this.BtnPrev.UseVisualStyleBackColor = true;
@@ -357,9 +390,10 @@
             // 
             // BtnNext
             // 
-            this.BtnNext.Location = new System.Drawing.Point(592, 377);
+            this.BtnNext.Location = new System.Drawing.Point(888, 566);
+            this.BtnNext.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnNext.Name = "BtnNext";
-            this.BtnNext.Size = new System.Drawing.Size(111, 42);
+            this.BtnNext.Size = new System.Drawing.Size(166, 63);
             this.BtnNext.TabIndex = 32;
             this.BtnNext.Text = "下一组";
             this.BtnNext.UseVisualStyleBackColor = true;
@@ -368,18 +402,31 @@
             // LblIndex
             // 
             this.LblIndex.AutoSize = true;
-            this.LblIndex.Location = new System.Drawing.Point(556, 392);
+            this.LblIndex.Location = new System.Drawing.Point(834, 588);
+            this.LblIndex.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.LblIndex.Name = "LblIndex";
-            this.LblIndex.Size = new System.Drawing.Size(23, 12);
+            this.LblIndex.Size = new System.Drawing.Size(35, 18);
             this.LblIndex.TabIndex = 33;
             this.LblIndex.Text = "0/0";
             this.LblIndex.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // LblRecordInfo
+            // 
+            this.LblRecordInfo.AutoSize = true;
+            this.LblRecordInfo.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.LblRecordInfo.Location = new System.Drawing.Point(106, 587);
+            this.LblRecordInfo.Name = "LblRecordInfo";
+            this.LblRecordInfo.Size = new System.Drawing.Size(94, 21);
+            this.LblRecordInfo.TabIndex = 34;
+            this.LblRecordInfo.Text = "测试时间";
+            this.LblRecordInfo.Click += new System.EventHandler(this.LblRecordInfo_Click);
+            // 
             // FormCorrection
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1200, 675);
+            this.Controls.Add(this.LblRecordInfo);
             this.Controls.Add(this.LblIndex);
             this.Controls.Add(this.BtnNext);
             this.Controls.Add(this.BtnPrev);
@@ -417,9 +464,10 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "FormCorrection";
-            this.Text = "纠正AI";
+            this.Text = "归还分数";
             this.Load += new System.EventHandler(this.FormCorrection_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -462,5 +510,6 @@
         private System.Windows.Forms.Button BtnPrev;
         private System.Windows.Forms.Button BtnNext;
         private System.Windows.Forms.Label LblIndex;
+        private System.Windows.Forms.Label LblRecordInfo;
     }
 }

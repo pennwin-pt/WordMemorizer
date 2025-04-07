@@ -189,6 +189,7 @@ namespace WordMemorizer.Core
                 scoreRecord.AudioPath = filePath;
                 scoreRecord.IsCorrect = _wordWrapperList[_currentIndex].IsCorrect;
                 scoreRecord.RecordTime = DateTime.Now;
+                scoreRecord.IsPortuguese = _isExamingPortuguese;
                 _scoreRecordRepository.AddScoreRecord(scoreRecord);
                 RefreshPoints();
             }

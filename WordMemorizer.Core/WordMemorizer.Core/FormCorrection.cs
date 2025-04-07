@@ -50,8 +50,10 @@ namespace WordMemorizer.Core
 
         private void RefreshControls()
         {
+
             if (_batchNumbersOfTheWeek.Count > 0)
             {
+                
                 _currentRecords.Clear();
                 _currentRecords.AddRange(_scoreRecordRepository.GetRecordsByBatchNumber(_batchNumbersOfTheWeek[_currentIndex]));
                 for (int i = 1; i <= 6; i++)
@@ -96,7 +98,30 @@ namespace WordMemorizer.Core
                             chkIsCorrect.Checked = false;
                         }
                     }
+
+                    // 设置读答案按钮
+                    if (Controls.Find($"BtnAnswer{i}", true).FirstOrDefault() is Button btnAnswer)
+                    {
+                        if (i - 1 < _currentRecords.Count)
+                        {
+                            if (_currentRecords[i - 1].IsPortuguese)
+                            {
+                                btnAnswer.Enabled = true;
+                            }
+                            else
+                            {
+                                btnAnswer.Enabled = false;
+                            }
+                        }
+                        else
+                        {
+                            btnAnswer.Enabled = false;
+                        }
+                    }
                 }
+                string language = _currentRecords[0].IsPortuguese ? "葡语" : "中文";
+                LblRecordInfo.Text = Tools.ConvertUtcStringToDateTime(_batchNumbersOfTheWeek[_currentIndex]).ToLocalTime().ToString("yyyy-MM-dd HH:mm:ss") +
+                    " 做的" + language + "测试";
             }
         }
 
@@ -285,6 +310,11 @@ namespace WordMemorizer.Core
         private void BtnRecording6_Click(object sender, EventArgs e)
         {
             ReadRecording(6 - 1);
+        }
+
+        private void LblRecordInfo_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

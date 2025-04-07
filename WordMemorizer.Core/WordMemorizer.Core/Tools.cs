@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -110,6 +111,20 @@ namespace WordMemorizer.Core
         internal static string GenerateBatchNumber()
         {
              return DateTime.UtcNow.ToString("yyyyMMddHHmmss");
+        }
+
+        internal static DateTime ConvertUtcStringToDateTime(string utcDateTimeString)
+        {
+            // 定义输入字符串的格式
+            string format = "yyyyMMddHHmmss";
+            // 使用DateTime.ParseExact方法进行转换，并假设输入是UTC时间
+            // 注意：ParseExact本身不处理时区，它只是解析字符串为DateTime
+            // DateTimeKind.Utc用于标记解析后的时间为UTC
+            DateTime utcDateTime = DateTime.SpecifyKind(
+                DateTime.ParseExact(utcDateTimeString, format, CultureInfo.InvariantCulture),
+                DateTimeKind.Utc
+            );
+            return utcDateTime;
         }
     }
 }
