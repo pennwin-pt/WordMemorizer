@@ -29,6 +29,7 @@ namespace WordMemorizer.Core
         private bool _isTested;
         private readonly bool _isExamMode;
         private readonly ScoreRecordRepository _scoreRecordRepository = new ScoreRecordRepository();
+        private string _batchNumber = "00000000000000";
 
         public FormExam(List<Word> todayWordList, bool isExamingPortuguese, bool isExamMode)
         {
@@ -56,20 +57,14 @@ namespace WordMemorizer.Core
                 SetCurrentWord(_wordWrapperList[0].Word);
             }
             RefreshPoints();
+            _batchNumber = Tools.GenerateBatchNumber();
         }
 
         private void BtnNext_Click(object sender, EventArgs e)
         {
             if (BtnNext.Text == Constants.BTN_TEXT_RESTART)
             {
-                BtnNext.Text = Constants.BTN_TEXT_CONTINUE;
-                _currentIndex = 0;
-                _isTested = false;
-                foreach (var wrapper in _wordWrapperList)
-                {
-                    wrapper.Word.LatestScore = 0;
-                }
-                RefreshPoints();
+                PrepareForRestart();
             }
             else
             {
@@ -89,6 +84,19 @@ namespace WordMemorizer.Core
             BtnRead.Visible = false;
             PbResult.Load(Constants.LISTENING_IMAGE_PATH);
             _isTested = false;
+        }
+
+        private void PrepareForRestart()
+        {
+            BtnNext.Text = Constants.BTN_TEXT_CONTINUE;
+            _currentIndex = 0;
+            _isTested = false;
+            foreach (var wrapper in _wordWrapperList)
+            {
+                wrapper.Word.LatestScore = 0;
+            }
+            RefreshPoints();
+            _batchNumber = Tools.GenerateBatchNumber();
         }
 
         public void SetCurrentWord(Word word)
@@ -176,10 +184,11 @@ namespace WordMemorizer.Core
             {
                 ScoreRecord scoreRecord = new ScoreRecord();
                 scoreRecord.Word = GetCurrentWord();
+                scoreRecord.BatchNumber = _batchNumber;
                 scoreRecord.WordId = GetCurrentWord().Id;
                 scoreRecord.AudioPath = filePath;
                 scoreRecord.IsCorrect = _wordWrapperList[_currentIndex].IsCorrect;
-                scoreRecord.ReviewTime = DateTime.Now;
+                scoreRecord.RecordTime = DateTime.Now;
                 _scoreRecordRepository.AddScoreRecord(scoreRecord);
                 RefreshPoints();
             }

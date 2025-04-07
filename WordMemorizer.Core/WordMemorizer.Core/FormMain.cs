@@ -265,5 +265,16 @@ namespace WordMemorizer.Core
             }
             return _allDueWords;
         }
+
+        private void BtnCorrection_Click(object sender, EventArgs e)
+        {
+            Tools.ShowNumberInputDialog(this, "7771", () => {
+                // 验证通过后执行的操作
+                MessageBox.Show("安全操作已解锁");
+                FormCorrection formCorrection = new FormCorrection();
+                formCorrection.ShowDialog();
+            });
+            
+        }
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace WordMemorizer.Core
 {
@@ -66,6 +67,49 @@ namespace WordMemorizer.Core
             double threshold2 = (double)commonChars / distinctChars2.Count;
             double similarityThreshold = isPortuguese ? Constants.WORDS_SIMILARITY_THRESHOLD_PT : Constants.WORDS_SIMILARITY_THRESHOLD_ZH;
             return threshold1 >  similarityThreshold || threshold2 > similarityThreshold;
+        }
+
+        public static bool ShowNumberInputDialog(Form parent, string correctCode, Action onSuccess)
+        {
+            using (var form = new Form())
+            {
+                form.Text = "数字验证";
+                form.Width = 300;
+                form.Height = 180;
+                form.FormBorderStyle = FormBorderStyle.FixedDialog;
+                form.StartPosition = FormStartPosition.CenterParent;
+
+                var lbl = new Label { Text = "请输入验证码：", Left = 20, Top = 20, Width = 260 };
+                var txt = new TextBox { Left = 20, Top = 50, Width = 240 };
+                txt.PasswordChar = '*';
+                txt.KeyPress += (s, e) => {
+                    if (!char.IsDigit(e.KeyChar) && e.KeyChar != '\b') // 只允许数字和退格
+                        e.Handled = true;
+                };
+
+                var btnOK = new Button { Text = "验证", Left = 120, Top = 100, DialogResult = DialogResult.OK };
+                var btnCancel = new Button { Text = "取消", Left = 200, Top = 100, DialogResult = DialogResult.Cancel };
+
+                form.Controls.AddRange(new Control[] { lbl, txt, btnOK, btnCancel });
+                form.AcceptButton = btnOK;
+                form.CancelButton = btnCancel;
+
+                if (form.ShowDialog(parent) == DialogResult.OK)
+                {
+                    if (txt.Text == correctCode)
+                    {
+                        onSuccess?.Invoke();
+                        return true;
+                    }
+                    MessageBox.Show("验证码错误！");
+                }
+                return false;
+            }
+        }
+
+        internal static string GenerateBatchNumber()
+        {
+             return DateTime.UtcNow.ToString("yyyyMMddHHmmss");
         }
     }
 }

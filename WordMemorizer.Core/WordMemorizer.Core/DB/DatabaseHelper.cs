@@ -75,8 +75,9 @@ namespace WordMemorizer.Core.DB
                     conn.Execute(@"
                         CREATE TABLE ScoreRecord (
                             Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                            BatchNumber Text,      --实际上是 yyyyMMddHHmmss的时间
                             WordId INTEGER NOT NULL,
-                            ReviewTime DATETIME DEFAULT CURRENT_TIMESTAMP,
+                            RecordTime DATETIME DEFAULT CURRENT_TIMESTAMP,
                             IsCorrect INTEGER DEFAULT 0,
                             AudioPath TEXT,
                             Notes TEXT,

@@ -9,8 +9,9 @@ namespace WordMemorizer.Core.DB.Models
     public class ScoreRecord
     {
         public int Id { get; set; }
+        public string BatchNumber { get; set; }
         public int WordId { get; set; }
-        public DateTime ReviewTime { get; set; } = DateTime.Now;
+        public DateTime RecordTime { get; set; } = DateTime.Now;
         public bool IsCorrect { get; set; }
 
         public string AudioPath { get; set; }
