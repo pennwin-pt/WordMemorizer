@@ -1,149 +1,149 @@
-Ouvir  
-听到
-Ex: É importante ouvir o professor.  
-听老师讲课很重要。  
-
-Falar  
-说话
-Ex: Quem quer falar primeiro?  
-谁想先发言？  
-
-Ler  
-阅读
-Ex: Vamos ler um livro juntos.  
-我们一起读一本书吧。  
-
-Escrever  
-写作
-Ex: Agora escrevam a resposta no caderno.  
-现在把答案写在练习本上。  
-
-Responder  
+responder  
 回答  
 Ex: Quem pode responder essa pergunta?  
 谁能回答这个问题？  
 
-Apagar  
-擦掉  
-Ex: Apague o quadro, por favor.  
-请擦掉黑板。  
-
-Colorir  
-涂色  
-Ex: Vamos colorir este desenho.  
-我们来给这幅画涂色吧。  
-
-Recortar  
-剪裁  
-Ex: Recorte as figuras do papel.  
-把纸上的图形剪下来。  
-
-Colar  
-粘贴  
-Ex: Agora colem as imagens no caderno.  
-现在把图片贴到练习本上。  
-
-Escola  
-学校  
-Ex: Minha escola é muito grande.  
-我的学校很大。  
-
-Sala de aula  
-教室  
-Ex: Nossa sala de aula tem vinte alunos.  
-我们的教室有20名学生。  
-
-Biblioteca  
-图书馆  
-Ex: Eu gosto de ler na biblioteca.  
-我喜欢在图书馆读书。  
-
-Pátio  
-操场  
-Ex: No recreio, brincamos no pátio.  
-课间休息时，我们在操场玩耍。  
-
-Banheiro  
-洗手间  
-Ex: Posso ir ao banheiro, professora?  
-老师，我可以去洗手间吗？  
-
-Secretaria  
-教务处  
-Ex: Vou buscar um documento na secretaria.  
-我要去教务处拿一份文件。  
-
-Refeitório  
-食堂  
-Ex: O almoço no refeitório é delicioso!  
-食堂的午餐很好吃！  
-
-Quadra de esportes  
-运动场  
-Ex: Hoje teremos aula na quadra de esportes.  
-今天我们将在运动场上课。  
-
-Auditório  
-礼堂  
-Ex: Teremos uma apresentação no auditório.  
-我们将在礼堂进行表演。  
-
-Portão  
-校门  
-Ex: Espere por mim no portão da escola.  
-在学校大门口等我。
-
-Brincar  
-玩耍  
-Ex: Vamos brincar de pega-pega?  
-我们来玩捉人游戏吧？  
-
-Correr  
-跑步  
-Ex: Eu adoro correr no pátio.  
-我喜欢在操场上跑步。  
-
-Pular  
-跳跃  
-Ex: Quem pula mais alto?  
-谁跳得最高？  
-
-Esconder  
-躲藏  
-Ex: Vamos brincar de esconde-esconde!  
-我们来玩捉迷藏吧！  
-
-Gritar  
-大声喊  
-Ex: Não grite na sala de aula!  
-不要在教室里大声喊！  
-
-Empurrar  
-推动
-Ex: Não empurre seus colegas!  
-不要推你的同学！  
-
-Compartilhar  
+compartilhar  
 分享  
 Ex: É bom compartilhar brinquedos.  
 分享玩具是好事。  
 
-Esperar  
+ouvir  
+听到
+Ex: É importante ouvir o professor.  
+听老师讲课很重要。  
+
+esperar  
 等待  
 Ex: Espere sua vez para falar.  
 请等轮到你再说话。  
 
-Divertir-se  
+cedo  
+早期的
+Ex: Eu chego cedo na escola.  
+我很早到学校。  
+
+apagar  
+擦掉  
+Ex: Apague o quadro, por favor.  
+请擦掉黑板。  
+
+colorir  
+涂色  
+Ex: Vamos colorir este desenho.  
+我们来给这幅画涂色吧。  
+
+recortar  
+剪裁  
+Ex: Recorte as figuras do papel.  
+把纸上的图形剪下来。  
+
+colar  
+粘贴  
+Ex: Agora colem as imagens no caderno.  
+现在把图片贴到练习本上。  
+
+falar  
+说话
+Ex: Quem quer falar primeiro?  
+谁想先发言？  
+
+ler  
+阅读
+Ex: Vamos ler um livro juntos.  
+我们一起读一本书吧。  
+
+escrever  
+写作
+Ex: Agora escrevam a resposta no caderno.  
+现在把答案写在练习本上。  
+
+banheiro  
+洗手间  
+Ex: Posso ir ao banheiro, professora?  
+老师，我可以去洗手间吗？  
+
+secretaria  
+教务处  
+Ex: Vou buscar um documento na secretaria.  
+我要去教务处拿一份文件。  
+
+refeitório  
+食堂  
+Ex: O almoço no refeitório é delicioso!  
+食堂的午餐很好吃！  
+
+quadra de esportes  
+运动场  
+Ex: Hoje teremos aula na quadra de esportes.  
+今天我们将在运动场上课。  
+
+auditório  
+礼堂  
+Ex: Teremos uma apresentação no auditório.  
+我们将在礼堂进行表演。  
+
+portão  
+校门  
+Ex: Espere por mim no portão da escola.  
+在学校大门口等我。
+
+brincar  
+玩耍  
+Ex: Vamos brincar de pega-pega?  
+我们来玩捉人游戏吧？  
+
+correr  
+跑步  
+Ex: Eu adoro correr no pátio.  
+我喜欢在操场上跑步。  
+
+pular  
+跳跃  
+Ex: Quem pula mais alto?  
+谁跳得最高？  
+
+escola  
+学校  
+Ex: Minha escola é muito grande.  
+我的学校很大。  
+
+sala de aula  
+教室  
+Ex: Nossa sala de aula tem vinte alunos.  
+我们的教室有20名学生。  
+
+biblioteca  
+图书馆  
+Ex: Eu gosto de ler na biblioteca.  
+我喜欢在图书馆读书。  
+
+pátio  
+操场  
+Ex: No recreio, brincamos no pátio.  
+课间休息时，我们在操场玩耍。  
+
+esconder  
+躲藏  
+Ex: Vamos brincar de esconde-esconde!  
+我们来玩捉迷藏吧！  
+
+gritar  
+大声喊  
+Ex: Não grite na sala de aula!  
+不要在教室里大声喊！  
+
+empurrar  
+推动
+Ex: Não empurre seus colegas!  
+不要推你的同学！  
+
+divertir-se  
 玩得开心  
 Ex: Hoje vamos nos divertir muito!  
 今天我们会玩得很开心！  
 
-Ajudar  
+ajudar  
 帮助  
 Ex: Sempre ajude seus amigos.  
 一定要帮助你的朋友。  
-
-Cedo  
-早期的
-Ex: Eu chego cedo na escola.  
-我很早到学校。  

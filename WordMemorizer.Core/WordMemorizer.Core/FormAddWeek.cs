@@ -10,6 +10,7 @@ using System.Speech.Synthesis;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using WordMemorizer.Core.Audio;
 using WordMemorizer.Core.DB;
 using WordMemorizer.Core.DB.Models;
 using WordMemorizer.Core.DB.Repositories;
@@ -23,7 +24,12 @@ namespace WordMemorizer.Core
         private readonly WordRepository _wordRepo;
         private readonly WeeklyPlanRepository _weeklyPlanRepo;
         private readonly WordImporter _wordImporter;
-        private readonly SpeechSynthesizer _speaker;
+        private readonly ConfigIniHelper _configIniHelper = new ConfigIniHelper();
+        private readonly List<WeeklyPlan> _allWeekPlans = new List<WeeklyPlan>();
+
+        private readonly PortugueseTTS _speaker;
+
+        private int _currentIndex = 0;
         public FormAddWeek()
         {
             InitializeComponent();
@@ -32,14 +38,29 @@ namespace WordMemorizer.Core
             _wordRepo = new WordRepository();
             _weeklyPlanRepo = new WeeklyPlanRepository();
             _wordImporter = new WordImporter(_wordRepo, _weeklyPlanRepo);
-            _speaker = new SpeechSynthesizer();
-            _speaker.SelectVoiceByHints(VoiceGender.Female, VoiceAge.Adult, 0, new CultureInfo("pt-PT")); 
-            _speaker.Rate = -3; // 设置语速
+            string audioFolder = _configIniHelper.GetValue(Constants.AUDIO_PATH_KEY, Constants.DEFAULT_AUDIO_PATH);
+            // 初始化语音合成器
+            _speaker = new PortugueseTTS(audioFolder);
+            //_speaker = new SpeechSynthesizer();
+            //_speaker.SelectVoiceByHints(VoiceGender.Female, VoiceAge.Adult, 0, new CultureInfo("pt-PT")); 
+            //_speaker.Rate = -3; // 设置语速
         }
 
         private void FormAddWeek_Load(object sender, EventArgs e)
         {
-            RefreshCurrentWeekPlanDetails(CBHideText.Checked, CBHideChinese.Checked);
+            LoadAllWeekPlans();
+            if (_allWeekPlans.Count > 0)
+            {
+                _currentIndex = _allWeekPlans.Count - 1;
+            }
+            LblIndex.Text = $"{_currentIndex + 1}/{_allWeekPlans.Count}";
+            RefreshWeekPlanDetails();
+        }
+
+        private void LoadAllWeekPlans()
+        {
+            _allWeekPlans.Clear();
+            _allWeekPlans.AddRange(_weeklyPlanRepo.GetAllWeeklyPlans());
         }
 
         private void BtnReCreateWeekPlan_Click(object sender, EventArgs e)
@@ -49,14 +70,21 @@ namespace WordMemorizer.Core
 
             // 2. 重新导入
             _wordImporter.AppendToCurrentWeekPlan(txtWordInput.Text);
-            RefreshCurrentWeekPlanDetails(CBHideText.Checked, CBHideChinese.Checked);
+            RefreshWeekPlanDetails();
         }
 
-        private void RefreshCurrentWeekPlanDetails(bool IsTextHidden, bool IsChineseMeaningHidden)
+        private void RefreshWeekPlanDetails()
         {
-            int currentWeeklyPlanId = _weeklyPlanRepo.GetCurrentWeekPlanId();
+            bool IsTextHidden = CBHideText.Checked;
+            bool IsChineseMeaningHidden = CBHideChinese.Checked;
+            if (_allWeekPlans.Count == 0)
+            {
+                return;
+            }
+            WeeklyPlan currentWeeklyPlan = _allWeekPlans[_currentIndex];
+            int currentWeeklyPlanId = currentWeeklyPlan.Id;
             List<Word> wordList = _weeklyPlanRepo.GetWordsInWeeklyPlan(currentWeeklyPlanId).ToList();
-            LblCount.Text = $"当前周计划单词数量: {wordList.Count}";
+            LblCount.Text = $"日期: {Tools.CalcShortDate(currentWeeklyPlan.StartDate)} - {Tools.CalcShortDate(currentWeeklyPlan.EndDate)}, 单词数量: {wordList.Count}";
             if (wordList.Count > 0)
             {
                 LvWeeklyPlan.Items.Clear();
@@ -75,10 +103,10 @@ namespace WordMemorizer.Core
         {
             _wordImporter.AppendToCurrentWeekPlan(txtWordInput.Text);
 
-            RefreshCurrentWeekPlanDetails(CBHideText.Checked, CBHideChinese.Checked);
+            RefreshWeekPlanDetails();
         }
 
-        private void LvWeeklyPlan_MouseDoubleClick(object sender, MouseEventArgs e)
+        private async Task LvWeeklyPlan_MouseDoubleClickAsync(object sender, MouseEventArgs e)
         {
             ListViewItem clickedItem = LvWeeklyPlan.GetItemAt(e.X, e.Y);
 
@@ -89,10 +117,11 @@ namespace WordMemorizer.Core
                 if(wordText.Equals(""))
                 {
                     Word word = _wordRepo.GetWordById(int.Parse(itemText));
-                    _speaker.Speak(word.Text);
-                } else
+                    await _speaker.Speak(word.Text);
+                } 
+                else
                 {
-                    _speaker.Speak(wordText);
+                    await _speaker.Speak(wordText);
                 }
                 
             }
@@ -100,14 +129,37 @@ namespace WordMemorizer.Core
 
         private void CBHideText_CheckedChanged(object sender, EventArgs e)
         {
-            RefreshCurrentWeekPlanDetails(CBHideText.Checked, CBHideChinese.Checked);
+            RefreshWeekPlanDetails();
 
         }
 
         private void CBHideChinese_CheckedChanged(object sender, EventArgs e)
         {
-            RefreshCurrentWeekPlanDetails(CBHideText.Checked, CBHideChinese.Checked);
+            RefreshWeekPlanDetails();
+        }
 
+        private void BtnNextWeek_Click(object sender, EventArgs e)
+        {
+            if ( _currentIndex >= _allWeekPlans.Count - 1)
+            {
+                MessageBox.Show("已经是最新的周计划了");
+                return;
+            }
+            _currentIndex++;
+            LblIndex.Text = $"{_currentIndex + 1}/{_allWeekPlans.Count}";
+            RefreshWeekPlanDetails();
+        }
+
+        private void BtnPrevWeek_Click(object sender, EventArgs e)
+        {
+            if (_currentIndex <= 0)
+            {
+                MessageBox.Show("已经是最旧的周计划了");
+                return;
+            }
+            _currentIndex--;
+            LblIndex.Text = $"{_currentIndex + 1}/{_allWeekPlans.Count}";
+            RefreshWeekPlanDetails();
         }
     }
     

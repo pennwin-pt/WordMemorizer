@@ -84,6 +84,14 @@ namespace WordMemorizer.Core.DB
                             IsPortuguese INTEGER DEFAULT 1, -- 是否是葡语
                             FOREIGN KEY (WordId) REFERENCES Words(Id)
                         )");
+
+                    // 创建积分消费表
+                    conn.Execute(@"
+                        CREATE TABLE ConsumeLog (
+                            Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                            ConsumedScore INTEGER DEFAULT 0,
+                            CreatedTime DATETIME DEFAULT CURRENT_TIMESTAMP
+							)");
                 }
             }
         }

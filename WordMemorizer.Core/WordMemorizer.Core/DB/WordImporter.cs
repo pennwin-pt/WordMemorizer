@@ -90,10 +90,10 @@ namespace WordMemorizer.Core.DB
 
                 words.Add(new Word
                 {
-                    Text = wordText,
-                    ChineseMeaning = chineseMeaning,
-                    ExampleSentence = exampleSentence,
-                    ExampleChinese = exampleChinese,
+                    Text = Tools.EliminatePathSeperator(wordText),
+                    ChineseMeaning = Tools.EliminatePathSeperator(chineseMeaning),
+                    ExampleSentence = Tools.EliminatePathSeperator(exampleSentence),
+                    ExampleChinese = Tools.EliminatePathSeperator(exampleChinese),
                     LatestScore = 0
                 });
             }

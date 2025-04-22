@@ -126,5 +126,21 @@ namespace WordMemorizer.Core
             );
             return utcDateTime;
         }
+
+        internal static int StrToInt(string v)
+        {
+            return int.TryParse(v, out int result) ? result : 0;
+        }
+
+        internal static string CalcShortDate(DateTime startDate)
+        {
+            // 返回：几月几日，e.g.: 0923 这样的格式
+            return startDate.ToString("MM/dd");
+        }
+
+        internal static string EliminatePathSeperator(string line)
+        {
+            return line.Replace("/", " , ");
+        }
     }
 }

@@ -41,6 +41,8 @@
             this.BtnRead = new System.Windows.Forms.Button();
             this.BtnListenSelf = new System.Windows.Forms.Button();
             this.LblTotalScores = new System.Windows.Forms.Label();
+            this.BtnGiveup = new System.Windows.Forms.Button();
+            this.BtnListenPrevious = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PbResult)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbWaveform)).BeginInit();
             this.SuspendLayout();
@@ -51,7 +53,7 @@
             this.TbChinese.Location = new System.Drawing.Point(97, 375);
             this.TbChinese.Name = "TbChinese";
             this.TbChinese.ReadOnly = true;
-            this.TbChinese.Size = new System.Drawing.Size(406, 30);
+            this.TbChinese.Size = new System.Drawing.Size(406, 42);
             this.TbChinese.TabIndex = 8;
             // 
             // TbText
@@ -60,7 +62,7 @@
             this.TbText.Location = new System.Drawing.Point(97, 292);
             this.TbText.Name = "TbText";
             this.TbText.ReadOnly = true;
-            this.TbText.Size = new System.Drawing.Size(403, 30);
+            this.TbText.Size = new System.Drawing.Size(403, 42);
             this.TbText.TabIndex = 7;
             // 
             // PbResult
@@ -107,9 +109,9 @@
             // LblIndex
             // 
             this.LblIndex.AutoSize = true;
-            this.LblIndex.Location = new System.Drawing.Point(281, 484);
+            this.LblIndex.Location = new System.Drawing.Point(277, 484);
             this.LblIndex.Name = "LblIndex";
-            this.LblIndex.Size = new System.Drawing.Size(28, 14);
+            this.LblIndex.Size = new System.Drawing.Size(43, 21);
             this.LblIndex.TabIndex = 17;
             this.LblIndex.Text = "0/0";
             this.LblIndex.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -120,7 +122,7 @@
             this.LblThisRoundScores.Font = new System.Drawing.Font("宋体", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.LblThisRoundScores.Location = new System.Drawing.Point(94, 118);
             this.LblThisRoundScores.Name = "LblThisRoundScores";
-            this.LblThisRoundScores.Size = new System.Drawing.Size(290, 48);
+            this.LblThisRoundScores.Size = new System.Drawing.Size(432, 72);
             this.LblThisRoundScores.TabIndex = 18;
             this.LblThisRoundScores.Text = "本轮得分：0";
             // 
@@ -163,15 +165,38 @@
             this.LblTotalScores.Font = new System.Drawing.Font("宋体", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.LblTotalScores.Location = new System.Drawing.Point(94, 53);
             this.LblTotalScores.Name = "LblTotalScores";
-            this.LblTotalScores.Size = new System.Drawing.Size(290, 48);
+            this.LblTotalScores.Size = new System.Drawing.Size(432, 72);
             this.LblTotalScores.TabIndex = 22;
             this.LblTotalScores.Text = "累计得分：0";
             // 
+            // BtnGiveup
+            // 
+            this.BtnGiveup.Location = new System.Drawing.Point(756, 525);
+            this.BtnGiveup.Name = "BtnGiveup";
+            this.BtnGiveup.Size = new System.Drawing.Size(115, 50);
+            this.BtnGiveup.TabIndex = 23;
+            this.BtnGiveup.Text = "放弃";
+            this.BtnGiveup.UseVisualStyleBackColor = true;
+            this.BtnGiveup.Click += new System.EventHandler(this.BtnGiveup_Click);
+            // 
+            // BtnListenPrevious
+            // 
+            this.BtnListenPrevious.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnListenPrevious.Location = new System.Drawing.Point(97, 463);
+            this.BtnListenPrevious.Name = "BtnListenPrevious";
+            this.BtnListenPrevious.Size = new System.Drawing.Size(154, 56);
+            this.BtnListenPrevious.TabIndex = 24;
+            this.BtnListenPrevious.Text = "听上一个";
+            this.BtnListenPrevious.UseVisualStyleBackColor = true;
+            this.BtnListenPrevious.Click += new System.EventHandler(this.BtnListenPrevious_Click);
+            // 
             // FormExam
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1276, 672);
+            this.Controls.Add(this.BtnListenPrevious);
+            this.Controls.Add(this.BtnGiveup);
             this.Controls.Add(this.LblTotalScores);
             this.Controls.Add(this.BtnListenSelf);
             this.Controls.Add(this.BtnRead);
@@ -216,5 +241,7 @@
         private System.Windows.Forms.Button BtnRead;
         private System.Windows.Forms.Button BtnListenSelf;
         private System.Windows.Forms.Label LblTotalScores;
+        private System.Windows.Forms.Button BtnGiveup;
+        private System.Windows.Forms.Button BtnListenPrevious;
     }
 }

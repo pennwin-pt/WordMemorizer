@@ -211,10 +211,12 @@
     <Compile Include="ConfigIniHelper.cs" />
     <Compile Include="Constants.cs" />
     <Compile Include="DB\DatabaseHelper.cs" />
+    <Compile Include="DB\Models\ConsumeLog.cs" />
     <Compile Include="DB\Models\ScoreRecord.cs" />
     <Compile Include="DB\Models\WeeklyPlan.cs" />
     <Compile Include="DB\Models\WeeklyPlanWord.cs" />
     <Compile Include="DB\Models\Word.cs" />
+    <Compile Include="DB\Repositories\ConsumeLogRepository.cs" />
     <Compile Include="DB\Repositories\ScoreRecordRepository.cs" />
     <Compile Include="DB\Repositories\WeeklyPlanRepository.cs" />
     <Compile Include="DB\WordImporter.cs" />
@@ -224,6 +226,12 @@
     </Compile>
     <Compile Include="FormAddWeek.Designer.cs">
       <DependentUpon>FormAddWeek.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormConsumeScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConsumeScore.Designer.cs">
+      <DependentUpon>FormConsumeScore.cs</DependentUpon>
     </Compile>
     <Compile Include="FormCorrection.cs">
       <SubType>Form</SubType>
@@ -280,6 +288,9 @@
     </Content>
     <EmbeddedResource Include="FormAddWeek.resx">
       <DependentUpon>FormAddWeek.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConsumeScore.resx">
+      <DependentUpon>FormConsumeScore.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormCorrection.resx">
       <DependentUpon>FormCorrection.cs</DependentUpon>

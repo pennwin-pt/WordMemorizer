@@ -29,173 +29,35 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            this.BtnRead = new System.Windows.Forms.Button();
-            this.TBText = new System.Windows.Forms.TextBox();
-            this.TBChineseMeaning = new System.Windows.Forms.TextBox();
-            this.BtnSetWeek = new System.Windows.Forms.Button();
-            this.TbSentence = new System.Windows.Forms.TextBox();
-            this.TbSentenceChinese = new System.Windows.Forms.TextBox();
-            this.BtnReadSentence = new System.Windows.Forms.Button();
-            this.BtnPrev = new System.Windows.Forms.Button();
-            this.BtnNext = new System.Windows.Forms.Button();
-            this.CBHideText = new System.Windows.Forms.CheckBox();
-            this.CBHideChinese = new System.Windows.Forms.CheckBox();
-            this.LblIndex = new System.Windows.Forms.Label();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.LblDay = new System.Windows.Forms.ToolStripStatusLabel();
             this.LblDate = new System.Windows.Forms.ToolStripStatusLabel();
-            this.BtnReload = new System.Windows.Forms.Button();
-            this.BtnExamPortuguese = new System.Windows.Forms.Button();
-            this.BtnPronounciation = new System.Windows.Forms.Button();
+            this.PnlMain = new System.Windows.Forms.Panel();
+            this.LblTotalScores = new System.Windows.Forms.Label();
             this.BtnExamChineseMeaning = new System.Windows.Forms.Button();
-            this.CHKIsExam = new System.Windows.Forms.CheckBox();
+            this.BtnPronounciation = new System.Windows.Forms.Button();
+            this.BtnExamPortuguese = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.BtnCorrection = new System.Windows.Forms.Button();
+            this.BtnReload = new System.Windows.Forms.Button();
+            this.BtnSetWeek = new System.Windows.Forms.Button();
+            this.LblIndex = new System.Windows.Forms.Label();
+            this.CBHideChinese = new System.Windows.Forms.CheckBox();
+            this.CBHideText = new System.Windows.Forms.CheckBox();
+            this.BtnNext = new System.Windows.Forms.Button();
+            this.BtnPrev = new System.Windows.Forms.Button();
+            this.BtnReadSentence = new System.Windows.Forms.Button();
+            this.TbSentenceChinese = new System.Windows.Forms.TextBox();
+            this.TbSentence = new System.Windows.Forms.TextBox();
+            this.TBChineseMeaning = new System.Windows.Forms.TextBox();
+            this.TBText = new System.Windows.Forms.TextBox();
+            this.BtnRead = new System.Windows.Forms.Button();
+            this.RBToday = new System.Windows.Forms.RadioButton();
+            this.RBYesterday = new System.Windows.Forms.RadioButton();
+            this.RBTomorrow = new System.Windows.Forms.RadioButton();
             this.statusStrip1.SuspendLayout();
+            this.PnlMain.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // BtnRead
-            // 
-            this.BtnRead.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnRead.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BtnRead.Location = new System.Drawing.Point(605, 63);
-            this.BtnRead.Margin = new System.Windows.Forms.Padding(2);
-            this.BtnRead.Name = "BtnRead";
-            this.BtnRead.Size = new System.Drawing.Size(69, 31);
-            this.BtnRead.TabIndex = 0;
-            this.BtnRead.Text = "声音";
-            this.BtnRead.UseVisualStyleBackColor = true;
-            this.BtnRead.Click += new System.EventHandler(this.BtnReadWordText_Click);
-            // 
-            // TBText
-            // 
-            this.TBText.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TBText.Location = new System.Drawing.Point(137, 65);
-            this.TBText.Margin = new System.Windows.Forms.Padding(2);
-            this.TBText.Name = "TBText";
-            this.TBText.ReadOnly = true;
-            this.TBText.Size = new System.Drawing.Size(443, 30);
-            this.TBText.TabIndex = 1;
-            this.TBText.Text = "Apagar";
-            // 
-            // TBChineseMeaning
-            // 
-            this.TBChineseMeaning.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TBChineseMeaning.Location = new System.Drawing.Point(137, 115);
-            this.TBChineseMeaning.Margin = new System.Windows.Forms.Padding(2);
-            this.TBChineseMeaning.Name = "TBChineseMeaning";
-            this.TBChineseMeaning.ReadOnly = true;
-            this.TBChineseMeaning.Size = new System.Drawing.Size(443, 30);
-            this.TBChineseMeaning.TabIndex = 2;
-            this.TBChineseMeaning.Text = "擦掉";
-            // 
-            // BtnSetWeek
-            // 
-            this.BtnSetWeek.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnSetWeek.Location = new System.Drawing.Point(812, 379);
-            this.BtnSetWeek.Margin = new System.Windows.Forms.Padding(2);
-            this.BtnSetWeek.Name = "BtnSetWeek";
-            this.BtnSetWeek.Size = new System.Drawing.Size(76, 37);
-            this.BtnSetWeek.TabIndex = 3;
-            this.BtnSetWeek.Text = "周计划";
-            this.BtnSetWeek.UseVisualStyleBackColor = true;
-            this.BtnSetWeek.Click += new System.EventHandler(this.BtnSetWeek_Click);
-            // 
-            // TbSentence
-            // 
-            this.TbSentence.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TbSentence.Location = new System.Drawing.Point(137, 166);
-            this.TbSentence.Margin = new System.Windows.Forms.Padding(2);
-            this.TbSentence.Name = "TbSentence";
-            this.TbSentence.ReadOnly = true;
-            this.TbSentence.Size = new System.Drawing.Size(443, 30);
-            this.TbSentence.TabIndex = 5;
-            this.TbSentence.Text = "Apague o quadro, por favor.";
-            // 
-            // TbSentenceChinese
-            // 
-            this.TbSentenceChinese.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.TbSentenceChinese.Location = new System.Drawing.Point(137, 217);
-            this.TbSentenceChinese.Margin = new System.Windows.Forms.Padding(2);
-            this.TbSentenceChinese.Name = "TbSentenceChinese";
-            this.TbSentenceChinese.ReadOnly = true;
-            this.TbSentenceChinese.Size = new System.Drawing.Size(443, 30);
-            this.TbSentenceChinese.TabIndex = 6;
-            this.TbSentenceChinese.Text = "请擦掉黑板。";
-            // 
-            // BtnReadSentence
-            // 
-            this.BtnReadSentence.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnReadSentence.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BtnReadSentence.Location = new System.Drawing.Point(605, 165);
-            this.BtnReadSentence.Margin = new System.Windows.Forms.Padding(2);
-            this.BtnReadSentence.Name = "BtnReadSentence";
-            this.BtnReadSentence.Size = new System.Drawing.Size(69, 31);
-            this.BtnReadSentence.TabIndex = 7;
-            this.BtnReadSentence.Text = "声音";
-            this.BtnReadSentence.UseVisualStyleBackColor = true;
-            this.BtnReadSentence.Click += new System.EventHandler(this.BtnReadSentence_Click);
-            // 
-            // BtnPrev
-            // 
-            this.BtnPrev.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnPrev.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BtnPrev.Location = new System.Drawing.Point(137, 284);
-            this.BtnPrev.Margin = new System.Windows.Forms.Padding(2);
-            this.BtnPrev.Name = "BtnPrev";
-            this.BtnPrev.Size = new System.Drawing.Size(120, 51);
-            this.BtnPrev.TabIndex = 8;
-            this.BtnPrev.Text = "上一个";
-            this.BtnPrev.UseVisualStyleBackColor = true;
-            this.BtnPrev.Click += new System.EventHandler(this.BtnPrev_Click);
-            // 
-            // BtnNext
-            // 
-            this.BtnNext.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnNext.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BtnNext.Location = new System.Drawing.Point(322, 284);
-            this.BtnNext.Margin = new System.Windows.Forms.Padding(2);
-            this.BtnNext.Name = "BtnNext";
-            this.BtnNext.Size = new System.Drawing.Size(120, 51);
-            this.BtnNext.TabIndex = 9;
-            this.BtnNext.Text = "下一个";
-            this.BtnNext.UseVisualStyleBackColor = true;
-            this.BtnNext.Click += new System.EventHandler(this.BtnNext_Click);
-            // 
-            // CBHideText
-            // 
-            this.CBHideText.AutoSize = true;
-            this.CBHideText.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.CBHideText.Location = new System.Drawing.Point(573, 284);
-            this.CBHideText.Margin = new System.Windows.Forms.Padding(2);
-            this.CBHideText.Name = "CBHideText";
-            this.CBHideText.Size = new System.Drawing.Size(104, 23);
-            this.CBHideText.TabIndex = 10;
-            this.CBHideText.Text = "隐藏单词";
-            this.CBHideText.UseVisualStyleBackColor = true;
-            this.CBHideText.CheckedChanged += new System.EventHandler(this.CBHideText_CheckedChanged);
-            // 
-            // CBHideChinese
-            // 
-            this.CBHideChinese.AutoSize = true;
-            this.CBHideChinese.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.CBHideChinese.Location = new System.Drawing.Point(573, 319);
-            this.CBHideChinese.Margin = new System.Windows.Forms.Padding(2);
-            this.CBHideChinese.Name = "CBHideChinese";
-            this.CBHideChinese.Size = new System.Drawing.Size(104, 23);
-            this.CBHideChinese.TabIndex = 11;
-            this.CBHideChinese.Text = "隐藏中文";
-            this.CBHideChinese.UseVisualStyleBackColor = true;
-            this.CBHideChinese.CheckedChanged += new System.EventHandler(this.CBHideChinese_CheckedChanged);
-            // 
-            // LblIndex
-            // 
-            this.LblIndex.AutoSize = true;
-            this.LblIndex.Location = new System.Drawing.Point(278, 303);
-            this.LblIndex.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.LblIndex.Name = "LblIndex";
-            this.LblIndex.Size = new System.Drawing.Size(23, 12);
-            this.LblIndex.TabIndex = 12;
-            this.LblIndex.Text = "1/6";
             // 
             // statusStrip1
             // 
@@ -203,10 +65,10 @@
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.LblDay,
             this.LblDate});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 423);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 744);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Padding = new System.Windows.Forms.Padding(1, 0, 9, 0);
-            this.statusStrip1.Size = new System.Drawing.Size(907, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(2, 0, 14, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(1480, 31);
             this.statusStrip1.TabIndex = 13;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -215,151 +77,338 @@
             this.LblDay.BackColor = System.Drawing.SystemColors.Control;
             this.LblDay.ForeColor = System.Drawing.Color.Black;
             this.LblDay.Name = "LblDay";
-            this.LblDay.Size = new System.Drawing.Size(47, 17);
+            this.LblDay.Size = new System.Drawing.Size(70, 24);
             this.LblDay.Text = "LblDay";
             // 
             // LblDate
             // 
             this.LblDate.ForeColor = System.Drawing.Color.Black;
             this.LblDate.Name = "LblDate";
-            this.LblDate.Size = new System.Drawing.Size(131, 17);
+            this.LblDate.Size = new System.Drawing.Size(195, 24);
             this.LblDate.Text = "toolStripStatusLabel2";
             // 
-            // BtnReload
+            // PnlMain
             // 
-            this.BtnReload.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnReload.Location = new System.Drawing.Point(729, 379);
-            this.BtnReload.Margin = new System.Windows.Forms.Padding(2);
-            this.BtnReload.Name = "BtnReload";
-            this.BtnReload.Size = new System.Drawing.Size(76, 37);
-            this.BtnReload.TabIndex = 14;
-            this.BtnReload.Text = "重新加载";
-            this.BtnReload.UseVisualStyleBackColor = true;
-            this.BtnReload.Click += new System.EventHandler(this.BtnReload_Click);
+            this.PnlMain.Controls.Add(this.RBTomorrow);
+            this.PnlMain.Controls.Add(this.RBYesterday);
+            this.PnlMain.Controls.Add(this.RBToday);
+            this.PnlMain.Controls.Add(this.LblTotalScores);
+            this.PnlMain.Controls.Add(this.BtnExamChineseMeaning);
+            this.PnlMain.Controls.Add(this.BtnPronounciation);
+            this.PnlMain.Controls.Add(this.BtnExamPortuguese);
+            this.PnlMain.Controls.Add(this.button1);
+            this.PnlMain.Controls.Add(this.BtnCorrection);
+            this.PnlMain.Controls.Add(this.BtnReload);
+            this.PnlMain.Controls.Add(this.BtnSetWeek);
+            this.PnlMain.Controls.Add(this.LblIndex);
+            this.PnlMain.Controls.Add(this.CBHideChinese);
+            this.PnlMain.Controls.Add(this.CBHideText);
+            this.PnlMain.Controls.Add(this.BtnNext);
+            this.PnlMain.Controls.Add(this.BtnPrev);
+            this.PnlMain.Controls.Add(this.BtnReadSentence);
+            this.PnlMain.Controls.Add(this.TbSentenceChinese);
+            this.PnlMain.Controls.Add(this.TbSentence);
+            this.PnlMain.Controls.Add(this.TBChineseMeaning);
+            this.PnlMain.Controls.Add(this.TBText);
+            this.PnlMain.Controls.Add(this.BtnRead);
+            this.PnlMain.Location = new System.Drawing.Point(36, 12);
+            this.PnlMain.Name = "PnlMain";
+            this.PnlMain.Size = new System.Drawing.Size(1412, 691);
+            this.PnlMain.TabIndex = 33;
             // 
-            // BtnExamPortuguese
+            // LblTotalScores
             // 
-            this.BtnExamPortuguese.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnExamPortuguese.Location = new System.Drawing.Point(813, 111);
-            this.BtnExamPortuguese.Margin = new System.Windows.Forms.Padding(2);
-            this.BtnExamPortuguese.Name = "BtnExamPortuguese";
-            this.BtnExamPortuguese.Size = new System.Drawing.Size(76, 37);
-            this.BtnExamPortuguese.TabIndex = 15;
-            this.BtnExamPortuguese.Text = "测验葡语";
-            this.BtnExamPortuguese.UseVisualStyleBackColor = true;
-            this.BtnExamPortuguese.Click += new System.EventHandler(this.BtnExamPortuguese_Click);
-            // 
-            // BtnPronounciation
-            // 
-            this.BtnPronounciation.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnPronounciation.Location = new System.Drawing.Point(813, 161);
-            this.BtnPronounciation.Margin = new System.Windows.Forms.Padding(2);
-            this.BtnPronounciation.Name = "BtnPronounciation";
-            this.BtnPronounciation.Size = new System.Drawing.Size(76, 37);
-            this.BtnPronounciation.TabIndex = 16;
-            this.BtnPronounciation.Text = "发音练习";
-            this.BtnPronounciation.UseVisualStyleBackColor = true;
-            this.BtnPronounciation.Click += new System.EventHandler(this.BtnPronounciation_Click);
+            this.LblTotalScores.AutoSize = true;
+            this.LblTotalScores.Font = new System.Drawing.Font("宋体", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.LblTotalScores.Location = new System.Drawing.Point(95, 58);
+            this.LblTotalScores.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblTotalScores.Name = "LblTotalScores";
+            this.LblTotalScores.Size = new System.Drawing.Size(197, 33);
+            this.LblTotalScores.TabIndex = 41;
+            this.LblTotalScores.Text = "累计得分：0";
             // 
             // BtnExamChineseMeaning
             // 
             this.BtnExamChineseMeaning.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnExamChineseMeaning.Location = new System.Drawing.Point(813, 60);
-            this.BtnExamChineseMeaning.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnExamChineseMeaning.Location = new System.Drawing.Point(1029, 58);
             this.BtnExamChineseMeaning.Name = "BtnExamChineseMeaning";
-            this.BtnExamChineseMeaning.Size = new System.Drawing.Size(76, 37);
-            this.BtnExamChineseMeaning.TabIndex = 17;
+            this.BtnExamChineseMeaning.Size = new System.Drawing.Size(114, 56);
+            this.BtnExamChineseMeaning.TabIndex = 39;
             this.BtnExamChineseMeaning.Text = "测验含义";
             this.BtnExamChineseMeaning.UseVisualStyleBackColor = true;
             this.BtnExamChineseMeaning.Click += new System.EventHandler(this.BtnExamChineseMeaning_Click);
             // 
-            // CHKIsExam
+            // BtnPronounciation
             // 
-            this.CHKIsExam.AutoSize = true;
-            this.CHKIsExam.Checked = true;
-            this.CHKIsExam.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.CHKIsExam.Location = new System.Drawing.Point(813, 209);
-            this.CHKIsExam.Margin = new System.Windows.Forms.Padding(2);
-            this.CHKIsExam.Name = "CHKIsExam";
-            this.CHKIsExam.Size = new System.Drawing.Size(72, 16);
-            this.CHKIsExam.TabIndex = 18;
-            this.CHKIsExam.Text = "测验今天";
-            this.CHKIsExam.UseVisualStyleBackColor = true;
+            this.BtnPronounciation.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnPronounciation.Location = new System.Drawing.Point(1273, 58);
+            this.BtnPronounciation.Name = "BtnPronounciation";
+            this.BtnPronounciation.Size = new System.Drawing.Size(114, 56);
+            this.BtnPronounciation.TabIndex = 38;
+            this.BtnPronounciation.Text = "发音练习";
+            this.BtnPronounciation.UseVisualStyleBackColor = true;
+            this.BtnPronounciation.Click += new System.EventHandler(this.BtnPronounciation_Click);
+            // 
+            // BtnExamPortuguese
+            // 
+            this.BtnExamPortuguese.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnExamPortuguese.Location = new System.Drawing.Point(1151, 58);
+            this.BtnExamPortuguese.Name = "BtnExamPortuguese";
+            this.BtnExamPortuguese.Size = new System.Drawing.Size(114, 56);
+            this.BtnExamPortuguese.TabIndex = 37;
+            this.BtnExamPortuguese.Text = "测验葡语";
+            this.BtnExamPortuguese.UseVisualStyleBackColor = true;
+            this.BtnExamPortuguese.Click += new System.EventHandler(this.BtnExamPortuguese_Click);
+            // 
+            // button1
+            // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Location = new System.Drawing.Point(1274, 540);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(114, 56);
+            this.button1.TabIndex = 36;
+            this.button1.Text = "查看余额";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // BtnCorrection
             // 
             this.BtnCorrection.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnCorrection.Location = new System.Drawing.Point(646, 379);
-            this.BtnCorrection.Margin = new System.Windows.Forms.Padding(2);
+            this.BtnCorrection.Location = new System.Drawing.Point(1154, 540);
             this.BtnCorrection.Name = "BtnCorrection";
-            this.BtnCorrection.Size = new System.Drawing.Size(76, 37);
-            this.BtnCorrection.TabIndex = 19;
+            this.BtnCorrection.Size = new System.Drawing.Size(114, 56);
+            this.BtnCorrection.TabIndex = 35;
             this.BtnCorrection.Text = "归还分数";
             this.BtnCorrection.UseVisualStyleBackColor = true;
             this.BtnCorrection.Click += new System.EventHandler(this.BtnCorrection_Click);
             // 
+            // BtnReload
+            // 
+            this.BtnReload.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnReload.Location = new System.Drawing.Point(1154, 602);
+            this.BtnReload.Name = "BtnReload";
+            this.BtnReload.Size = new System.Drawing.Size(114, 56);
+            this.BtnReload.TabIndex = 34;
+            this.BtnReload.Text = "重新加载";
+            this.BtnReload.UseVisualStyleBackColor = true;
+            this.BtnReload.Click += new System.EventHandler(this.BtnReload_Click);
+            // 
+            // BtnSetWeek
+            // 
+            this.BtnSetWeek.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnSetWeek.Location = new System.Drawing.Point(1274, 602);
+            this.BtnSetWeek.Name = "BtnSetWeek";
+            this.BtnSetWeek.Size = new System.Drawing.Size(114, 56);
+            this.BtnSetWeek.TabIndex = 33;
+            this.BtnSetWeek.Text = "周计划";
+            this.BtnSetWeek.UseVisualStyleBackColor = true;
+            this.BtnSetWeek.Click += new System.EventHandler(this.BtnSetWeek_Click);
+            // 
+            // LblIndex
+            // 
+            this.LblIndex.AutoSize = true;
+            this.LblIndex.Location = new System.Drawing.Point(312, 568);
+            this.LblIndex.Name = "LblIndex";
+            this.LblIndex.Size = new System.Drawing.Size(35, 18);
+            this.LblIndex.TabIndex = 23;
+            this.LblIndex.Text = "1/6";
+            // 
+            // CBHideChinese
+            // 
+            this.CBHideChinese.AutoSize = true;
+            this.CBHideChinese.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.CBHideChinese.Location = new System.Drawing.Point(755, 592);
+            this.CBHideChinese.Name = "CBHideChinese";
+            this.CBHideChinese.Size = new System.Drawing.Size(150, 32);
+            this.CBHideChinese.TabIndex = 22;
+            this.CBHideChinese.Text = "隐藏中文";
+            this.CBHideChinese.UseVisualStyleBackColor = true;
+            this.CBHideChinese.Click += new System.EventHandler(this.CBHideChinese_CheckedChanged);
+            // 
+            // CBHideText
+            // 
+            this.CBHideText.AutoSize = true;
+            this.CBHideText.Font = new System.Drawing.Font("宋体", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.CBHideText.Location = new System.Drawing.Point(755, 540);
+            this.CBHideText.Name = "CBHideText";
+            this.CBHideText.Size = new System.Drawing.Size(150, 32);
+            this.CBHideText.TabIndex = 21;
+            this.CBHideText.Text = "隐藏单词";
+            this.CBHideText.UseVisualStyleBackColor = true;
+            this.CBHideText.Click += new System.EventHandler(this.CBHideText_CheckedChanged);
+            // 
+            // BtnNext
+            // 
+            this.BtnNext.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnNext.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BtnNext.Location = new System.Drawing.Point(378, 540);
+            this.BtnNext.Name = "BtnNext";
+            this.BtnNext.Size = new System.Drawing.Size(180, 76);
+            this.BtnNext.TabIndex = 20;
+            this.BtnNext.Text = "下一个";
+            this.BtnNext.UseVisualStyleBackColor = true;
+            this.BtnNext.Click += new System.EventHandler(this.BtnNext_Click);
+            // 
+            // BtnPrev
+            // 
+            this.BtnPrev.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnPrev.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BtnPrev.Location = new System.Drawing.Point(101, 540);
+            this.BtnPrev.Name = "BtnPrev";
+            this.BtnPrev.Size = new System.Drawing.Size(180, 76);
+            this.BtnPrev.TabIndex = 19;
+            this.BtnPrev.Text = "上一个";
+            this.BtnPrev.UseVisualStyleBackColor = true;
+            this.BtnPrev.Click += new System.EventHandler(this.BtnPrev_Click);
+            // 
+            // BtnReadSentence
+            // 
+            this.BtnReadSentence.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnReadSentence.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BtnReadSentence.Location = new System.Drawing.Point(795, 310);
+            this.BtnReadSentence.Name = "BtnReadSentence";
+            this.BtnReadSentence.Size = new System.Drawing.Size(104, 46);
+            this.BtnReadSentence.TabIndex = 18;
+            this.BtnReadSentence.Text = "声音";
+            this.BtnReadSentence.UseVisualStyleBackColor = true;
+            this.BtnReadSentence.Click += new System.EventHandler(this.BtnReadSentence_Click);
+            // 
+            // TbSentenceChinese
+            // 
+            this.TbSentenceChinese.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.TbSentenceChinese.Location = new System.Drawing.Point(93, 388);
+            this.TbSentenceChinese.Name = "TbSentenceChinese";
+            this.TbSentenceChinese.ReadOnly = true;
+            this.TbSentenceChinese.Size = new System.Drawing.Size(662, 42);
+            this.TbSentenceChinese.TabIndex = 17;
+            this.TbSentenceChinese.Text = "请擦掉黑板。";
+            // 
+            // TbSentence
+            // 
+            this.TbSentence.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.TbSentence.Location = new System.Drawing.Point(93, 311);
+            this.TbSentence.Name = "TbSentence";
+            this.TbSentence.ReadOnly = true;
+            this.TbSentence.Size = new System.Drawing.Size(662, 42);
+            this.TbSentence.TabIndex = 16;
+            this.TbSentence.Text = "Apague o quadro, por favor.";
+            // 
+            // TBChineseMeaning
+            // 
+            this.TBChineseMeaning.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.TBChineseMeaning.Location = new System.Drawing.Point(93, 234);
+            this.TBChineseMeaning.Name = "TBChineseMeaning";
+            this.TBChineseMeaning.ReadOnly = true;
+            this.TBChineseMeaning.Size = new System.Drawing.Size(662, 42);
+            this.TBChineseMeaning.TabIndex = 15;
+            this.TBChineseMeaning.Text = "擦掉";
+            // 
+            // TBText
+            // 
+            this.TBText.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.TBText.Location = new System.Drawing.Point(93, 160);
+            this.TBText.Name = "TBText";
+            this.TBText.ReadOnly = true;
+            this.TBText.Size = new System.Drawing.Size(662, 42);
+            this.TBText.TabIndex = 14;
+            this.TBText.Text = "Apagar";
+            // 
+            // BtnRead
+            // 
+            this.BtnRead.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnRead.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BtnRead.Location = new System.Drawing.Point(795, 156);
+            this.BtnRead.Name = "BtnRead";
+            this.BtnRead.Size = new System.Drawing.Size(104, 46);
+            this.BtnRead.TabIndex = 13;
+            this.BtnRead.Text = "声音";
+            this.BtnRead.UseVisualStyleBackColor = true;
+            this.BtnRead.Click += new System.EventHandler(this.BtnReadWordText_Click);
+            // 
+            // RBToday
+            // 
+            this.RBToday.AutoSize = true;
+            this.RBToday.Checked = true;
+            this.RBToday.Location = new System.Drawing.Point(1074, 156);
+            this.RBToday.Name = "RBToday";
+            this.RBToday.Size = new System.Drawing.Size(69, 22);
+            this.RBToday.TabIndex = 42;
+            this.RBToday.TabStop = true;
+            this.RBToday.Text = "今天";
+            this.RBToday.UseVisualStyleBackColor = true;
+            // 
+            // RBYesterday
+            // 
+            this.RBYesterday.AutoSize = true;
+            this.RBYesterday.Location = new System.Drawing.Point(1174, 156);
+            this.RBYesterday.Name = "RBYesterday";
+            this.RBYesterday.Size = new System.Drawing.Size(69, 22);
+            this.RBYesterday.TabIndex = 43;
+            this.RBYesterday.Text = "之前";
+            this.RBYesterday.UseVisualStyleBackColor = true;
+            // 
+            // RBTomorrow
+            // 
+            this.RBTomorrow.AutoSize = true;
+            this.RBTomorrow.Location = new System.Drawing.Point(1274, 156);
+            this.RBTomorrow.Name = "RBTomorrow";
+            this.RBTomorrow.Size = new System.Drawing.Size(69, 22);
+            this.RBTomorrow.TabIndex = 44;
+            this.RBTomorrow.Text = "明天";
+            this.RBTomorrow.UseVisualStyleBackColor = true;
+            // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(907, 445);
-            this.Controls.Add(this.BtnCorrection);
-            this.Controls.Add(this.CHKIsExam);
-            this.Controls.Add(this.BtnExamChineseMeaning);
-            this.Controls.Add(this.BtnPronounciation);
-            this.Controls.Add(this.BtnExamPortuguese);
-            this.Controls.Add(this.BtnReload);
+            this.ClientSize = new System.Drawing.Size(1480, 775);
+            this.Controls.Add(this.PnlMain);
             this.Controls.Add(this.statusStrip1);
-            this.Controls.Add(this.LblIndex);
-            this.Controls.Add(this.CBHideChinese);
-            this.Controls.Add(this.CBHideText);
-            this.Controls.Add(this.BtnNext);
-            this.Controls.Add(this.BtnPrev);
-            this.Controls.Add(this.BtnReadSentence);
-            this.Controls.Add(this.TbSentenceChinese);
-            this.Controls.Add(this.TbSentence);
-            this.Controls.Add(this.BtnSetWeek);
-            this.Controls.Add(this.TBChineseMeaning);
-            this.Controls.Add(this.TBText);
-            this.Controls.Add(this.BtnRead);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MaximizeBox = false;
             this.Name = "FormMain";
             this.Text = "单词记忆";
+            this.Activated += new System.EventHandler(this.FormMain_Activated);
             this.Load += new System.EventHandler(this.FormMain_Load);
+            this.Shown += new System.EventHandler(this.FormMain_Shown);
+            this.SizeChanged += new System.EventHandler(this.FormMain_SizeChanged);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
+            this.PnlMain.ResumeLayout(false);
+            this.PnlMain.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button BtnRead;
-        private System.Windows.Forms.TextBox TBText;
-        private System.Windows.Forms.TextBox TBChineseMeaning;
-        private System.Windows.Forms.Button BtnSetWeek;
-        private System.Windows.Forms.TextBox TbSentence;
-        private System.Windows.Forms.TextBox TbSentenceChinese;
-        private System.Windows.Forms.Button BtnReadSentence;
-        private System.Windows.Forms.Button BtnPrev;
-        private System.Windows.Forms.Button BtnNext;
-        private System.Windows.Forms.CheckBox CBHideText;
-        private System.Windows.Forms.CheckBox CBHideChinese;
-        private System.Windows.Forms.Label LblIndex;
         private System.Windows.Forms.StatusStrip statusStrip1;
         private System.Windows.Forms.ToolStripStatusLabel LblDay;
         private System.Windows.Forms.ToolStripStatusLabel LblDate;
-        private System.Windows.Forms.Button BtnReload;
-        private System.Windows.Forms.Button BtnExamPortuguese;
-        private System.Windows.Forms.Button BtnPronounciation;
+        private System.Windows.Forms.Panel PnlMain;
         private System.Windows.Forms.Button BtnExamChineseMeaning;
-        private System.Windows.Forms.CheckBox CHKIsExam;
+        private System.Windows.Forms.Button BtnPronounciation;
+        private System.Windows.Forms.Button BtnExamPortuguese;
+        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button BtnCorrection;
+        private System.Windows.Forms.Button BtnReload;
+        private System.Windows.Forms.Button BtnSetWeek;
+        private System.Windows.Forms.Label LblIndex;
+        private System.Windows.Forms.CheckBox CBHideChinese;
+        private System.Windows.Forms.CheckBox CBHideText;
+        private System.Windows.Forms.Button BtnNext;
+        private System.Windows.Forms.Button BtnPrev;
+        private System.Windows.Forms.Button BtnReadSentence;
+        private System.Windows.Forms.TextBox TbSentenceChinese;
+        private System.Windows.Forms.TextBox TbSentence;
+        private System.Windows.Forms.TextBox TBChineseMeaning;
+        private System.Windows.Forms.TextBox TBText;
+        private System.Windows.Forms.Button BtnRead;
+        private System.Windows.Forms.Label LblTotalScores;
+        private System.Windows.Forms.RadioButton RBTomorrow;
+        private System.Windows.Forms.RadioButton RBYesterday;
+        private System.Windows.Forms.RadioButton RBToday;
     }
 }
 

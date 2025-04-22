@@ -1,4 +1,6 @@
-﻿namespace WordMemorizer.Core
+﻿using System.Windows.Forms;
+
+namespace WordMemorizer.Core
 {
     partial class FormAddWeek
     {
@@ -39,6 +41,9 @@
             this.LblCount = new System.Windows.Forms.Label();
             this.CBHideText = new System.Windows.Forms.CheckBox();
             this.CBHideChinese = new System.Windows.Forms.CheckBox();
+            this.BtnPrevWeek = new System.Windows.Forms.Button();
+            this.BtnNextWeek = new System.Windows.Forms.Button();
+            this.LblIndex = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BtnImport
@@ -139,11 +144,44 @@
             this.CBHideChinese.UseVisualStyleBackColor = true;
             this.CBHideChinese.CheckedChanged += new System.EventHandler(this.CBHideChinese_CheckedChanged);
             // 
+            // BtnPrevWeek
+            // 
+            this.BtnPrevWeek.Location = new System.Drawing.Point(12, 802);
+            this.BtnPrevWeek.Name = "BtnPrevWeek";
+            this.BtnPrevWeek.Size = new System.Drawing.Size(116, 42);
+            this.BtnPrevWeek.TabIndex = 7;
+            this.BtnPrevWeek.Text = "上一周";
+            this.BtnPrevWeek.UseVisualStyleBackColor = true;
+            this.BtnPrevWeek.Click += new System.EventHandler(this.BtnPrevWeek_Click);
+            // 
+            // BtnNextWeek
+            // 
+            this.BtnNextWeek.Location = new System.Drawing.Point(217, 802);
+            this.BtnNextWeek.Name = "BtnNextWeek";
+            this.BtnNextWeek.Size = new System.Drawing.Size(116, 42);
+            this.BtnNextWeek.TabIndex = 8;
+            this.BtnNextWeek.Text = "下一周";
+            this.BtnNextWeek.UseVisualStyleBackColor = true;
+            this.BtnNextWeek.Click += new System.EventHandler(this.BtnNextWeek_Click);
+            // 
+            // LblIndex
+            // 
+            this.LblIndex.AutoSize = true;
+            this.LblIndex.Location = new System.Drawing.Point(155, 814);
+            this.LblIndex.Name = "LblIndex";
+            this.LblIndex.Size = new System.Drawing.Size(35, 18);
+            this.LblIndex.TabIndex = 18;
+            this.LblIndex.Text = "0/0";
+            this.LblIndex.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // FormAddWeek
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1478, 935);
+            this.Controls.Add(this.LblIndex);
+            this.Controls.Add(this.BtnNextWeek);
+            this.Controls.Add(this.BtnPrevWeek);
             this.Controls.Add(this.CBHideChinese);
             this.Controls.Add(this.CBHideText);
             this.Controls.Add(this.LblCount);
@@ -162,6 +200,13 @@
 
         }
 
+        // Add a synchronous version of the event handler to match the expected signature.
+        private void LvWeeklyPlan_MouseDoubleClick(object sender, MouseEventArgs e)
+        {
+            // Call the asynchronous method and handle it appropriately.
+            _ = LvWeeklyPlan_MouseDoubleClickAsync(sender, e);
+        }
+
         #endregion
 
         private System.Windows.Forms.Button BtnImport;
@@ -174,5 +219,8 @@
         private System.Windows.Forms.ColumnHeader columnHeader0;
         private System.Windows.Forms.CheckBox CBHideText;
         private System.Windows.Forms.CheckBox CBHideChinese;
+        private System.Windows.Forms.Button BtnPrevWeek;
+        private System.Windows.Forms.Button BtnNextWeek;
+        private System.Windows.Forms.Label LblIndex;
     }
 }

@@ -19,6 +19,7 @@ namespace WordMemorizer.Core
         private List<string> _batchNumbersOfTheWeek = new List<string>();
         private List<ScoreRecord> _currentRecords = new List<ScoreRecord>();
         private readonly ScoreRecordRepository _scoreRecordRepository;
+        private readonly ConsumeLogRepository _consumeLogRepository = new ConsumeLogRepository();
         private int _currentIndex = 0;
         private readonly PortugueseTTS _answerSpeaker;
 
@@ -127,7 +128,8 @@ namespace WordMemorizer.Core
 
         private void InitView()
         {
-            LblTotalScores.Text = "累计得分：" + _scoreRecordRepository.GetAllCorrectRecordsCount();
+            int totalScore = _scoreRecordRepository.GetAllCorrectRecordsCount();// - _consumeLogRepository.GetTotalConsumedScore();
+            LblTotalScores.Text = "累计得分：" + totalScore;
 
             MakeAllTextboxesReadOnly();
             RefreshControls();

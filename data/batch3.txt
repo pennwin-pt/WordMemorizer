@@ -79,7 +79,7 @@ Ex: Fiquei surpreso com a nota da prova.
 我对考试成绩感到惊讶。  
 
 com sono
-困  
+困倦
 Ex: Estou com sono porque dormi tarde ontem.  
 我很困，因为昨晚睡得很晚。  
 
@@ -89,7 +89,7 @@ Ex: Estou com fome, quero um lanche.
 我饿了，想吃点心。  
 
 com sede  
-渴  
+口渴  
 Ex: Depois de correr, fiquei com sede.  
 跑步后我很渴。  
 
@@ -124,7 +124,7 @@ Ex: O feijão preto é muito popular no Brasil.
 黑豆在巴西很流行。  
 
 carne  
-肉  
+肉类
 Ex: Hoje temos carne no almoço.  
 今天午餐有肉。  
 

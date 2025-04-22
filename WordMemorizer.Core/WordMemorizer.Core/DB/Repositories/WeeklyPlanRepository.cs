@@ -10,6 +10,16 @@ namespace WordMemorizer.Core.DB.Repositories
 {
     public class WeeklyPlanRepository
     {
+        public IEnumerable<WeeklyPlan> GetAllWeeklyPlans()
+        {
+            using (var conn = DatabaseHelper.GetConnection())
+            {
+                return conn.Query<WeeklyPlan>(@"
+            SELECT * FROM WeeklyPlans 
+            ORDER BY WeekNumber ASC, StartDate ASC");
+            }
+        }
+
         public void AddWeeklyPlan(WeeklyPlan plan)
         {
             using (var conn = DatabaseHelper.GetConnection())

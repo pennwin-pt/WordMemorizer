@@ -22,10 +22,11 @@ namespace WordMemorizer.Core
         private readonly WeeklyPlanRepository _weeklyPlanRepository;
         private List<Word> _weekWordList;
         private List<Word> _todayWords = new List<Word>();
+        private List<Word> _tomorrowWords = new List<Word>();
         private List<Word> _allDueWords = new List<Word>();
         private int _currentWordIndex = 0;
         private readonly ConfigIniHelper _configIniHelper = new ConfigIniHelper();
-
+        private Rectangle _pnlMainOriginalBounds;
 
         public FormMain()
         {
@@ -49,6 +50,7 @@ namespace WordMemorizer.Core
 
         private void FormMain_Load(object sender, EventArgs e)
         {
+            _pnlMainOriginalBounds = PnlMain.Bounds;
             InitView();
             ReloadData();
         }
@@ -83,6 +85,7 @@ namespace WordMemorizer.Core
         {
             // 清空今天的单词列表
             _todayWords.Clear();
+            _tomorrowWords.Clear();
 
             // 获取当前是星期几（1=周一，7=周日）
             DayOfWeek today = DateTime.Now.DayOfWeek;
@@ -92,6 +95,7 @@ namespace WordMemorizer.Core
             if (today == DayOfWeek.Saturday || today == DayOfWeek.Sunday)
             {
                 _todayWords.AddRange(_weekWordList);
+                _tomorrowWords.AddRange(_weekWordList);
                 return;
             }
 
@@ -99,31 +103,39 @@ namespace WordMemorizer.Core
             int workDayIndex = currentDayIndex - 1;
 
             // 计算当前天应该取的单词范围
-            int startIndex, count;
+            int todayStartIndex, todayCount;
+            int tomorrowStartIndex, tomorrowCount;
 
             if (today == DayOfWeek.Friday)
             {
                 // 周五：取剩余所有单词
-                startIndex = workDayIndex * Constants.WORDS_COUNT_PER_DAY;
-                count = _weekWordList.Count - startIndex;
+                todayStartIndex = workDayIndex * Constants.WORDS_COUNT_PER_DAY;
+                todayCount = _weekWordList.Count - todayStartIndex;
+                tomorrowStartIndex = 0;
+                tomorrowCount = _weekWordList.Count;
             }
             else
             {
                 // 周一至周四：每天固定6个单词
-                startIndex = workDayIndex * Constants.WORDS_COUNT_PER_DAY;
-                count = Constants.WORDS_COUNT_PER_DAY;
+                todayStartIndex = workDayIndex * Constants.WORDS_COUNT_PER_DAY;
+                todayCount = Constants.WORDS_COUNT_PER_DAY;
 
                 // 确保不超过列表范围
-                if (startIndex + count > _weekWordList.Count)
+                if (todayStartIndex + todayCount > _weekWordList.Count)
                 {
-                    count = _weekWordList.Count - startIndex;
+                    todayCount = _weekWordList.Count - todayStartIndex;
                 }
+
+                // 计算明天的单词范围
+                tomorrowStartIndex = todayStartIndex + todayCount;
+                tomorrowCount = Math.Min(Constants.WORDS_COUNT_PER_DAY, _weekWordList.Count - tomorrowStartIndex);
             }
 
             // 提取今天的单词
-            if (startIndex < _weekWordList.Count && count > 0)
+            if (todayStartIndex < _weekWordList.Count && todayCount > 0)
             {
-                _todayWords.AddRange(_weekWordList.GetRange(startIndex, count));
+                _todayWords.AddRange(_weekWordList.GetRange(todayStartIndex, todayCount));
+                _tomorrowWords.AddRange(_weekWordList.GetRange(tomorrowStartIndex, tomorrowCount));
             }
         }
 
@@ -166,7 +178,11 @@ namespace WordMemorizer.Core
 
         private void BtnNext_Click(object sender, EventArgs e)
         {
-            if (_currentWordIndex < _todayWords.Count - 1)
+            if (_currentWordIndex == _todayWords.Count - 1)
+            {
+                _currentWordIndex = 0;
+            }
+            else if (_currentWordIndex < _todayWords.Count - 1)
             {
                 _currentWordIndex++;
             }
@@ -213,7 +229,7 @@ namespace WordMemorizer.Core
             {
                 return;
             }
-            await _speaker.Speak(_todayWords[_currentWordIndex].ExampleSentence, false);
+            await _speaker.Speak(_todayWords[_currentWordIndex].ExampleSentence);
         }
 
         private void BtnReload_Click(object sender, EventArgs e)
@@ -229,8 +245,21 @@ namespace WordMemorizer.Core
                 MessageBox.Show("没有单词!!");
                 return;
             }
-            FormExam formExam = new FormExam(taregtWords, true, CHKIsExam.Checked);
+            FormExam formExam = new FormExam(taregtWords, true, CalcDayType());
             formExam.ShowDialog();
+        }
+
+        private Constants.DayType CalcDayType()
+        {
+            if (RBYesterday.Checked)
+            {
+                return Constants.DayType.Yesterday;
+            }
+            else if (RBTomorrow.Checked)
+            {
+                return Constants.DayType.Tomorrow;
+            }
+            return Constants.DayType.Today;
         }
 
         private void BtnPronounciation_Click(object sender, EventArgs e)
@@ -253,28 +282,96 @@ namespace WordMemorizer.Core
                 MessageBox.Show("没有单词!!");
                 return ;
             }
-            FormExam formExam = new FormExam(taregtWords, false, CHKIsExam.Checked);
+            FormExam formExam = new FormExam(taregtWords, false, CalcDayType());
             formExam.ShowDialog();
         }
 
         private List<Word> CalcTargetWords()
         {
-            if (CHKIsExam.Checked)
+            if (RBToday.Checked)
             {
                 return _todayWords;
+            } else if (RBYesterday.Checked)
+            {
+                return _allDueWords;
+            }
+            else if (RBTomorrow.Checked)
+            {
+                return _tomorrowWords;
             }
             return _allDueWords;
         }
 
         private void BtnCorrection_Click(object sender, EventArgs e)
         {
-            Tools.ShowNumberInputDialog(this, "7771", () => {
+            Tools.ShowNumberInputDialog(this, Constants.UNLOCK_PASSWORD, () => {
                 // 验证通过后执行的操作
                 MessageBox.Show("安全操作已解锁");
                 FormCorrection formCorrection = new FormCorrection();
                 formCorrection.ShowDialog();
             });
             
+        }
+
+        private void FormMain_Shown(object sender, EventArgs e)
+        {
+        }
+
+        private void RefreshTotalPoints()
+        {
+            int totalPoints = new ScoreRecordRepository().GetAllCorrectRecordsCount();// - new ConsumeLogRepository().GetTotalConsumedScore();
+            LblTotalScores.Text = "累计得分：" + totalPoints;
+        }
+
+        private void FormMain_Activated(object sender, EventArgs e)
+        {
+            RefreshTotalPoints();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+                FormConsumeScore formConsumeScore = new FormConsumeScore();
+                formConsumeScore.ShowDialog();
+        }
+        private void CenterPanelOnMaximize()
+        {
+            PnlMain.SuspendLayout();
+
+            // 计算居中位置
+            int newX = (this.ClientSize.Width - PnlMain.Width) / 2;
+            int newY = (this.ClientSize.Height - PnlMain.Height) / 2;
+
+            PnlMain.Location = new Point(newX, newY);
+            PnlMain.ResumeLayout();
+        }
+
+        private void RestorePanelPosition()
+        {
+            PnlMain.SuspendLayout();
+
+            // 仅恢复位置，保持当前尺寸
+            PnlMain.Location = _pnlMainOriginalBounds.Location;
+
+            // 或者如果需要恢复原始尺寸：
+            // PnlMain.Size = _pnlMainOriginalBounds.Size;
+
+            PnlMain.ResumeLayout(true); // 强制立即重新布局
+            PnlMain.Refresh();          // 强制重绘
+        }
+
+        private void FormMain_SizeChanged(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Maximized)
+            {
+                // 最大化时居中
+                CenterPanelOnMaximize();
+            }
+            else
+            {
+                // 恢复正常大小时还原位置
+                RestorePanelPosition();
+            }
         }
     }
 }
