@@ -68,6 +68,10 @@ namespace WordMemorizer.Core
         {
             int currentWeekPlanId = _weeklyPlanRepository.GetCurrentWeekPlanId();
             _weekWordList = _weeklyPlanRepository.GetWordsInWeeklyPlan(currentWeekPlanId).ToList();
+            if (_weekWordList.Count == 0)
+            {
+                return;
+            }
             LoadTodayWords();
             LoadAllDueWordsBeforeToday();
         }
