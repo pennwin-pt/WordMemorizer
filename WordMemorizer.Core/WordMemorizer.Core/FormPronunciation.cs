@@ -41,7 +41,7 @@ namespace WordMemorizer.Core
 
         private void FormPronunciation_Load(object sender, EventArgs e)
         {
-            SetCurrentWord(_wordList[_currentIndex]);
+            SetCurrentWord();
         }
 
         private void SetupEventHandlers()
@@ -67,11 +67,12 @@ namespace WordMemorizer.Core
             };
         }
 
-        public void SetCurrentWord(Word word)
+        public void SetCurrentWord()
         {
+            Word word = _wordList[_currentIndex];
             _currentWord = word;
-            TbText.Text = word.Text;
-            TbChinese.Text = word.ChineseMeaning;
+            TbText.Text =  CBHideText.Checked ? "***" : word.Text;
+            TbChinese.Text = CBHideChinese.Checked ? "***" : word.ChineseMeaning;
             LblIndex.Text = $"{_currentIndex + 1}/{_wordList.Count}";
         }
 
@@ -106,7 +107,11 @@ namespace WordMemorizer.Core
             {
                 _currentIndex++;
             }
-            SetCurrentWord(_wordList[_currentIndex]);
+            else
+            {
+                _currentIndex = 0; // 如果到达最后一个单词，则返回第一个单词
+            }
+            SetCurrentWord();
         }
 
         private void BtnPrev_Click(object sender, EventArgs e)
@@ -115,8 +120,22 @@ namespace WordMemorizer.Core
             {
                 _currentIndex--;
             }
-            SetCurrentWord(_wordList[_currentIndex]);
+            else
+            {
+                _currentIndex = _wordList.Count - 1; // 如果到达第一个单词，则返回最后一个单词
+            }
+            SetCurrentWord();
 
+        }
+
+        private void CBHideText_CheckedChanged(object sender, EventArgs e)
+        {
+            SetCurrentWord();
+        }
+
+        private void CBHideChinese_CheckedChanged(object sender, EventArgs e)
+        {
+            SetCurrentWord();
         }
     }
 }

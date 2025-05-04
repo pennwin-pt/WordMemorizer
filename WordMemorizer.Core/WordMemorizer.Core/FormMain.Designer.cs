@@ -33,6 +33,9 @@
             this.LblDay = new System.Windows.Forms.ToolStripStatusLabel();
             this.LblDate = new System.Windows.Forms.ToolStripStatusLabel();
             this.PnlMain = new System.Windows.Forms.Panel();
+            this.RBTomorrow = new System.Windows.Forms.RadioButton();
+            this.RBYesterday = new System.Windows.Forms.RadioButton();
+            this.RBToday = new System.Windows.Forms.RadioButton();
             this.LblTotalScores = new System.Windows.Forms.Label();
             this.BtnExamChineseMeaning = new System.Windows.Forms.Button();
             this.BtnPronounciation = new System.Windows.Forms.Button();
@@ -52,9 +55,6 @@
             this.TBChineseMeaning = new System.Windows.Forms.TextBox();
             this.TBText = new System.Windows.Forms.TextBox();
             this.BtnRead = new System.Windows.Forms.Button();
-            this.RBToday = new System.Windows.Forms.RadioButton();
-            this.RBYesterday = new System.Windows.Forms.RadioButton();
-            this.RBTomorrow = new System.Windows.Forms.RadioButton();
             this.statusStrip1.SuspendLayout();
             this.PnlMain.SuspendLayout();
             this.SuspendLayout();
@@ -115,6 +115,42 @@
             this.PnlMain.Name = "PnlMain";
             this.PnlMain.Size = new System.Drawing.Size(1412, 691);
             this.PnlMain.TabIndex = 33;
+            // 
+            // RBTomorrow
+            // 
+            this.RBTomorrow.AutoSize = true;
+            this.RBTomorrow.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.RBTomorrow.Location = new System.Drawing.Point(1310, 156);
+            this.RBTomorrow.Name = "RBTomorrow";
+            this.RBTomorrow.Size = new System.Drawing.Size(77, 25);
+            this.RBTomorrow.TabIndex = 44;
+            this.RBTomorrow.Text = "明天";
+            this.RBTomorrow.UseVisualStyleBackColor = true;
+            this.RBTomorrow.CheckedChanged += new System.EventHandler(this.RBTomorrow_CheckedChanged);
+            // 
+            // RBYesterday
+            // 
+            this.RBYesterday.AutoSize = true;
+            this.RBYesterday.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.RBYesterday.Location = new System.Drawing.Point(1188, 156);
+            this.RBYesterday.Name = "RBYesterday";
+            this.RBYesterday.Size = new System.Drawing.Size(77, 25);
+            this.RBYesterday.TabIndex = 43;
+            this.RBYesterday.Text = "之前";
+            this.RBYesterday.UseVisualStyleBackColor = true;
+            // 
+            // RBToday
+            // 
+            this.RBToday.AutoSize = true;
+            this.RBToday.Checked = true;
+            this.RBToday.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.RBToday.Location = new System.Drawing.Point(1066, 156);
+            this.RBToday.Name = "RBToday";
+            this.RBToday.Size = new System.Drawing.Size(77, 25);
+            this.RBToday.TabIndex = 42;
+            this.RBToday.TabStop = true;
+            this.RBToday.Text = "今天";
+            this.RBToday.UseVisualStyleBackColor = true;
             // 
             // LblTotalScores
             // 
@@ -324,38 +360,6 @@
             this.BtnRead.Text = "声音";
             this.BtnRead.UseVisualStyleBackColor = true;
             this.BtnRead.Click += new System.EventHandler(this.BtnReadWordText_Click);
-            // 
-            // RBToday
-            // 
-            this.RBToday.AutoSize = true;
-            this.RBToday.Checked = true;
-            this.RBToday.Location = new System.Drawing.Point(1074, 156);
-            this.RBToday.Name = "RBToday";
-            this.RBToday.Size = new System.Drawing.Size(69, 22);
-            this.RBToday.TabIndex = 42;
-            this.RBToday.TabStop = true;
-            this.RBToday.Text = "今天";
-            this.RBToday.UseVisualStyleBackColor = true;
-            // 
-            // RBYesterday
-            // 
-            this.RBYesterday.AutoSize = true;
-            this.RBYesterday.Location = new System.Drawing.Point(1174, 156);
-            this.RBYesterday.Name = "RBYesterday";
-            this.RBYesterday.Size = new System.Drawing.Size(69, 22);
-            this.RBYesterday.TabIndex = 43;
-            this.RBYesterday.Text = "之前";
-            this.RBYesterday.UseVisualStyleBackColor = true;
-            // 
-            // RBTomorrow
-            // 
-            this.RBTomorrow.AutoSize = true;
-            this.RBTomorrow.Location = new System.Drawing.Point(1274, 156);
-            this.RBTomorrow.Name = "RBTomorrow";
-            this.RBTomorrow.Size = new System.Drawing.Size(69, 22);
-            this.RBTomorrow.TabIndex = 44;
-            this.RBTomorrow.Text = "明天";
-            this.RBTomorrow.UseVisualStyleBackColor = true;
             // 
             // FormMain
             // 

@@ -1,0 +1,691 @@
+meu/minha  
+我的  
+Ex: Este é meu livro.  
+这是我的书。  
+
+teu/tua  
+你的  
+Ex: Onde está tua mochila?  
+你的书包在哪里？  
+
+seu/sua  
+他/她/您的  
+Ex: Esta é sua cadeira.  
+这是他的椅子。  
+
+nosso/nossa  
+我们的  
+Ex: Nossa casa é grande.  
+我们的房子很大。  
+
+vosso/vossa  
+你们的  
+Ex: Vossa opinião é importante.  
+你们的意见很重要。  
+
+seus/suas  
+他们的/您们的  
+Ex: Esses são seus cadernos.  
+这些是他们的笔记本。  
+
+a  
+到/向  
+Ex: Vou a escola.  
+我去学校。  
+
+de  
+的/从  
+Ex: O livro de português.  
+葡萄牙语书。  
+
+em  
+在...里  
+Ex: Estou em casa.  
+我在家里。  
+
+para  
+为了/给  
+Ex: Isto é para você.  
+这是给你的。  
+
+com  
+和...一起  
+Ex: Vou com meus amigos.  
+我和朋友们一起去。  
+
+sem  
+没有  
+Ex: Estou sem dinheiro.  
+我没有钱。  
+
+sobre  
+关于/在...上面  
+Ex: O livro está sobre a mesa.  
+书在桌子上。  
+
+entre  
+在...之间  
+Ex: Sente-se entre nós.  
+坐在我们中间。  
+
+por  
+通过/为了  
+Ex: Fiz isso por você.  
+我为你做了这个。  
+
+até  
+直到  
+Ex: Trabalho até às seis.  
+我工作到六点。  
+
+o 
+(阳性单数的the)  
+Ex: O menino estuda.  
+男孩在学习。  
+
+a
+(阴性单数的the)  
+Ex: A menina brinca.  
+女孩在玩耍。  
+
+os
+(阳性复数的the)  
+Ex: Os livros são novos.  
+这些书是新的。  
+
+as
+(阴性复数的the)  
+Ex: As flores são bonitas.  
+这些花很漂亮。  
+
+um
+(阳性不定冠词a)  
+Ex: Quero um lápis.  
+我想要一支铅笔。  
+
+uma
+(阴性不定冠词a)  
+Ex: Comprei uma maçã.  
+我买了一个苹果。  
+
+uns
+(阳性复数不定冠词a)  
+Ex: Vi uns pássaros.  
+我看到了一些鸟。  
+
+umas 
+(阴性复数不定冠词a)  
+Ex: Tem umas dúvidas.  
+有一些疑问。  
+
+e  
+和  
+Ex: Eu e você somos amigos.  
+我和你是朋友。  
+
+ou  
+或者  
+Ex: Quer café ou chá?  
+你要咖啡还是茶？  
+
+mas  
+但是  
+Ex: Gosto, mas não posso.  
+我喜欢，但是不行。  
+
+porque  
+因为  
+Ex: Não fui porque estava doente.  
+我没去因为生病了。  
+
+se  
+如果  
+Ex: Se chover, ficaremos em casa.  
+如果下雨，我们就待在家。  
+
+que  
+那/什么  
+Ex: O livro que comprei.  
+我买的那本书。  
+
+como  
+如同/怎么样  
+Ex: Faça como eu digo.  
+照我说的做。  
+
+quando  
+当...时候  
+Ex: Quando chegar, me avise.  
+到了告诉我。  
+
+onde  
+哪里  
+Ex: Onde está meu caderno?  
+我的本子在哪里？  
+
+também  
+也  
+Ex: Eu também quero ir.  
+我也想去。  
+
+só/somente  
+只有  
+Ex: Só tenho um lápis.  
+我只有一支铅笔。  
+
+ainda  
+还/仍然  
+Ex: Ainda está aqui?  
+你还在这里吗？  
+
+já  
+已经  
+Ex: Já terminei meu trabalho.  
+我已经完成工作了。  
+
+nunca  
+从不  
+Ex: Nunca fui ao Brasil.  
+我从没去过巴西。  
+
+sempre  
+总是  
+Ex: Ele sempre chega cedo.  
+他总是早到。  
+
+muito  
+很/非常  
+Ex: Estou muito cansado.  
+我很累。  
+
+pouco  
+少  
+Ex: Tenho pouco tempo.  
+我时间很少。  
+
+todo/toda  
+全部  
+Ex: Toda a família está aqui.  
+全家人都在这里。  
+
+algum/alguma  
+一些  
+Ex: Tem algum problema?  
+有什么问题吗？  
+
+este/esta  
+这个  
+Ex: Este livro é interessante.  
+这本书很有趣。  
+
+esse/essa  
+那个  
+Ex: Essa casa é bonita.  
+那栋房子很漂亮。  
+
+aquele/aquela  
+那个(远指)  
+Ex: Aquela menina é minha irmã.  
+那个女孩是我妹妹。  
+
+isto  
+这个(中性)  
+Ex: Isto é importante.  
+这个很重要。  
+
+isso  
+那个(中性)  
+Ex: Isso não está certo.  
+那个不对。  
+
+aquilo  
+那个(中性远指)  
+Ex: Aquilo é um pássaro?  
+那是一只鸟吗？  
+
+alguém  
+某人  
+Ex: Alguém está na porta.  
+有人在门口。  
+
+ninguém  
+没有人  
+Ex: Ninguém sabe a resposta.  
+没人知道答案。  
+
+alguma coisa  
+某事/某物  
+Ex: Quero te dizer alguma coisa.  
+我有事要告诉你。  
+
+nada  
+没什么  
+Ex: Não há nada na mesa.  
+桌子上什么都没有。  
+
+tudo  
+一切  
+Ex: Ele sabe tudo.  
+他什么都知道。  
+
+cada  
+每个  
+Ex: Cada aluno tem um livro.  
+每个学生都有一本书。  
+
+qualquer  
+任何一个  
+Ex: Pode escolher qualquer um.  
+你可以选任何一个。  
+
+quem  
+谁  
+Ex: Quem é você?  
+你是谁？  
+
+o que  
+什么  
+Ex: O que você quer?  
+你想要什么？  
+
+qual  
+哪个  
+Ex: Qual é o seu nome?  
+你叫什么名字？  
+
+quanto/quanta  
+多少  
+Ex: Quanto custa isso?  
+这个多少钱？  
+
+onde  
+哪里  
+Ex: Onde você mora?  
+你住在哪里？  
+
+quando  
+什么时候  
+Ex: Quando você vem?  
+你什么时候来？  
+
+como  
+怎么  
+Ex: Como está você?  
+你好吗？  
+
+por que  
+为什么  
+Ex: Por que você está triste?  
+你为什么难过？  
+
+aqui  
+这里  
+Ex: Venha aqui.  
+来这里。  
+
+ali  
+那里  
+Ex: O livro está ali.  
+书在那里。  
+
+lá  
+那里(远指)  
+Ex: Minha casa é lá.  
+我家在那里。  
+
+agora  
+现在  
+Ex: Agora eu entendo.  
+现在我明白了。  
+
+depois  
+之后  
+Ex: Falamos depois.  
+我们之后再说。  
+
+antes  
+之前  
+Ex: Chegue antes das oito.  
+八点前到。  
+
+hoje  
+今天  
+Ex: Hoje está frio.  
+今天很冷。  
+
+ontem  
+昨天  
+Ex: Ontem choveu muito.  
+昨天下大雨。  
+
+amanhã  
+明天  
+Ex: Amanhã é domingo.  
+明天是周日。  
+
+bem  
+好  
+Ex: Ela canta bem.  
+她唱得好。  
+
+mal  
+不好  
+Ex: Ele se sente mal.  
+他感觉不舒服。  
+
+cedo  
+早  
+Ex: Acordei cedo hoje.  
+我今天起得早。  
+
+tarde  
+晚  
+Ex: Cheguei tarde em casa.  
+我回家晚了。  
+
+ser  
+是(永久性)  
+Ex: Eu sou estudante.  
+我是学生。  
+
+estar  
+是(暂时性)  
+Ex: Estou cansado.  
+我累了。  
+
+ter  
+有  
+Ex: Tenho um cachorro.  
+我有一只狗。  
+
+fazer  
+做  
+Ex: Vou fazer o dever.  
+我要做作业。  
+
+ir  
+去  
+Ex: Vou à escola.  
+我去学校。  
+
+vir  
+来  
+Ex: Ele vem amanhã.  
+他明天来。  
+
+querer  
+想要  
+Ex: Quero um sorvete.  
+我想要冰淇淋。  
+
+poder  
+能够  
+Ex: Posso ajudar?  
+我能帮忙吗？  
+
+saber  
+知道  
+Ex: Sei a resposta.  
+我知道答案。  
+
+conhecer  
+认识  
+Ex: Conheço essa música.  
+我认识这首歌。  
+
+sim  
+是  
+Ex: Sim, eu entendo.  
+是的，我明白。  
+
+não  
+不  
+Ex: Não quero café.  
+我不要咖啡。  
+
+talvez  
+也许  
+Ex: Talvez eu vá.  
+也许我会去。  
+
+claro  
+当然  
+Ex: Claro que sim!  
+当然可以！  
+
+obrigado/obrigada  
+谢谢  
+Ex: Obrigado pela ajuda.  
+谢谢你的帮助。  
+
+por favor  
+请  
+Ex: Por favor, me ajude.  
+请帮帮我。  
+
+desculpe  
+对不起  
+Ex: Desculpe pelo atraso.  
+抱歉迟到了。  
+
+com licença  
+打扰了  
+Ex: Com licença, posso passar?  
+打扰了，我能过去吗？  
+
+parabéns  
+恭喜  
+Ex: Parabéns pelo aniversário!  
+生日快乐！  
+
+saúde  
+干杯/保重  
+Ex: Saúde! (brinde)  
+干杯！  
+
+um/uma  
+1  
+Ex: Tenho um irmão.  
+我有一个兄弟。  
+
+dois/duas  
+2  
+Ex: Comprei duas maçãs.  
+我买了两个苹果。  
+
+três  
+3  
+Ex: São três horas.  
+现在三点。  
+
+quatro  
+4  
+Ex: Tenho quatro livros.  
+我有四本书。  
+
+cinco  
+5  
+Ex: Ela tem cinco anos.  
+她五岁。  
+
+seis  
+6  
+Ex: São seis alunos.  
+有六个学生。  
+
+sete  
+7  
+Ex: A semana tem sete dias.  
+一周有七天。  
+
+oito  
+8  
+Ex: São oito horas.  
+现在八点。  
+
+nove  
+9  
+Ex: Tenho nove lápis.  
+我有九支铅笔。  
+
+dez  
+10  
+Ex: Dez minutos, por favor.  
+请给我十分钟。  
+
+hora  
+小时  
+Ex: São duas horas.  
+现在两点。  
+
+minuto  
+分钟  
+Ex: Espere cinco minutos.  
+等五分钟。  
+
+segundo  
+秒  
+Ex: Um segundo, por favor.  
+请稍等一秒。  
+
+dia  
+天  
+Ex: Tenho aula todo dia.  
+我每天都有课。  
+
+semana  
+周  
+Ex: Na semana que vem.  
+下周。  
+
+mês  
+月  
+Ex: Este mês está chuvoso.  
+这个月多雨。  
+
+ano  
+年  
+Ex: Feliz Ano Novo!  
+新年快乐！  
+
+manhã  
+早上  
+Ex: Bom dia! (早上好)  
+
+tarde  
+下午  
+Ex: Boa tarde! (下午好)  
+
+noite  
+晚上  
+Ex: Boa noite! (晚上好/晚安)  
+
+primavera  
+春天  
+Ex: A primavera é linda.  
+春天很美。  
+
+verão  
+夏天  
+Ex: No verão faz calor.  
+夏天很热。  
+
+outono  
+秋天  
+Ex: As folhas caem no outono.  
+秋天树叶掉落。  
+
+inverno  
+冬天  
+Ex: No inverno neva muito.  
+冬天下很多雪。  
+
+tempo  
+天气  
+Ex: Como está o tempo hoje?  
+今天天气怎么样？  
+
+sol  
+太阳  
+Ex: Hoje faz sol.  
+今天晴天。  
+
+chuva  
+雨  
+Ex: Está chovendo.  
+正在下雨。  
+
+neve  
+雪  
+Ex: Eu gosto de neve.  
+我喜欢雪。  
+
+vento  
+风  
+Ex: Está ventando muito.  
+风很大。  
+
+nuvem  
+云  
+Ex: O céu está com nuvens.  
+天空有云。  
+
+calor  
+热  
+Ex: Está fazendo calor.  
+天气很热。  
+
+frio  
+冷  
+Ex: Está frio hoje.  
+今天很冷。  
+
+cabeça  
+头  
+Ex: Minha cabeça dói.  
+我头疼。  
+
+olho  
+眼睛  
+Ex: Meus olhos são castanhos.  
+我的眼睛是棕色的。  
+
+nariz  
+鼻子  
+Ex: O nariz dele é grande.  
+他的鼻子很大。  
+
+boca  
+嘴  
+Ex: Abra a boca.  
+张开嘴。  
+
+orelha  
+耳朵  
+Ex: Ela tem orelhas pequenas.  
+她的耳朵很小。  
+
+braço  
+手臂  
+Ex: Quebrei o braço.  
+我手臂骨折了。  
+
+perna  
+腿  
+Ex: Minhas pernas estão cansadas.  
+我的腿很累。  
+
+mão  
+手  
+Ex: Lave as mãos.  
+洗手。  
+
+pele  
+皮肤  
+Ex: Minha pele é clara.  
+我的皮肤很白。  
+
+coração  
+心脏  
+Ex: Meu coração bate rápido.  
+我的心跳很快。  

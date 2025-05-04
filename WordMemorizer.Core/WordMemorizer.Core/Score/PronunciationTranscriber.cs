@@ -17,8 +17,8 @@ namespace WordMemorizer.Core.Score
     public class PronunciationTranscriber
     {
         private readonly HttpClient httpClient;
-        private readonly string ptTranscribeServiceUrl = "http://172.16.0.207:5000/transcribe_pt";
-        private readonly string zhTranscribeServiceUrl = "http://172.16.0.207:5000/transcribe_zh";
+        private readonly string ptTranscribeServiceUrl = "http://127.0.0.1:5000/transcribe_pt";//"http://172.16.0.207:5000/transcribe_pt";
+        private readonly string zhTranscribeServiceUrl = "http://127.0.0.1:5000/transcribe_zh";
 
 
         public PronunciationTranscriber()

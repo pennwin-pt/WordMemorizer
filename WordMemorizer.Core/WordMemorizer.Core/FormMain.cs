@@ -213,6 +213,10 @@ namespace WordMemorizer.Core
             {
                 _currentWordIndex--;
             }
+            else
+            {
+                _currentWordIndex = _todayWords.Count - 1;
+            }
             DisplayWord(CBHideText.Checked, CBHideChinese.Checked);
         }
 
@@ -376,6 +380,11 @@ namespace WordMemorizer.Core
                 // 恢复正常大小时还原位置
                 RestorePanelPosition();
             }
+        }
+
+        private void RBTomorrow_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

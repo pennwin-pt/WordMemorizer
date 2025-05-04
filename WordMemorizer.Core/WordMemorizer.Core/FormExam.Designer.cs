@@ -43,6 +43,7 @@
             this.LblTotalScores = new System.Windows.Forms.Label();
             this.BtnGiveup = new System.Windows.Forms.Button();
             this.BtnListenPrevious = new System.Windows.Forms.Button();
+            this.BtnListenPreviousSelf = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.PbResult)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbWaveform)).BeginInit();
             this.SuspendLayout();
@@ -190,11 +191,23 @@
             this.BtnListenPrevious.UseVisualStyleBackColor = true;
             this.BtnListenPrevious.Click += new System.EventHandler(this.BtnListenPrevious_Click);
             // 
+            // BtnListenPreviousSelf
+            // 
+            this.BtnListenPreviousSelf.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.BtnListenPreviousSelf.Location = new System.Drawing.Point(97, 525);
+            this.BtnListenPreviousSelf.Name = "BtnListenPreviousSelf";
+            this.BtnListenPreviousSelf.Size = new System.Drawing.Size(154, 56);
+            this.BtnListenPreviousSelf.TabIndex = 25;
+            this.BtnListenPreviousSelf.Text = "听上一个自己";
+            this.BtnListenPreviousSelf.UseVisualStyleBackColor = true;
+            this.BtnListenPreviousSelf.Click += new System.EventHandler(this.BtnListenPreviousSelf_Click);
+            // 
             // FormExam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1276, 672);
+            this.Controls.Add(this.BtnListenPreviousSelf);
             this.Controls.Add(this.BtnListenPrevious);
             this.Controls.Add(this.BtnGiveup);
             this.Controls.Add(this.LblTotalScores);
@@ -243,5 +256,6 @@
         private System.Windows.Forms.Label LblTotalScores;
         private System.Windows.Forms.Button BtnGiveup;
         private System.Windows.Forms.Button BtnListenPrevious;
+        private System.Windows.Forms.Button BtnListenPreviousSelf;
     }
 }

@@ -338,5 +338,23 @@ namespace WordMemorizer.Core
                 MessageBox.Show(word.Text + "-->" + word.ChineseMeaning);
             }
         }
+
+        private void BtnListenPreviousSelf_Click(object sender, EventArgs e)
+        {
+            if (_currentIndex > 0)
+            {
+                var recordingFilePath = _wordWrapperList[_currentIndex - 1].RecordingFilePath;
+                if (recordingFilePath == "")
+                {
+                    MessageBox.Show("没有录音");
+                    return;
+                }
+                _simpleAudioPlayer.Play(recordingFilePath);
+                var word = _wordWrapperList[_currentIndex - 1].Word;
+                MessageBox.Show(word.Text + "-->" + word.ChineseMeaning);
+            }
+
+
+        }
     }
 }
