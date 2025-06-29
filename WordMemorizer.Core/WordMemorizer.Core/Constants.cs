@@ -14,6 +14,7 @@ namespace WordMemorizer.Core
         internal static readonly int INVALID_DB_ID = -1;
         internal static readonly int WORDS_COUNT_PER_DAY = 6;
         internal static readonly string UNLOCK_PASSWORD = "7771";
+        internal static readonly string SERVER_URL = "http://127.0.0.1:5000";
 
         /// <summary>
         /// INI文件的key

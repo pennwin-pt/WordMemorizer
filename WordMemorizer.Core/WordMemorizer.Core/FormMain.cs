@@ -321,8 +321,15 @@ namespace WordMemorizer.Core
             
         }
 
-        private void FormMain_Shown(object sender, EventArgs e)
+        private async void FormMain_Shown(object sender, EventArgs e)
         {
+            bool isConnected = await Tools.CheckServerConnectionAsync();
+
+            // 检查跟服务器是否可以连接
+            if (!isConnected)
+            {
+                await Tools.RunPythonScriptAsync();
+            }
         }
 
         private void RefreshTotalPoints()
@@ -383,6 +390,11 @@ namespace WordMemorizer.Core
         }
 
         private void RBTomorrow_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PnlMain_Paint(object sender, PaintEventArgs e)
         {
 
         }

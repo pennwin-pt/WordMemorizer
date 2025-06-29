@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -142,5 +144,48 @@ namespace WordMemorizer.Core
         {
             return line.Replace("/", " , ");
         }
+
+        public static async Task RunPythonScriptAsync()
+        {
+            string scriptPath = @"C:\Penn\05Work\Audio2TextAI\main.py";
+
+            var startInfo = new ProcessStartInfo
+            {
+                FileName = "cmd.exe",
+                Arguments = $"/K python \"{scriptPath}\"", // /K 保持窗口打开
+                UseShellExecute = true,  // 必须为 true 才能显示窗口
+                CreateNoWindow = false   // 显示窗口
+            };
+
+            using (var process = new Process { StartInfo = startInfo })
+            {
+                process.Start();
+                await Task.Run(() => process.WaitForExit()); // 异步等待进程结束
+            }
+        }
+
+        public static async Task<bool> CheckServerConnectionAsync()
+        {
+            try
+            {
+                using (var client = new HttpClient())
+                {
+                    client.Timeout = TimeSpan.FromSeconds(3); // 设置超时时间
+                    var response = await client.GetAsync(Constants.SERVER_URL);
+                    return response.IsSuccessStatusCode; // 返回 true 表示可连接
+                }
+            }
+            catch (HttpRequestException ex)
+            {
+                Console.WriteLine($"连接失败: {ex.Message}");
+                return false;
+            }
+            catch (TaskCanceledException ex)
+            {
+                Console.WriteLine($"请求超时: {ex.Message}");
+                return false;
+            }
+        }
+
     }
 }

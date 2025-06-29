@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 using System.IO;
 using Whisper.net.Ggml;
 using System.Net.Http.Headers;
+using System.Diagnostics;
 
 
 namespace WordMemorizer.Core.Score
@@ -17,8 +18,8 @@ namespace WordMemorizer.Core.Score
     public class PronunciationTranscriber
     {
         private readonly HttpClient httpClient;
-        private readonly string ptTranscribeServiceUrl = "http://127.0.0.1:5000/transcribe_pt";//"http://172.16.0.207:5000/transcribe_pt";
-        private readonly string zhTranscribeServiceUrl = "http://127.0.0.1:5000/transcribe_zh";
+        private readonly string ptTranscribeServiceUrl = Constants.SERVER_URL + "/transcribe_pt";//"http://172.16.0.207:5000/transcribe_pt";
+        private readonly string zhTranscribeServiceUrl = Constants.SERVER_URL + "/transcribe_zh";
 
 
         public PronunciationTranscriber()
@@ -60,6 +61,15 @@ namespace WordMemorizer.Core.Score
                 }
                 return result;
             }
+            catch (HttpRequestException httpEx)
+            {
+                // 网络连接问题（DNS、服务器不可达、SSL错误等）
+                Console.WriteLine($"连接服务器失败: {httpEx.Message}");
+                if (httpEx.InnerException != null)
+                {
+                    Console.WriteLine($"内部异常: {httpEx.InnerException.Message}");
+                }
+            }
             catch (Exception ex)
             {
                 Console.WriteLine($"异常: {ex.Message}");
@@ -68,10 +78,13 @@ namespace WordMemorizer.Core.Score
         }
     }
 
+    
+
     public class TranscriptionResponse
     {
         public string Status { get; set; }
         public string Text { get; set; }
         public string Message { get; set; } // 错误信息（可选）
     }
+
 }

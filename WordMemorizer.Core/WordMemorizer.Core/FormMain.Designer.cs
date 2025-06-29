@@ -115,6 +115,7 @@
             this.PnlMain.Name = "PnlMain";
             this.PnlMain.Size = new System.Drawing.Size(1412, 691);
             this.PnlMain.TabIndex = 33;
+            this.PnlMain.Paint += new System.Windows.Forms.PaintEventHandler(this.PnlMain_Paint);
             // 
             // RBTomorrow
             // 
