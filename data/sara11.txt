@@ -1,0 +1,149 @@
+comprar
+购买
+Ex: O que vou comprar? (P127)
+我要买什么？
+
+pacote
+包装
+Ex: Três pacotes de leite. (P124)
+三盒牛奶。
+
+lista
+清单
+Ex: Lista de compras. (P122)
+购物清单。
+
+cidade
+城市
+Ex: Ela vai à cidade. (P121)
+她去城里。
+
+aldeia
+村庄
+Ex: Chegam à aldeia do Nélio. (P118)
+到达Nélio的村庄。
+
+campo
+乡村
+Ex: Vão ao campo. (P119)
+他们去乡村。
+
+montanha
+山
+Ex: Vão à montanha. (P119)
+他们去山上。
+
+lago
+湖
+Ex: Vão ao lago. (P119)
+他们去湖边。
+
+ilha
+岛
+Ex: Ir à ilha. (P121)
+去岛上。
+
+rua
+街道
+Ex: As lojas na rua. (P117)
+街上的商店。
+
+lugar
+地方
+Ex: Um lugar fantástico. (P119)
+一个很棒的地方。
+
+onde fica
+在哪里
+Ex: Onde fica a farmácia? (P123)
+药店在哪里？
+
+entre
+在...之间
+Ex: Entre o cinema e a padaria. (P123)
+在电影院和面包店之间。
+
+férias
+假期
+Ex: Vão passar férias juntos. (P130)
+他们一起去度假。
+
+viagem
+旅行
+Ex: Esta viagem é engraçada. (P134, 本单元预现)
+这次旅行很有趣。
+
+semana
+周
+Ex: Duas semanas depois. (P119)
+两周后。
+
+dia seguinte
+第二天
+Ex: No dia seguinte vão ao lago. (P130)
+第二天他们去湖边。
+
+voltar
+返回
+Ex: Têm de voltar para casa. (P119)
+他们必须回家。
+
+chegar
+到达
+Ex: Chegam à aldeia. (P118)
+他们到达村庄。
+
+partir
+离开
+Ex: Têm de partir. (自编)
+他们必须离开。
+
+saudades
+思念
+Ex: Temos muitas saudades tuas! (P119)
+我们非常想念你！
+
+feliz
+开心的
+Ex: Os avós estão felizes. (P119)
+祖父母很开心。
+
+triste
+伤心的
+Ex: O urso fica triste. (P143, 本单元预现)
+熊很伤心。
+
+fantástico
+极好的
+Ex: O teu país é fantástico! (P119)
+你的国家太棒了！
+
+pena
+遗憾
+Ex: Que pena, temos de ir! (P119)
+真遗憾，我们得走了！
+
+divertido
+有趣的
+Ex: É divertido fazer passeios. (P135, 本单元预现)
+郊游很有趣。
+
+apanhar
+乘坐（交通工具）
+Ex: Apanham o avião. (P118)
+他们乘飞机。
+
+visitar
+参观
+Ex: O Nélio vai visitar a família. (P118)
+Nélio去探望家人。
+
+encontrar
+遇见
+Ex: Encontrou os primos. (P118)
+他遇见了表兄妹。
+
+guardar
+保存
+Ex: Guardaram a roupa. (P96, 复用)
+他们保存了衣服。

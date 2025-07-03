@@ -1,0 +1,149 @@
+aberto/fechado
+开着的/关着的
+Ex: Está aberto. (P123)
+（店铺）开着。
+
+primo
+表兄妹
+Ex: Olá, primos! (P118)
+嗨，表兄妹们！
+
+avós
+祖父母
+Ex: Os avós do Nélio. (P119)
+Nélio的祖父母。
+
+xarope
+糖浆
+Ex: Comprar um xarope. (P122)
+买糖浆。
+
+flor
+花
+Ex: Comprar flores na florista. (P129)
+在花店买花。
+
+correio
+邮局
+Ex: O correio está fechado. (P123)
+邮局关门了。
+
+macaco
+猴子
+Ex: Olha ali um macaco! (P134)
+看那边有只猴子！
+
+elefante
+大象
+Ex: O elefante tem tromba. (P132)
+大象有长鼻子。
+
+pássaro
+鸟
+Ex: O pássaro voa. (P140)
+鸟会飞。
+
+peixe
+鱼
+Ex: O peixe nada no rio. (P140)
+鱼在河里游泳。
+
+cobra
+蛇
+Ex: A cobra anda no chão. (P140)
+蛇在地上爬行。
+
+tartaruga
+乌龟
+Ex: A tartaruga é lenta. (P140)
+乌龟很慢。
+
+leão
+狮子
+Ex: O leão é o rei. (P132)
+狮子是百兽之王。
+
+girafa
+长颈鹿
+Ex: A girafa tem pescoço comprido. (P132)
+长颈鹿有长脖子。
+
+vaca
+奶牛
+Ex: A vaca dá leite. (P132)
+奶牛产奶。
+
+urso
+熊
+Ex: O urso gosta de mel. (P143)
+熊喜欢蜂蜜。
+
+tromba
+象鼻
+Ex: O elefante bebe água com a tromba. (P140)
+大象用鼻子喝水。
+
+carapaça
+龟壳
+Ex: A tartaruga tem carapaça. (P132)
+乌龟有壳。
+
+barbatana
+鱼鳍
+Ex: O peixe tem barbatanas. (P132)
+鱼有鳍。
+
+escamas
+鱼鳞
+Ex: Peixe com escamas. (P132)
+有鳞的鱼。
+
+patas
+爪子
+Ex: Quatro patas. (P138)
+四只爪子。
+
+rabo
+尾巴
+Ex: O cão abana o rabo. (P132)
+狗摇尾巴。
+
+penas
+羽毛
+Ex: O pássaro tem penas. (P140)
+鸟有羽毛。
+
+focinho
+口鼻
+Ex: Focinho comprido. (P140)
+长长的口鼻。
+
+cornos
+角
+Ex: A vaca tem cornos. (P132)
+奶牛有角。
+
+pelo
+毛发
+Ex: Pelo macio. (P133)
+柔软的毛发。
+
+reserva
+保护区
+Ex: Visitam uma reserva natural. (P134)
+他们参观自然保护区。
+
+floresta
+森林
+Ex: Os animais na floresta. (P146)
+森林里的动物。
+
+árvore
+树
+Ex: O macaco trepa à árvore. (P136)
+猴子爬树。
+
+lago
+湖
+Ex: Os meninos vão até ao lago. (P135)
+孩子们去湖边。

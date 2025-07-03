@@ -1,0 +1,149 @@
+pintar
+画画
+Ex: Símbolo: pintar
+符号：画画 (P5)
+
+contar
+数数
+Ex: Vamos contar. 
+我们来数数。(P5)
+
+jogar
+玩耍
+Ex: Símbolo: jogar
+符号：玩耍 (P5)
+
+memorizar
+记忆
+Ex: Vamos memorizar.
+我们来记忆。 (P5)
+
+descobrir
+发现
+Ex: Vamos descobrir.
+我们来发现。 (P5)
+
+família
+家庭
+Ex: Na minha casa mora a minha família. 
+我的家里住着我的家人。(P32)
+
+avô
+祖父
+Ex: O meu pai e a minha mãe. O meu avô. 
+我的爸爸和妈妈。我的爷爷。(P23)
+
+irmão
+兄弟
+Ex: O meu irmão chama-se Mané. 
+我的兄弟叫Mané。(P23)
+
+casa
+房子
+Ex: Quem está em casa? 
+谁在家里？(P26)
+
+cozinha
+厨房
+Ex: Onde está a mãe? Ela está na cozinha. 
+妈妈在哪里？她在厨房。(P27)
+
+quarto
+卧室
+Ex: O Pedro está no quarto. 
+Pedro在卧室。(P27)
+
+sala
+客厅
+Ex: A televisão está na sala. 
+电视在客厅。(P27)
+
+garagem
+车库
+Ex: Na garagem mora a Timi. 
+Timi住在车库。(P32)
+
+jardim
+花园
+Ex: Mora no meu jardim.
+（蜗牛）住在我的花园。 (P27)
+
+sanita
+马桶
+Ex: A sanita na casa de banho. 
+卫生间里的马桶。(P22)
+
+fogão
+炉灶
+Ex: O fogão está na cozinha. 
+炉灶在厨房。(P27)
+
+frigorífico
+冰箱
+Ex: O frigorífico está na cozinha. 
+冰箱在厨房。(P29)
+
+cama
+床
+Ex: A avó está na cama. 
+奶奶在床上。(P27)
+
+onde
+哪里
+Ex: E tu, onde moras? 
+你呢，你住在哪里？(P27)
+
+mora
+居住
+Ex: O caracol mora no jardim.
+蜗牛住在花园里。 (P27)
+
+está
+在（位置）
+Ex: Onde está o Pedro? 
+Pedro在哪里？(P26)
+
+em casa
+在家
+Ex: O avô está em casa. 
+爷爷在家。(P26)
+
+na cidade
+在城市
+Ex: Eu moro na cidade.
+我住在城市。 (P27)
+
+no campo
+在乡村
+Ex: Moro no campo.
+我住在乡村。 (P27)
+
+em cima de
+在...上面
+Ex: A Timi está em cima do armário.
+Timi在柜子上面。 (P87, 本单元预现)
+
+debaixo de
+在...下面
+Ex: O gato está debaixo da cama.
+猫在床下面。 (自编补充)
+
+dentro de
+在...里面
+Ex: A camisola está dentro do armário. 
+毛衣在柜子里面。(P87, 本单元预现)
+
+ao pé de
+在...旁边
+Ex: Mesmo ao pé de mim! 
+就在我旁边！(P27)
+
+chama-se
+名叫
+Ex: A minha irmã chama-se Carlota. 
+我的妹妹叫Carlota。(P23)
+
+tem
+有（年龄/物品）
+Ex: Tem um ano. 
+（她）一岁了。(P23)

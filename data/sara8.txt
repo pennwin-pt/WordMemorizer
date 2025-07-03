@@ -1,0 +1,149 @@
+bonito
+漂亮的
+Ex: Que menina tão bela! (P92)
+多漂亮的女孩啊！
+
+feio
+丑的
+Ex: Roupa feia. (P85)
+难看的衣服。
+
+velho
+旧的
+Ex: Um armário com roupa velha! (P86)
+装满旧衣服的柜子！
+
+limpo
+干净的
+Ex: Roupa limpa. (P84)
+干净的衣服。
+
+sujo
+脏的
+Ex: Este casaco está sujo! (P86)
+这件外套脏了！
+
+armário
+柜子
+Ex: O armário mágico. (P86)
+魔法柜子。
+
+sótão
+阁楼
+Ex: Brincam no sótão da Li. (P86)
+在Li的阁楼玩耍。
+
+mágico
+魔法的
+Ex: O armário mágico. (P86)
+魔法柜子。
+
+vestir
+穿（衣服）
+Ex: Eu visto uma camisola. (P92)
+我穿一件毛衣。
+
+calçar
+穿（鞋）
+Ex: Vou calçar umas botas. (P92)
+我要穿靴子。
+
+pareço
+我看起来像
+Ex: Pareço um palhaço! (P87)
+我看起来像小丑！
+
+em cima de
+在...上面
+Ex: Timi está em cima do armário. (P92)
+Timi在柜子上面。
+
+debaixo de
+在...下面
+Ex: Procurar debaixo da cama. (P92)
+在床下寻找。
+
+dentro de
+在...里面
+Ex: Dentro do armário. (P92)
+在柜子里面。
+
+ao lado de
+在...旁边
+Ex: Sentar ao lado da amiga. (P92)
+坐在朋友旁边。
+
+agora
+现在
+Ex: Agora é a minha vez. (P97)
+现在轮到我了。
+
+este/esta
+这个（阳/阴）
+Ex: Esta camisola. (P87)
+这件毛衣。
+
+uns/umas
+一些（阳/阴）
+Ex: Uns casacos castanhos. (P36)
+一些棕色外套。
+
+verão
+夏天
+Ex: No verão uso biquíni. (P93)
+夏天我穿比基尼。
+
+inverno
+冬天
+Ex: Roupa para o inverno. (P93)
+冬天穿的衣服。
+
+cabeça
+头
+Ex: Esticar os braços e as pernas, levantar-se. (P112)
+伸展手臂和腿，站起来。
+
+ombro
+肩膀
+Ex: O ombro esquerdo. (P105)
+左肩。
+
+cotovelo
+手肘
+Ex: O cotovelo direito. (P105)
+右手肘。
+
+dedo
+手指
+Ex: Quem quer dançar com os dedos? (P100)
+谁想用手指跳舞？
+
+peito
+胸部
+Ex: O peito do menino. (P105)
+男孩的胸部。
+
+barriga
+肚子
+Ex: A barriga da girafa. (P101)
+长颈鹿的肚子。
+
+umbigo
+肚脐
+Ex: A dança do umbigo! (P100)
+肚脐舞！
+
+perna
+腿
+Ex: Saltar com as pernas. (P100)
+用腿跳跃。
+
+joelho
+膝盖
+Ex: O joelho esquerdo. (P105)
+左膝盖。
+
+pé
+脚
+Ex: Eu salto com os meus pés! (P100)
+我用脚跳跃！

@@ -1,0 +1,149 @@
+amarelo
+黄色
+Ex: A mochila amarela. (P54)
+黄色书包。
+
+verde
+绿色
+Ex: O retângulo verde. (P58)
+绿色的长方形。
+
+vermelho
+红色
+Ex: Círculo vermelho. (P58)
+红色的圆形。
+
+secretária
+课桌
+Ex: A secretária da professora. (P22)
+老师的讲台。
+
+cadeira
+椅子
+Ex: Quantas cadeiras? (P60)
+几把椅子？
+
+quadro
+黑板
+Ex: Escrever no quadro. (P53)
+在黑板上写字。
+
+estante
+书架
+Ex: Os livros na estante. (P52)
+书架上的书。
+
+porta
+门
+Ex: Bater à porta. (P52)
+敲门。
+
+página
+书页
+Ex: Virar a página. (P52)
+翻页。
+
+exercício
+练习
+Ex: Fazer o exercício 5. (P11)
+做练习5。
+
+palavras
+单词
+Ex: Jogo das palavras. (P49)
+单词游戏。
+
+professor
+老师（男）
+Ex: O professor chama-se... (P63)
+老师名叫...
+
+professora
+老师（女）
+Ex: Esta é a minha professora. (P63)
+这是我的老师。
+
+em cima de
+在...上面
+Ex: A Timi está em cima do armário. (P92)
+Timi在柜子上面。
+
+debaixo de
+在...下面
+Ex: O gato debaixo da mesa. (自编)
+猫在桌子下面。
+
+dentro de
+在...里面
+Ex: Dentro do estojo. (P54)
+在笔袋里面。
+
+ao lado de
+在...旁边
+Ex: Ao lado da janela. (P92)
+在窗户旁边。
+
+passeio
+郊游
+Ex: Hoje é dia de passeio. (P70)
+今天是郊游日。
+
+rio
+河流
+Ex: O rio!!! Hoje é dia de passeio. (P70)
+河边！！！今天是郊游日。
+
+parque
+公园
+Ex: Vou ao parque. (P73)
+我去公园。
+
+jardim
+花园
+Ex: Brincar no jardim. (P74)
+在花园玩耍。
+
+praia
+海滩
+Ex: Na praia gosto de nadar. (P74)
+在海滩我喜欢游泳。
+
+lago
+湖泊
+Ex: Vão ao lago. (P80)
+他们去湖边。
+
+montanha
+山
+Ex: Ele vai à montanha. (P75)
+他去山上。
+
+relva
+草地
+Ex: Eu estou a comer relva! (P71)
+我在吃草！
+
+jogar
+玩（球类/游戏）
+Ex: Quem quer jogar à bola? (P70)
+谁想玩球？
+
+bola
+球
+Ex: O Igor está a jogar bola. (P78)
+Igor在玩球。
+
+futebol
+足球
+Ex: Jogar futebol. (P69)
+踢足球。
+
+nadar
+游泳
+Ex: O Ben está a nadar no rio. (P78)
+Ben在河里游泳。
+
+saltar
+跳跃
+Ex: Gosto tanto de saltar! (P70)
+我超爱跳跃！

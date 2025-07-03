@@ -1,0 +1,149 @@
+brincar
+玩耍
+Ex: Está no quarto a brincar.
+（他）在房间里玩耍。(P32)
+
+fazer
+做
+Ex: Na cozinha a fazer o jantar.
+在厨房做晚餐。(P32)
+
+ver
+看
+Ex: Está na sala a ver televisão.
+（她）在客厅看电视。(P32)
+
+temos
+我们有
+Ex: Temos muitas saudades tuas!
+我们非常想念你！(P119, 本单元预现)
+
+chove
+下雨
+Ex: Faça chuva ou faça Sol.
+无论下雨还是晴天。(P32)
+
+aberto/fechado
+开着的/关着的
+Ex: Está aberto.
+（店铺）开着。(P123)
+
+alimentos
+食物
+Ex: Os alimentos.
+食物。(P35)
+
+pudim
+布丁
+Ex: Hum! Eu gosto muito de pudim.
+嗯！我超爱布丁。(P37)
+
+gelado
+冰淇淋
+Ex: Eu não gosto de pudim, mas gosto muito de gelado!
+我不喜欢布丁，但超爱冰淇淋！(P37)
+
+sumo
+果汁
+Ex: Há sumo de maçã e de laranja.
+有苹果汁和橙汁。(P37)
+
+carne
+肉
+Ex: A Carmen come carne.
+Carmen吃肉。(P47)
+
+ovos
+鸡蛋
+Ex: Comprar ovos.
+买鸡蛋。(P122, 本单元预现)
+
+fruta
+水果
+Ex: A nossa salada de fruta.
+我们的水果沙拉。(P46)
+
+sopa
+汤
+Ex: Tu comes sopa.
+你喝汤。(P43)
+
+gosto de
+喜欢
+Ex: Eu gosto de...
+我喜欢...(P41)
+
+não gosto de
+不喜欢
+Ex: Eu não gosto de...
+我不喜欢...(P41)
+
+quero
+我想要
+Ex: Quem quer comer bolo? Eu quero!
+谁想吃蛋糕？我想要！(P38)
+
+como
+我吃
+Ex: Eu como a banana.
+我吃香蕉。(P43)
+
+bebo
+我喝
+Ex: Eu bebo sumo.
+我喝果汁。(P37)
+
+faz anos
+过生日
+Ex: Quantos anos faz o Ben?
+Ben几岁了？(P40)
+
+preparar
+准备
+Ex: Para preparar a salada.
+为了准备沙拉。(P46)
+
+descascar
+剥皮
+Ex: Vamos descascar as frutas.
+我们来给水果剥皮。(P46)
+
+cortar
+切
+Ex: Vamos cortar.
+我们来切。(P46)
+
+misturar
+混合
+Ex: Vamos misturar.
+我们来混合。(P46)
+
+prato
+盘子
+Ex: O peixe está no prato.
+鱼在盘子里。(P35)
+
+faca
+刀
+Ex: Precisamos de faca para cortar.
+我们需要刀来切。(P35)
+
+colher
+勺子
+Ex: Como sopa com a colher.
+我用勺子喝汤。(P35)
+
+garfo
+叉子
+Ex: O garfo para a carne.
+吃肉用的叉子。(P35)
+
+mesa
+桌子
+Ex: O que há na mesa?
+桌子上有什么？(P37)
+
+cozinha
+厨房
+Ex: Em cima da mesa da cozinha.
+在厨房的桌子上。(P40)

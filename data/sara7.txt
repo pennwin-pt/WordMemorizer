@@ -1,0 +1,149 @@
+árvore
+树
+Ex: Trepar às árvores. (P82)
+爬树。
+
+sol
+太阳
+Ex: Com chuva ou com Sol. (P32, 本单元复用)
+无论下雨或晴天。
+
+chuva
+雨
+Ex: Faça chuva. (P32, 本单元复用)
+如果下雨。
+
+vestuário
+服装
+Ex: O vestuário. (P36)
+服装。
+
+saia
+裙子
+Ex: Esta saia cor de rosa é bonita! (P86)
+这条粉色裙子真漂亮！
+
+casaco
+外套
+Ex: Este casaco está sujo. (P86)
+这件外套脏了。
+
+camisola
+毛衣
+Ex: Vou vestir a camisola verde. (P87)
+我要穿绿色毛衣。
+
+calças
+裤子
+Ex: As calças são azuis. (P84)
+裤子是蓝色的。
+
+vestido
+连衣裙
+Ex: O vestido é lilás. (P84)
+连衣裙是淡紫色的。
+
+t-shirt
+T恤
+Ex: A t-shirt branca. (P84)
+白色T恤。
+
+meias
+袜子
+Ex: As meias vermelhas. (P85)
+红色袜子。
+
+sapatos
+鞋子
+Ex: Calçar sapatos. (P85)
+穿鞋子。
+
+botas
+靴子
+Ex: Estás a calçar as botas cinzentas. (P87)
+你在穿灰色靴子。
+
+sandálias
+凉鞋
+Ex: Sandálias para o verão. (P85)
+夏天穿的凉鞋。
+
+tênis
+运动鞋
+Ex: Os tênis novos. (P85)
+新运动鞋。
+
+boné
+帽子
+Ex: Brincar com um boné. (P87)
+玩帽子。
+
+cachecol
+围巾
+Ex: Cachecol de lã. (P87)
+羊毛围巾。
+
+luvas
+手套
+Ex: Luvas para o inverno. (P84)
+冬天用的手套。
+
+gorro
+毛线帽
+Ex: Gorro cor de laranja. (P87)
+橙色毛线帽。
+
+fato de banho
+泳衣
+Ex: Fato de banho para a praia. (P84)
+去海滩穿的泳衣。
+
+biquíni
+比基尼
+Ex: Biquíni azul. (P85)
+蓝色比基尼。
+
+cores
+颜色
+Ex: As cores. (P36)
+颜色。
+
+amarelo
+黄色
+Ex: A mochila amarela. (P54, 本单元复用)
+黄色书包。
+
+azul
+蓝色
+Ex: O casaco azul. (P85)
+蓝色外套。
+
+verde
+绿色
+Ex: A camisola verde. (P87)
+绿色毛衣。
+
+castanho
+棕色
+Ex: Um casaco castanho. (P36)
+棕色外套。
+
+cor de laranja
+橙色
+Ex: Gorro cor de laranja. (P87)
+橙色毛线帽。
+
+cor de rosa
+粉色
+Ex: Saia cor de rosa. (P86)
+粉色裙子。
+
+branco
+白色
+Ex: T-shirt branca. (P84)
+白色T恤。
+
+preto
+黑色
+Ex: Sapatos pretos. (P122, 本单元预现)
+黑色鞋子。

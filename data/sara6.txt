@@ -1,0 +1,149 @@
+corda
+绳子
+Ex: Saltar à corda. (P69)
+跳绳。
+
+trepar
+攀爬
+Ex: Adoro trepar! (P70)
+我超爱攀爬！
+
+correr
+跑步
+Ex: Gosto de correr. (P74)
+我喜欢跑步。
+
+brincar
+玩耍
+Ex: Brinco na praia. (P112, 本单元预现)
+我在海滩玩耍。
+
+escondidas
+捉迷藏
+Ex: Jogar às escondidas. (P68)
+玩捉迷藏。
+
+tocar
+演奏
+Ex: O Igor gosta de tocar piano. (P76)
+Igor喜欢弹钢琴。
+
+piano
+钢琴
+Ex: Tocar piano. (P74)
+弹钢琴。
+
+guitarra
+吉他
+Ex: A Xana está a tocar guitarra. (P78)
+Xana在弹吉他。
+
+bateria
+架子鼓
+Ex: Tocar bateria. (P74)
+打鼓。
+
+tambor
+鼓
+Ex: Tocar tambor. (P75)
+打鼓。
+
+violino
+小提琴
+Ex: Tocar violino. (P74)
+拉小提琴。
+
+semana
+周
+Ex: A minha semana. (P73)
+我的一周。
+
+segunda-feira
+星期一
+Ex: Segunda-feira vou à escola. (P73)
+星期一我去学校。
+
+terça-feira
+星期二
+Ex: Na terça-feira? (P72)
+在星期二？
+
+quarta-feira
+星期三
+Ex: Na quarta-feira a Xana toca piano. (P80)
+星期三Xana弹钢琴。
+
+quinta-feira
+星期四
+Ex: Quinta-feira é dia de música. (自编)
+星期四是音乐日。
+
+sexta-feira
+星期五
+Ex: Hoje é sexta-feira. (P70)
+今天是星期五。
+
+sábado
+星期六
+Ex: No sábado vou à praia. (P73)
+星期六我去海滩。
+
+domingo
+星期日
+Ex: No domingo descanso. (P73)
+星期日我休息。
+
+fome
+饿
+Ex: Estou com fome. (P71)
+我饿了。
+
+sede
+渴
+Ex: Tenho sede! (P71)
+我渴了！
+
+sono
+困
+Ex: Tenho sono! (P71)
+我困了！
+
+cansado
+累
+Ex: Já estou cansada! (P134, 本单元预现)
+我已经累了！
+
+ir
+去
+Ex: Eu vou ao rio. (P75)
+我去河边。
+
+vais
+你去（ir变位）
+Ex: Tu vais ao parque. (P75)
+你去公园。
+
+vai
+他/她去（ir变位）
+Ex: Ela vai à cidade. (P75)
+她去城里。
+
+andar
+走路
+Ex: Gosto de andar. (P69)
+我喜欢走路。
+
+prefiro
+我更喜欢
+Ex: Prefiro saltar à corda. (P70)
+我更喜欢跳绳。
+
+gosto tanto
+我超喜欢
+Ex: Eu gosto tanto de correr! (P82)
+我超爱跑步！
+
+adoro
+我超爱
+Ex: E eu adoro trepar! (P70)
+而我超爱攀爬！

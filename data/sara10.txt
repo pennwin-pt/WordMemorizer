@@ -1,0 +1,149 @@
+balde
+桶
+Ex: Com o balde e a pá. (P112)
+用桶和铲子。
+
+pá
+铲子
+Ex: A pá para cavar. (P101)
+挖沙用的铲子。
+
+prancha
+冲浪板
+Ex: A prancha de surf. (P100)
+冲浪板。
+
+barco
+船
+Ex: Barco à vela. (P112)
+帆船。
+
+vela
+帆
+Ex: Barco com vela branca. (P100)
+带白帆的船。
+
+gaivota
+海鸥
+Ex: Gaivota a voar no céu. (P112)
+海鸥在天空飞翔。
+
+em cima de
+在...上面
+Ex: Com as mãos em cima da cabeça. (P103)
+双手放在头上。
+
+costas
+背部
+Ex: De mochila às costas. (P112)
+背包背在背上。
+
+frente
+前面
+Ex: Na frente do espelho. (自编)
+在镜子前面。
+
+acordar
+醒来
+Ex: A Xana acordou pela manhã. (P112)
+Xana早上醒来。
+
+dentes
+牙齿
+Ex: Foi lavar os dentes. (P112)
+去刷牙。
+
+espelho
+镜子
+Ex: Olhar no espelho. (自编)
+照镜子。
+
+manhã
+早晨
+Ex: Pela manhã. (P112)
+在早晨。
+
+pela
+通过/在
+Ex: Caminhou pela manhã. (P112)
+早上散步。
+
+avião
+飞机
+Ex: Apanham o avião... depois o autocarro. (P118)
+他们乘飞机...然后坐公交车。
+
+autocarro
+公交车
+Ex: Depois o autocarro. (P118)
+然后坐公交车。
+
+comboio
+火车
+Ex: Os meninos vão de comboio. (P134, 本单元预现)
+孩子们坐火车去。
+
+barco
+船
+Ex: Ir à ilha de barco. (P121)
+坐船去岛上。
+
+carro
+汽车
+Ex: Vou de carro à cidade. (P121)
+我开车去城里。
+
+moto
+摩托车
+Ex: A moto do polícia. (P117)
+警察的摩托车。
+
+cavalo
+马
+Ex: Ir a cavalo. (P121)
+骑马去。
+
+a pé
+步行
+Ex: Vou ao jardim a pé. (P121)
+我步行去花园。
+
+farmácia
+药店
+Ex: Comprar um xarope na farmácia. (P122)
+在药店买止咳糖浆。
+
+talho
+肉铺
+Ex: Comprar carne no talho. (P122)
+在肉铺买肉。
+
+padaria
+面包店
+Ex: Comprar pão na padaria. (P123)
+在面包店买面包。
+
+mercado
+市场
+Ex: O mercado vende fruta. (P123)
+市场卖水果。
+
+supermercado
+超市
+Ex: A Teresa vai ao supermercado. (P124)
+Teresa去超市。
+
+livraria
+书店
+Ex: Comprar livro na livraria. (P122)
+在书店买书。
+
+loja
+商店
+Ex: As lojas na rua. (P117)
+街上的商店。
+
+centro comercial
+购物中心
+Ex: Ir ao centro comercial. (P117)
+去购物中心。

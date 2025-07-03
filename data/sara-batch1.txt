@@ -1,0 +1,149 @@
+timi
+乌龟（名字）
+Ex: Olá! Eu sou a Timi! (P9)
+你好！我是Timi！
+
+turma
+班级
+Ex: A minha turma. (P10)
+我的班级。
+
+zero
+零
+Ex: zero, um, dois... (P11)
+零、一、二...
+
+bom dia
+早上好
+Ex: Bom dia! Tudo bem? (P15)
+早上好！你好吗？
+
+buraco
+洞
+Ex: Um buraco no sapato. (P16)
+鞋子上有个洞。
+
+lavar
+洗
+Ex: Vou lavar os pés. (P16)
+我要洗脚。
+
+avó
+祖母
+Ex: A minha avó é o meu avô. (P23)
+我的祖母和祖父。
+
+garagem
+车库
+Ex: Na garagem mora a Timi. (P32)
+Timi住在车库。
+
+caracol
+蜗牛
+Ex: Mora no meu jardim, mesmo ao pé de mim! (P27)
+它住在我花园里，就在我旁边！
+
+fogão
+炉灶
+Ex: O fogão está na cozinha. (P27)
+炉灶在厨房。
+
+sofá
+沙发
+Ex: Estão sentados no sofá. (P32)
+他们坐在沙发上。
+
+pudim
+布丁
+Ex: Hum! Eu gosto muito de pudim. (P37)
+嗯！我非常喜欢布丁。
+
+sumo
+果汁
+Ex: Há sumo de maçã e de laranja. (P37)
+有苹果汁和橙汁。
+
+obrigada
+谢谢（女）
+Ex: Eu quero, obrigada! (P38)
+我想要，谢谢！
+
+cenoura
+胡萝卜
+Ex: Vamos cortar cenouras. (自编)
+我们来切胡萝卜。
+
+misturar
+混合
+Ex: Vamos descascar, cortar e misturar. (P46)
+我们要剥皮、切块和混合。
+
+mochila
+书包
+Ex: Timi, o que tens na mochila? (P54)
+Timi，你书包里有什么？
+
+tesoura
+剪刀
+Ex: Tens uma tesoura no estojo? (P54)
+你笔袋里有剪刀吗？
+
+borracha
+橡皮
+Ex: A borracha é tua? (P57)
+橡皮是你的吗？
+
+círculo
+圆形
+Ex: Pinta o círculo de vermelho. (P58)
+把圆形涂成红色。
+
+pintar
+画画
+Ex: Gosto muito de pintar! (P55)
+我非常喜欢画画！
+
+rio
+河流
+Ex: O rio!!! Hoje é dia de passeio. (P70)
+河边！！！今天是郊游日。
+
+prefiro
+我更喜欢
+Ex: Prefiro saltar à corda. (P70)
+我更喜欢跳绳。
+
+sede
+口渴
+Ex: Tenho sede! (P71)
+我渴了！
+
+tocar
+演奏
+Ex: O Igor gosta de tocar piano. (P76)
+Igor喜欢弹钢琴。
+
+trepar
+攀爬
+Ex: E eu adoro trepar! (P70)
+而我超爱攀爬！
+
+casaco
+外套
+Ex: Este casaco? Está muito sujo! (P86)
+这件外套？太脏了！
+
+calçar
+穿(鞋)
+Ex: Estás a calçar as botas cinzentas? (P87)
+你在穿灰色靴子吗？
+
+cachecol
+围巾
+Ex: Estou a brincar com um boné e um cachecol! (P87)
+我在玩帽子和围巾！
+
+verão
+夏天
+Ex: No verão visto biquíni. (自编)
+夏天我穿比基尼。
