@@ -1,149 +1,149 @@
 pequeno-almoço
 早餐
-Ex: O pequeno-almoço tem leite. (P43)
-早餐有牛奶。
+Ex: O pequeno-almoço tem leite.
+早餐有牛奶。(P43)
 
 almoço
 午餐
-Ex: Ao almoço como sopa. (P43)
-午餐我喝汤。
+Ex: Ao almoço como sopa.
+午餐我喝汤。(P43)
 
 lanche
 下午茶
-Ex: O lanche tem bolachas. (P43)
-下午茶有饼干。
+Ex: O lanche tem bolachas.
+下午茶有饼干。(P43)
 
 jantar
 晚餐
-Ex: O jantar é às oito. (P43)
-晚餐在八点。
+Ex: O jantar é às oito.
+晚餐在八点。(P43)
 
 doce
 甜的
-Ex: O pudim é doce. (P51)
-布丁是甜的。
+Ex: O pudim é doce.
+布丁是甜的。(P51)
 
 salgado
 咸的
-Ex: A sopa é salgada. (P51)
-汤是咸的。
+Ex: A sopa é salgada.
+汤是咸的。(P51)
 
 fome
 饿
-Ex: Tenho fome! (P72, 本单元预现)
-我饿了！
+Ex: Tenho fome!
+我饿了！(P72, 本单元预现)
 
 sede
 渴
-Ex: Tenho sede! (P72, 本单元预现)
-我渴了！
+Ex: Tenho sede!
+我渴了！(P72, 本单元预现)
 
 sono
 困
-Ex: Tenho sono! (P72, 本单元预现)
-我困了！
+Ex: Tenho sono!
+我困了！(P72, 本单元预现)
 
 estojo
 笔袋
-Ex: Tenho um caderno e um estojo. (P54)
-我有一个笔记本和一个笔袋。
+Ex: Tenho um caderno e um estojo.
+我有一个笔记本和一个笔袋。(P54)
 
 caderno
 笔记本
-Ex: Tenho um caderno. (P54)
-我有一个笔记本。
+Ex: Tenho um caderno.
+我有一个笔记本。(P54)
 
 borracha
 橡皮
-Ex: A borracha é tua? (P57)
-橡皮是你的吗？
+Ex: A borracha é tua?
+橡皮是你的吗？(P57)
 
 caneta
 钢笔
-Ex: A caneta é azul. (P60)
-钢笔是蓝色的。
+Ex: A caneta é azul.
+钢笔是蓝色的。(P60)
 
 tesoura
 剪刀
-Ex: Tens uma tesoura? (P54)
-你有剪刀吗？
+Ex: Tens uma tesoura?
+你有剪刀吗？(P54)
 
 régua
 尺子
-Ex: A Xana tem uma régua. (P59)
-Xana有一把尺子。
+Ex: A Xana tem uma régua.
+Xana有一把尺子。(P59)
 
 giz
 粉笔
-Ex: Escrever com giz. (P53)
-用粉笔写字。
+Ex: Escrever com giz.
+用粉笔写字。(P53)
 
 afiar
 削尖
-Ex: O Pedro tem um afia. (P59)
-Pedro有一个卷笔刀。
+Ex: O Pedro tem um afia.
+Pedro有一个卷笔刀。(P59)
 
 pintar
 画画
-Ex: Gosto muito de pintar! (P55)
-我非常喜欢画画！
+Ex: Gosto muito de pintar!
+我非常喜欢画画！(P55)
 
 escrever
 写字
-Ex: A Timi está a escrever. (P61)
-Timi正在写字。
+Ex: A Timi está a escrever.
+Timi正在写字。(P61)
 
 contar
 数数
-Ex: Vamos contar. (P53)
-我们来数数。
+Ex: Vamos contar.
+我们来数数。(P53)
 
 colar
 粘贴
-Ex: Símbolo: colar (P5)
-符号：粘贴
+Ex: Símbolo: colar
+符号：粘贴。(P5)
 
 recortar
 裁剪
-Ex: Vamos recortar. (P5)
-我们来裁剪。
+Ex: Vamos recortar.
+我们来裁剪。(P5)
 
 falar
 说话
-Ex: Símbolo: falar (P5)
-符号：说话
+Ex: Símbolo: falar
+符号：说话。(P5)
 
 apagar
 擦除
-Ex: Apagar o quadro. (P53)
-擦黑板。
+Ex: Apagar o quadro.
+擦黑板。(P53)
 
 assinalar
 标记
-Ex: Assinalar a resposta. (P5)
-标记答案。
+Ex: Assinalar a resposta.
+标记答案。(P5)
 
 círculo
 圆形
-Ex: Pinta o círculo de vermelho. (P58)
-把圆形涂成红色。
+Ex: Pinta o círculo de vermelho.
+把圆形涂成红色。(P58)
 
 quadrado
 正方形
-Ex: O quadrado é amarelo. (P58)
-正方形是黄色的。
+Ex: O quadrado é amarelo.
+正方形是黄色的。(P58)
 
 triângulo
 三角形
-Ex: Fazer um triângulo. (P66)
-做一个三角形。
+Ex: Fazer um triângulo.
+做一个三角形。(P66)
 
 retângulo
 长方形
-Ex: Pintar um retângulo de azul. (P66)
-把长方形涂成蓝色。
+Ex: Pintar um retângulo de azul.
+把长方形涂成蓝色。(P66)
 
 azul
 蓝色
-Ex: A caneta é azul. (P60)
-钢笔是蓝色的。
+Ex: A caneta é azul.
+钢笔是蓝色的。(P60)

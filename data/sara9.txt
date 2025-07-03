@@ -1,149 +1,149 @@
 pescoço
 脖子
-Ex: O pescoço da girafa. (P101)
-长颈鹿的脖子。
+Ex: O pescoço da girafa.
+长颈鹿的脖子。(P101)
 
 olho
 眼睛
-Ex: Abriu os seus lindos olhos azuis. (P112)
-睁开她美丽的蓝色眼睛。
+Ex: Abriu os seus lindos olhos azuis.
+睁开她美丽的蓝色眼睛。(P112)
 
 orelha
 耳朵
-Ex: A orelha do elefante. (P132, 本单元预现)
-大象的耳朵。
+Ex: A orelha do elefante.
+大象的耳朵。(P132, 本单元预现)
 
 nariz
 鼻子
-Ex: O nariz do palhaço. (P105)
-小丑的鼻子。
+Ex: O nariz do palhaço.
+小丑的鼻子。(P105)
 
 boca
 嘴巴
-Ex: Lavar os dentes da boca. (P112)
-刷嘴里的牙齿。
+Ex: Lavar os dentes da boca.
+刷嘴里的牙齿。(P112)
 
 dançar
 跳舞
-Ex: Os meninos estão a dançar no pátio. (P100)
-孩子们在院子里跳舞。
+Ex: Os meninos estão a dançar no pátio.
+孩子们在院子里跳舞。(P100)
 
 danço
 我跳舞
-Ex: Eu danço com os braços. (P100)
-我用胳膊跳舞。
+Ex: Eu danço com os braços.
+我用胳膊跳舞。(P100)
 
 salto
 我跳跃
-Ex: Eu salto com os pés. (P100)
-我用脚跳跃。
+Ex: Eu salto com os pés.
+我用脚跳跃。(P100)
 
 esticar
 伸展
-Ex: Esticar os braços. (P112)
-伸展手臂。
+Ex: Esticar os braços.
+伸展手臂。(P112)
 
 levantar
 抬起
-Ex: Levantar-se da cama. (P112)
-从床上起来。
+Ex: Levantar-se da cama.
+从床上起来。(P112)
 
 caminhar
 走路
-Ex: A Xana caminhou pela manhã. (P112)
-Xana早上走路。
+Ex: A Xana caminhou pela manhã.
+Xana早上走路。(P112)
 
 brincar
 玩耍
-Ex: Brinco na praia. (P112)
-我在海滩玩耍。
+Ex: Brinco na praia.
+我在海滩玩耍。(P112)
 
 voar
 飞翔
-Ex: Gaivota a voar. (P112)
-飞翔的海鸥。
+Ex: Gaivota a voar.
+飞翔的海鸥。(P112)
 
 nadar
 游泳
-Ex: Nadar no mar. (P112)
-在海里游泳。
+Ex: Nadar no mar.
+在海里游泳。(P112)
 
 ver
 看见
-Ex: Vejo um barco à vela. (P112)
-我看见一艘帆船。
+Ex: Vejo um barco à vela.
+我看见一艘帆船。(P112)
 
 encontrar
 遇到
-Ex: Encontrou muitos amigos. (P112)
-遇到很多朋友。
+Ex: Encontrou muitos amigos.
+遇到很多朋友。(P112)
 
 alto/alta
 高的
-Ex: O meu amigo é alto. (P106)
-我的朋友很高。
+Ex: O meu amigo é alto.
+我的朋友很高。(P106)
 
 baixo/baixa
 矮的
-Ex: A menina é baixa. (P106)
-女孩很矮。
+Ex: A menina é baixa.
+女孩很矮。(P106)
 
 gordo/gorda
 胖的
-Ex: O urso é gordo. (P106)
-熊很胖。
+Ex: O urso é gordo.
+熊很胖。(P106)
 
 magro/magra
 瘦的
-Ex: O menino é magro. (P106)
-男孩很瘦。
+Ex: O menino é magro.
+男孩很瘦。(P106)
 
 comprido/comprida
 长的
-Ex: Cabelo comprido. (P106)
-长头发。
+Ex: Cabelo comprido.
+长头发。(P106)
 
 curto/curta
 短的
-Ex: Cabelo curto. (P106)
-短头发。
+Ex: Cabelo curto.
+短头发。(P106)
 
 liso/lisa
 直的
-Ex: Cabelo liso. (P106)
-直发。
+Ex: Cabelo liso.
+直发。(P106)
 
 ondulado/ondulada
 卷的
-Ex: Cabelo ondulado. (P106)
-卷发。
+Ex: Cabelo ondulado.
+卷发。(P106)
 
 lindo/linda
 美丽的
-Ex: Os seus lindos olhos. (P112)
-她美丽的眼睛。
+Ex: Os seus lindos olhos.
+她美丽的眼睛。(P112)
 
 contente
 开心的
-Ex: Contentes e felizes. (P112)
-开心又快乐。
+Ex: Contentes e felizes.
+开心又快乐。(P112)
 
 feliz
 快乐的
-Ex: Estavam todos felizes. (P130, 本单元预现)
-大家都很开心。
+Ex: Estavam todos felizes.
+大家都很开心。(P130, 本单元预现)
 
 praia
 海滩
-Ex: Brinco na praia, no mar e na areia. (P112)
-我在海滩、海里和沙地上玩耍。
+Ex: Brinco na praia, no mar e na areia.
+我在海滩、海里和沙地上玩耍。(P112)
 
 mar
 海洋
-Ex: Nadar no mar. (P112)
-在海里游泳。
+Ex: Nadar no mar.
+在海里游泳。(P112)
 
 areia
 沙子
-Ex: Brinco na areia. (P112)
-我在沙地上玩耍。
+Ex: Brinco na areia.
+我在沙地上玩耍。(P112)

@@ -1,149 +1,149 @@
 amarelo
 黄色
-Ex: A mochila amarela. (P54)
-黄色书包。
+Ex: A mochila amarela.
+黄色书包。(P54)
 
 verde
 绿色
-Ex: O retângulo verde. (P58)
-绿色的长方形。
+Ex: O retângulo verde.
+绿色的长方形。(P58)
 
 vermelho
 红色
-Ex: Círculo vermelho. (P58)
-红色的圆形。
+Ex: Círculo vermelho.
+红色的圆形。(P58)
 
 secretária
 课桌
-Ex: A secretária da professora. (P22)
-老师的讲台。
+Ex: A secretária da professora.
+老师的讲台。(P22)
 
 cadeira
 椅子
-Ex: Quantas cadeiras? (P60)
-几把椅子？
+Ex: Quantas cadeiras?
+几把椅子？(P60)
 
 quadro
 黑板
-Ex: Escrever no quadro. (P53)
-在黑板上写字。
+Ex: Escrever no quadro.
+在黑板上写字。(P53)
 
 estante
 书架
-Ex: Os livros na estante. (P52)
-书架上的书。
+Ex: Os livros na estante.
+书架上的书。(P52)
 
 porta
 门
-Ex: Bater à porta. (P52)
-敲门。
+Ex: Bater à porta.
+敲门。(P52)
 
 página
 书页
-Ex: Virar a página. (P52)
-翻页。
+Ex: Virar a página.
+翻页。(P52)
 
 exercício
 练习
-Ex: Fazer o exercício 5. (P11)
-做练习5。
+Ex: Fazer o exercício 5.
+做练习5。(P11)
 
 palavras
 单词
-Ex: Jogo das palavras. (P49)
-单词游戏。
+Ex: Jogo das palavras.
+单词游戏。(P49)
 
 professor
 老师（男）
-Ex: O professor chama-se... (P63)
-老师名叫...
+Ex: O professor chama-se...
+老师名叫...(P63)
 
 professora
 老师（女）
-Ex: Esta é a minha professora. (P63)
-这是我的老师。
+Ex: Esta é a minha professora.
+这是我的老师。(P63)
 
 em cima de
 在...上面
-Ex: A Timi está em cima do armário. (P92)
-Timi在柜子上面。
+Ex: A Timi está em cima do armário.
+Timi在柜子上面。(P92)
 
 debaixo de
 在...下面
-Ex: O gato debaixo da mesa. (自编)
-猫在桌子下面。
+Ex: O gato debaixo da mesa.
+猫在桌子下面。(自编)
 
 dentro de
 在...里面
-Ex: Dentro do estojo. (P54)
-在笔袋里面。
+Ex: Dentro do estojo.
+在笔袋里面。(P54)
 
 ao lado de
 在...旁边
-Ex: Ao lado da janela. (P92)
-在窗户旁边。
+Ex: Ao lado da janela.
+在窗户旁边。(P92)
 
 passeio
 郊游
-Ex: Hoje é dia de passeio. (P70)
-今天是郊游日。
+Ex: Hoje é dia de passeio.
+今天是郊游日。(P70)
 
 rio
 河流
-Ex: O rio!!! Hoje é dia de passeio. (P70)
-河边！！！今天是郊游日。
+Ex: O rio!!! Hoje é dia de passeio.
+河边！！！今天是郊游日。(P70)
 
 parque
 公园
-Ex: Vou ao parque. (P73)
-我去公园。
+Ex: Vou ao parque.
+我去公园。(P73)
 
 jardim
 花园
-Ex: Brincar no jardim. (P74)
-在花园玩耍。
+Ex: Brincar no jardim.
+在花园玩耍。(P74)
 
 praia
 海滩
-Ex: Na praia gosto de nadar. (P74)
-在海滩我喜欢游泳。
+Ex: Na praia gosto de nadar.
+在海滩我喜欢游泳。(P74)
 
 lago
 湖泊
-Ex: Vão ao lago. (P80)
-他们去湖边。
+Ex: Vão ao lago.
+他们去湖边。(P80)
 
 montanha
 山
-Ex: Ele vai à montanha. (P75)
-他去山上。
+Ex: Ele vai à montanha.
+他去山上。(P75)
 
 relva
 草地
-Ex: Eu estou a comer relva! (P71)
-我在吃草！
+Ex: Eu estou a comer relva!
+我在吃草！(P71)
 
 jogar
 玩（球类/游戏）
-Ex: Quem quer jogar à bola? (P70)
-谁想玩球？
+Ex: Quem quer jogar à bola?
+谁想玩球？(P70)
 
 bola
 球
-Ex: O Igor está a jogar bola. (P78)
-Igor在玩球。
+Ex: O Igor está a jogar bola.
+Igor在玩球。(P78)
 
 futebol
 足球
-Ex: Jogar futebol. (P69)
-踢足球。
+Ex: Jogar futebol.
+踢足球。(P69)
 
 nadar
 游泳
-Ex: O Ben está a nadar no rio. (P78)
-Ben在河里游泳。
+Ex: O Ben está a nadar no rio.
+Ben在河里游泳。(P78)
 
 saltar
 跳跃
-Ex: Gosto tanto de saltar! (P70)
-我超爱跳跃！
+Ex: Gosto tanto de saltar!
+我超爱跳跃！(P70)

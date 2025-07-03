@@ -1,149 +1,149 @@
 corda
 绳子
-Ex: Saltar à corda. (P69)
-跳绳。
+Ex: Saltar à corda.
+跳绳。(P69)
 
 trepar
 攀爬
-Ex: Adoro trepar! (P70)
-我超爱攀爬！
+Ex: Adoro trepar!
+我超爱攀爬！(P70)
 
 correr
 跑步
-Ex: Gosto de correr. (P74)
-我喜欢跑步。
+Ex: Gosto de correr.
+我喜欢跑步。(P74)
 
 brincar
 玩耍
-Ex: Brinco na praia. (P112, 本单元预现)
-我在海滩玩耍。
+Ex: Brinco na praia.
+我在海滩玩耍。(P112, 本单元预现)
 
 escondidas
 捉迷藏
-Ex: Jogar às escondidas. (P68)
-玩捉迷藏。
+Ex: Jogar às escondidas.
+玩捉迷藏。(P68)
 
 tocar
 演奏
-Ex: O Igor gosta de tocar piano. (P76)
-Igor喜欢弹钢琴。
+Ex: O Igor gosta de tocar piano.
+Igor喜欢弹钢琴。(P76)
 
 piano
 钢琴
-Ex: Tocar piano. (P74)
-弹钢琴。
+Ex: Tocar piano.
+弹钢琴。(P74)
 
 guitarra
 吉他
-Ex: A Xana está a tocar guitarra. (P78)
-Xana在弹吉他。
+Ex: A Xana está a tocar guitarra.
+Xana在弹吉他。(P78)
 
 bateria
 架子鼓
-Ex: Tocar bateria. (P74)
-打鼓。
+Ex: Tocar bateria.
+打鼓。(P74)
 
 tambor
 鼓
-Ex: Tocar tambor. (P75)
-打鼓。
+Ex: Tocar tambor.
+打鼓。(P75)
 
 violino
 小提琴
-Ex: Tocar violino. (P74)
-拉小提琴。
+Ex: Tocar violino.
+拉小提琴。(P74)
 
 semana
 周
-Ex: A minha semana. (P73)
-我的一周。
+Ex: A minha semana.
+我的一周。(P73)
 
 segunda-feira
 星期一
-Ex: Segunda-feira vou à escola. (P73)
-星期一我去学校。
+Ex: Segunda-feira vou à escola.
+星期一我去学校。(P73)
 
 terça-feira
 星期二
-Ex: Na terça-feira? (P72)
-在星期二？
+Ex: Na terça-feira?
+在星期二？(P72)
 
 quarta-feira
 星期三
-Ex: Na quarta-feira a Xana toca piano. (P80)
-星期三Xana弹钢琴。
+Ex: Na quarta-feira a Xana toca piano.
+星期三Xana弹钢琴。(P80)
 
 quinta-feira
 星期四
-Ex: Quinta-feira é dia de música. (自编)
-星期四是音乐日。
+Ex: Quinta-feira é dia de música.
+星期四是音乐日。(自编)
 
 sexta-feira
 星期五
-Ex: Hoje é sexta-feira. (P70)
-今天是星期五。
+Ex: Hoje é sexta-feira.
+今天是星期五。(P70)
 
 sábado
 星期六
-Ex: No sábado vou à praia. (P73)
-星期六我去海滩。
+Ex: No sábado vou à praia.
+星期六我去海滩。(P73)
 
 domingo
 星期日
-Ex: No domingo descanso. (P73)
-星期日我休息。
+Ex: No domingo descanso.
+星期日我休息。(P73)
 
 fome
 饿
-Ex: Estou com fome. (P71)
-我饿了。
+Ex: Estou com fome.
+我饿了。(P71)
 
 sede
 渴
-Ex: Tenho sede! (P71)
-我渴了！
+Ex: Tenho sede!
+我渴了！(P71)
 
 sono
 困
-Ex: Tenho sono! (P71)
-我困了！
+Ex: Tenho sono!
+我困了！(P71)
 
 cansado
 累
-Ex: Já estou cansada! (P134, 本单元预现)
-我已经累了！
+Ex: Já estou cansada!
+我已经累了！(P134, 本单元预现)
 
 ir
 去
-Ex: Eu vou ao rio. (P75)
-我去河边。
+Ex: Eu vou ao rio.
+我去河边。(P75)
 
 vais
 你去（ir变位）
-Ex: Tu vais ao parque. (P75)
-你去公园。
+Ex: Tu vais ao parque.
+你去公园。(P75)
 
 vai
 他/她去（ir变位）
-Ex: Ela vai à cidade. (P75)
-她去城里。
+Ex: Ela vai à cidade.
+她去城里。(P75)
 
 andar
 走路
-Ex: Gosto de andar. (P69)
-我喜欢走路。
+Ex: Gosto de andar.
+我喜欢走路。(P69)
 
 prefiro
 我更喜欢
-Ex: Prefiro saltar à corda. (P70)
-我更喜欢跳绳。
+Ex: Prefiro saltar à corda.
+我更喜欢跳绳。(P70)
 
 gosto tanto
 我超喜欢
-Ex: Eu gosto tanto de correr! (P82)
-我超爱跑步！
+Ex: Eu gosto tanto de correr!
+我超爱跑步！(P82)
 
 adoro
 我超爱
-Ex: E eu adoro trepar! (P70)
-而我超爱攀爬！
+Ex: E eu adoro trepar!
+而我超爱攀爬！(P70)

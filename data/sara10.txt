@@ -1,149 +1,149 @@
 balde
 桶
-Ex: Com o balde e a pá. (P112)
-用桶和铲子。
+Ex: Com o balde e a pá.
+用桶和铲子。(P112)
 
 pá
 铲子
-Ex: A pá para cavar. (P101)
-挖沙用的铲子。
+Ex: A pá para cavar.
+挖沙用的铲子。(P101)
 
 prancha
 冲浪板
-Ex: A prancha de surf. (P100)
-冲浪板。
+Ex: A prancha de surf.
+冲浪板。(P100)
 
 barco
 船
-Ex: Barco à vela. (P112)
-帆船。
+Ex: Barco à vela.
+帆船。(P112)
 
 vela
 帆
-Ex: Barco com vela branca. (P100)
-带白帆的船。
+Ex: Barco com vela branca.
+带白帆的船。(P100)
 
 gaivota
 海鸥
-Ex: Gaivota a voar no céu. (P112)
-海鸥在天空飞翔。
+Ex: Gaivota a voar no céu.
+海鸥在天空飞翔。(P112)
 
 em cima de
 在...上面
-Ex: Com as mãos em cima da cabeça. (P103)
-双手放在头上。
+Ex: Com as mãos em cima da cabeça.
+双手放在头上。(P103)
 
 costas
 背部
-Ex: De mochila às costas. (P112)
-背包背在背上。
+Ex: De mochila às costas.
+背包背在背上。(P112)
 
 frente
 前面
-Ex: Na frente do espelho. (自编)
-在镜子前面。
+Ex: Na frente do espelho.
+在镜子前面。(自编)
 
 acordar
 醒来
-Ex: A Xana acordou pela manhã. (P112)
-Xana早上醒来。
+Ex: A Xana acordou pela manhã.
+Xana早上醒来。(P112)
 
 dentes
 牙齿
-Ex: Foi lavar os dentes. (P112)
-去刷牙。
+Ex: Foi lavar os dentes.
+去刷牙。(P112)
 
 espelho
 镜子
-Ex: Olhar no espelho. (自编)
-照镜子。
+Ex: Olhar no espelho.
+照镜子。(自编)
 
 manhã
 早晨
-Ex: Pela manhã. (P112)
-在早晨。
+Ex: Pela manhã.
+在早晨。(P112)
 
 pela
 通过/在
-Ex: Caminhou pela manhã. (P112)
-早上散步。
+Ex: Caminhou pela manhã.
+早上散步。(P112)
 
 avião
 飞机
-Ex: Apanham o avião... depois o autocarro. (P118)
-他们乘飞机...然后坐公交车。
+Ex: Apanham o avião... depois o autocarro.
+他们乘飞机...然后坐公交车。(P118)
 
 autocarro
 公交车
-Ex: Depois o autocarro. (P118)
-然后坐公交车。
+Ex: Depois o autocarro.
+然后坐公交车。(P118)
 
 comboio
 火车
-Ex: Os meninos vão de comboio. (P134, 本单元预现)
-孩子们坐火车去。
+Ex: Os meninos vão de comboio.
+孩子们坐火车去。(P134, 本单元预现)
 
 barco
 船
-Ex: Ir à ilha de barco. (P121)
-坐船去岛上。
+Ex: Ir à ilha de barco.
+坐船去岛上。(P121)
 
 carro
 汽车
-Ex: Vou de carro à cidade. (P121)
-我开车去城里。
+Ex: Vou de carro à cidade.
+我开车去城里。(P121)
 
 moto
 摩托车
-Ex: A moto do polícia. (P117)
-警察的摩托车。
+Ex: A moto do polícia.
+警察的摩托车。(P117)
 
 cavalo
 马
-Ex: Ir a cavalo. (P121)
-骑马去。
+Ex: Ir a cavalo.
+骑马去。(P121)
 
 a pé
 步行
-Ex: Vou ao jardim a pé. (P121)
-我步行去花园。
+Ex: Vou ao jardim a pé.
+我步行去花园。(P121)
 
 farmácia
 药店
-Ex: Comprar um xarope na farmácia. (P122)
-在药店买止咳糖浆。
+Ex: Comprar um xarope na farmácia.
+在药店买止咳糖浆。(P122)
 
 talho
 肉铺
-Ex: Comprar carne no talho. (P122)
-在肉铺买肉。
+Ex: Comprar carne no talho.
+在肉铺买肉。(P122)
 
 padaria
 面包店
-Ex: Comprar pão na padaria. (P123)
-在面包店买面包。
+Ex: Comprar pão na padaria.
+在面包店买面包。(P123)
 
 mercado
 市场
-Ex: O mercado vende fruta. (P123)
-市场卖水果。
+Ex: O mercado vende fruta.
+市场卖水果。(P123)
 
 supermercado
 超市
-Ex: A Teresa vai ao supermercado. (P124)
-Teresa去超市。
+Ex: A Teresa vai ao supermercado.
+Teresa去超市。(P124)
 
 livraria
 书店
-Ex: Comprar livro na livraria. (P122)
-在书店买书。
+Ex: Comprar livro na livraria.
+在书店买书。(P122)
 
 loja
 商店
-Ex: As lojas na rua. (P117)
-街上的商店。
+Ex: As lojas na rua.
+街上的商店。(P117)
 
 centro comercial
 购物中心
-Ex: Ir ao centro comercial. (P117)
-去购物中心。
+Ex: Ir ao centro comercial.
+去购物中心。(P117)

@@ -1,149 +1,149 @@
 aberto/fechado
 开着的/关着的
-Ex: Está aberto. (P123)
-（店铺）开着。
+Ex: Está aberto.
+（店铺）开着。(P123)
 
 primo
 表兄妹
-Ex: Olá, primos! (P118)
-嗨，表兄妹们！
+Ex: Olá, primos!
+嗨，表兄妹们！(P118)
 
 avós
 祖父母
-Ex: Os avós do Nélio. (P119)
-Nélio的祖父母。
+Ex: Os avós do Nélio.
+Nélio的祖父母。(P119)
 
 xarope
 糖浆
-Ex: Comprar um xarope. (P122)
-买糖浆。
+Ex: Comprar um xarope.
+买糖浆。(P122)
 
 flor
 花
-Ex: Comprar flores na florista. (P129)
-在花店买花。
+Ex: Comprar flores na florista.
+在花店买花。(P129)
 
 correio
 邮局
-Ex: O correio está fechado. (P123)
-邮局关门了。
+Ex: O correio está fechado.
+邮局关门了。(P123)
 
 macaco
 猴子
-Ex: Olha ali um macaco! (P134)
-看那边有只猴子！
+Ex: Olha ali um macaco!
+看那边有只猴子！(P134)
 
 elefante
 大象
-Ex: O elefante tem tromba. (P132)
-大象有长鼻子。
+Ex: O elefante tem tromba.
+大象有长鼻子。(P132)
 
 pássaro
 鸟
-Ex: O pássaro voa. (P140)
-鸟会飞。
+Ex: O pássaro voa.
+鸟会飞。(P140)
 
 peixe
 鱼
-Ex: O peixe nada no rio. (P140)
-鱼在河里游泳。
+Ex: O peixe nada no rio.
+鱼在河里游泳。(P140)
 
 cobra
 蛇
-Ex: A cobra anda no chão. (P140)
-蛇在地上爬行。
+Ex: A cobra anda no chão.
+蛇在地上爬行。(P140)
 
 tartaruga
 乌龟
-Ex: A tartaruga é lenta. (P140)
-乌龟很慢。
+Ex: A tartaruga é lenta.
+乌龟很慢。(P140)
 
 leão
 狮子
-Ex: O leão é o rei. (P132)
-狮子是百兽之王。
+Ex: O leão é o rei.
+狮子是百兽之王。(P132)
 
 girafa
 长颈鹿
-Ex: A girafa tem pescoço comprido. (P132)
-长颈鹿有长脖子。
+Ex: A girafa tem pescoço comprido.
+长颈鹿有长脖子。(P132)
 
 vaca
 奶牛
-Ex: A vaca dá leite. (P132)
-奶牛产奶。
+Ex: A vaca dá leite.
+奶牛产奶。(P132)
 
 urso
 熊
-Ex: O urso gosta de mel. (P143)
-熊喜欢蜂蜜。
+Ex: O urso gosta de mel.
+熊喜欢蜂蜜。(P143)
 
 tromba
 象鼻
-Ex: O elefante bebe água com a tromba. (P140)
-大象用鼻子喝水。
+Ex: O elefante bebe água com a tromba.
+大象用鼻子喝水。(P140)
 
 carapaça
 龟壳
-Ex: A tartaruga tem carapaça. (P132)
-乌龟有壳。
+Ex: A tartaruga tem carapaça.
+乌龟有壳。(P132)
 
 barbatana
 鱼鳍
-Ex: O peixe tem barbatanas. (P132)
-鱼有鳍。
+Ex: O peixe tem barbatanas.
+鱼有鳍。(P132)
 
 escamas
 鱼鳞
-Ex: Peixe com escamas. (P132)
-有鳞的鱼。
+Ex: Peixe com escamas.
+有鳞的鱼。(P132)
 
 patas
 爪子
-Ex: Quatro patas. (P138)
-四只爪子。
+Ex: Quatro patas.
+四只爪子。(P138)
 
 rabo
 尾巴
-Ex: O cão abana o rabo. (P132)
-狗摇尾巴。
+Ex: O cão abana o rabo.
+狗摇尾巴。(P132)
 
 penas
 羽毛
-Ex: O pássaro tem penas. (P140)
-鸟有羽毛。
+Ex: O pássaro tem penas.
+鸟有羽毛。(P140)
 
 focinho
 口鼻
-Ex: Focinho comprido. (P140)
-长长的口鼻。
+Ex: Focinho comprido.
+长长的口鼻。(P140)
 
 cornos
 角
-Ex: A vaca tem cornos. (P132)
-奶牛有角。
+Ex: A vaca tem cornos.
+奶牛有角。(P132)
 
 pelo
 毛发
-Ex: Pelo macio. (P133)
-柔软的毛发。
+Ex: Pelo macio.
+柔软的毛发。(P133)
 
 reserva
 保护区
-Ex: Visitam uma reserva natural. (P134)
-他们参观自然保护区。
+Ex: Visitam uma reserva natural.
+他们参观自然保护区。(P134)
 
 floresta
 森林
-Ex: Os animais na floresta. (P146)
-森林里的动物。
+Ex: Os animais na floresta.
+森林里的动物。(P146)
 
 árvore
 树
-Ex: O macaco trepa à árvore. (P136)
-猴子爬树。
+Ex: O macaco trepa à árvore.
+猴子爬树。(P136)
 
 lago
 湖
-Ex: Os meninos vão até ao lago. (P135)
-孩子们去湖边。
+Ex: Os meninos vão até ao lago.
+孩子们去湖边。(P135)

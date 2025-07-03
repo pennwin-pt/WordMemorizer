@@ -1,125 +1,124 @@
-
 viagem
 旅行
-Ex: Esta viagem de comboio é engraçada! (P134)
-这次火车旅行真有趣！
+Ex: Esta viagem de comboio é engraçada!
+这次火车旅行真有趣！(P134)
 
 natureza
 自然
-Ex: Reserva natural. (P134)
-自然保护区。
+Ex: Reserva natural.
+自然保护区。(P134)
 
 trepar
 攀爬
-Ex: O macaco trepa. (P144)
-猴子攀爬。
+Ex: O macaco trepa.
+猴子攀爬。(P144)
 
 voar
 飞翔
-Ex: O pássaro voa. (P144)
-鸟飞翔。
+Ex: O pássaro voa.
+鸟飞翔。(P144)
 
 nadar
 游泳
-Ex: O pato nada. (P144)
-鸭子游泳。
+Ex: O pato nada.
+鸭子游泳。(P144)
 
 pôr ovos
 下蛋
-Ex: A galinha põe ovos. (P140)
-母鸡下蛋。
+Ex: A galinha põe ovos.
+母鸡下蛋。(P140)
 
 viver
 生活
-Ex: Onde vive o coelho? (P140)
-兔子住在哪里？
+Ex: Onde vive o coelho?
+兔子住在哪里？(P140)
 
 comer
 吃
-Ex: O macaco come a banana. (P136)
-猴子吃香蕉。
+Ex: O macaco come a banana.
+猴子吃香蕉。(P136)
 
 acordar
 醒来
-Ex: Já estou cansada! (P134)
-我已经累了！
+Ex: Já estou cansada!
+我已经累了！(P134)
 
 chegar
 到达
-Ex: Finalmente chegam à reserva. (P134)
-终于到达保护区。
+Ex: Finalmente chegam à reserva.
+终于到达保护区。(P134)
 
 divertido
 有趣的
-Ex: É divertido fazer passeios. (P135)
-郊游很有趣。
+Ex: É divertido fazer passeios.
+郊游很有趣。(P135)
 
 cansado
 疲倦的
-Ex: Estou cansada! (P134)
-我累了！
+Ex: Estou cansada!
+我累了！(P134)
 
 cuidado
 小心
-Ex: Cuidado, Xana! (P134)
-小心，Xana！
+Ex: Cuidado, Xana!
+小心，Xana！(P134)
 
 finalmente
 终于
-Ex: Finalmente chegam. (P134)
-终于到达。
+Ex: Finalmente chegam.
+终于到达。(P134)
 
 outra vez
 再次
-Ex: Querem voltar cá outra vez? (P135)
-你们想再来一次吗？
+Ex: Querem voltar cá outra vez?
+你们想再来一次吗？(P135)
 
 queria
 我想要
-Ex: Queria ver os animais. (自编)
-我想看动物。
+Ex: Queria ver os animais.
+我想看动物。(自编)
 
 tanto
 如此多
-Ex: Tantos animais! (P134)
-这么多动物！
+Ex: Tantos animais!
+这么多动物！(P134)
 
 sempre
 总是
-Ex: É sempre divertido. (P135)
-总是很有趣。
+Ex: É sempre divertido.
+总是很有趣。(P135)
 
 já
 已经
-Ex: Já estou cansada. (P134)
-我已经累了。
+Ex: Já estou cansada.
+我已经累了。(P134)
 
 ali
 那里
-Ex: Olha ali um macaco! (P134)
-看那边有只猴子！
+Ex: Olha ali um macaco!
+看那边有只猴子！(P134)
 
 banana
 香蕉
-Ex: A banana da Xana. (P134)
-Xana的香蕉。
+Ex: A banana da Xana.
+Xana的香蕉。(P134)
 
 mel
 蜂蜜
-Ex: O urso gosta de mel. (P143)
-熊喜欢蜂蜜。
+Ex: O urso gosta de mel.
+熊喜欢蜂蜜。(P143)
 
 folhas
 树叶
-Ex: A girafa come folhas. (P140)
-长颈鹿吃树叶。
+Ex: A girafa come folhas.
+长颈鹿吃树叶。(P140)
 
 teia
 蜘蛛网
-Ex: Teia de aranha. (自编)
-蜘蛛网。
+Ex: Teia de aranha.
+蜘蛛网。(自编)
 
 rede
 网
-Ex: Rede para pescar. (自编)
-渔网。
+Ex: Rede para pescar.
+渔网。(自编)
