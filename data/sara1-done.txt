@@ -1,0 +1,149 @@
+chamo-me
+我叫
+Ex: Eu chamo-me Igor.
+我叫Igor。(P9)
+
+tudo bem
+一切都好
+Ex: Olá! Tudo bem?
+你好！一切都好吗？(P9)
+
+anos
+年龄
+Ex: Quantos anos tens?
+你几岁了？(P15)
+
+sou
+我是（动词ser变位）
+Ex: Não, não sou.
+不，我不是。(P17)
+
+turma
+班级
+Ex: A minha turma.
+我的班级。(P10)
+
+buraco
+洞
+Ex: Um buraco no sapato.
+鞋子上有个洞。(P17)
+
+sapato
+鞋子
+Ex: Um buraco no sapato.
+鞋子上有个洞。(P17)
+
+babete
+围兜
+Ex: aqui está o teu babete.
+这是你的围兜。(P17)
+
+pés
+脚（复数）
+Ex: Vou lavar os pés.
+我要洗脚。(P17)
+
+lavar
+洗
+Ex: Vou lavar os pés.
+我要洗脚。(P20)
+
+agora
+现在
+Ex: Agora Eu!
+现在轮到我了！(P16)
+
+tens
+你有
+Ex: Quantos anos tens?
+你几岁了？(P12)
+
+Boa tarde
+下午好
+Ex: Boa tarde!
+下午好！(P12)
+
+Boa noite
+晚上好
+Ex: Boa noite!
+晚上好！(P12)
+
+como
+如何
+Ex: Como te chamas?
+你叫什么名字？(P19)
+
+também
+也
+Ex: Eu também.
+我也是。(P15)
+
+quem
+谁
+Ex: Quem é?
+是谁？(P14)
+
+tenho
+我有
+Ex: Eu tenho 7 anos.
+我七岁了。(P12)
+
+tu
+你
+Ex: E tu, és o Paulo?
+你呢，你是Paulo吗？(P17)
+
+és
+你是（动词ser变位）
+Ex: Tu és a Lúcia?
+你是Lúcia吗？(P17)
+
+meu/minha
+我的
+Ex: O meu livro.
+我的书。(P20)
+
+teu/tua
+你的
+Ex: O teu babete.
+你的围兜。(P19)
+
+que
+什么（疑问词）
+Ex: Que lindo!
+多漂亮啊！(自编)
+
+aqui
+这里
+Ex: Aqui está!
+在这里！(P18)
+
+estou
+我在（动词estar变位）
+Ex: Estou aqui!
+我在这里！(P18)
+
+está
+他在/它在（动词estar变位）
+Ex: Aqui está o teu babete.
+这是你的围兜。(P19)
+
+vou
+我要（动词ir变位）
+Ex: Vou lavar os pés.
+我要去洗脚。(P17)
+
+falar
+说话
+Ex: Vamos falar português.
+我们来说葡萄牙语。(自编)
+
+ler
+阅读
+Ex: Gosto de ler.
+我喜欢阅读。(P5)
+
+escrever
+写字
+Ex: Vamos escrever.
+我们来写字。(P5)
