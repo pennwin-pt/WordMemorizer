@@ -148,11 +148,13 @@ namespace WordMemorizer.Core
         public static async Task RunPythonScriptAsync()
         {
             string scriptPath = @"C:\Penn\05Work\Audio2TextAI\main.py";
+            string pythonPath = @"C:\Users\pennwin\AppData\Local\Programs\Python\Python312\python.exe";
 
             var startInfo = new ProcessStartInfo
             {
                 FileName = "cmd.exe",
-                Arguments = $"/K python \"{scriptPath}\"", // /K 保持窗口打开
+                //Arguments = $"/K python \"{scriptPath}\"", // /K 保持窗口打开
+                Arguments = $"/K \"\"{pythonPath}\" \"{scriptPath}\"\"",  // 关键：双引号嵌套
                 UseShellExecute = true,  // 必须为 true 才能显示窗口
                 CreateNoWindow = false   // 显示窗口
             };
